@@ -1,0 +1,163 @@
+ERROR - 2022-01-27 07:27:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-27 07:27:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-27 07:39:15 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:40:08 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:40:13 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:43:06 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:43:15 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:47:23 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:47:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\update.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp1\\htdoc...', 151, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('update', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Update.php(15): view('update', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->index('8')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-27 07:47:38 --> Invalid argument supplied for foreach()
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\update.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp1\\htdoc...', 151, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('update', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Update.php(15): view('update', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->index('8')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-27 07:48:52 --> Call to a member function isValid() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:50:03 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:55:42 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:57:57 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 07:58:35 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 10:08:58 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 10:34:05 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 10:35:05 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 10:39:12 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-27 11:32:37 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Update.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('../../public/im...', '1643304757_1762...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('1')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-01-27 11:33:09 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Update.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('../../public/im...', '1643304789_6015...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('1')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}

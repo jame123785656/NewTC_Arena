@@ -1,0 +1,75 @@
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.row{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.from-pay{
+    width: 40%;
+    margin-left: 10%;
+  
+}
+
+.detailsPay{
+    width: 90%;
+    border: 1px solid rgb(131, 129, 129) ;
+    border-radius: 25px;
+    display: flex;
+    background-color: #DADBDB;
+}
+
+.detailsLeft{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.detailsLeft img{
+    width: 140px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+}
+
+.detailsRight{
+    width: 55%;
+    margin-left: 0%;
+}
+
+.detailsRight p{
+    font-size: 18px;
+}
+
+.btnCf-pay{
+    width: 40%;
+    background-color: #1d9e11;
+    margin-left: 0%;
+    transition: .4s;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    color: white;
+  }
+  
+  .btnCf-pay:hover{
+    background-color: #146d0c;
+    border-radius: 25px;
+  }
+  
+  .btnCancel-pay{
+      width: 40%;
+    background-color: rgb(243, 9, 9);
+    margin-left: 2%;
+    transition: .4s;
+    border-radius: 25px;
+    color: white;
+  }
+  
+  .btnCancel-pay:hover{
+    background-color: rgb(196, 5, 5);
+    border-radius: 25px;
+  }
+

@@ -1,0 +1,396 @@
+CRITICAL - 2022-03-28 05:54:05 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:08 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:45 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:46 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:46 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:46 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:47 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:54:57 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:55:23 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:55:24 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 05:56:13 --> Call to undefined function set_value()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(11): view('user_review')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-28 06:03:41 --> Call to a member function move() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-28 06:04:38 --> Call to a member function move() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-28 06:05:05 --> Class 'App\Models\ReviewModel' not found
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+ERROR - 2022-03-28 06:11:11 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:11:11 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 06:11:28 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:11:28 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 06:11:29 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:11:29 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 06:11:38 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:11:38 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 06:11:38 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:11:38 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 06:11:41 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:11:41 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-28 06:11:55 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php on line 15
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(15): view('user_review', NULL)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-03-28 06:12:43 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:12:43 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 06:12:46 --> Unknown column 'F_ID' in 'order clause'
+CRITICAL - 2022-03-28 06:12:46 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-28 06:30:00 --> Call to a member function move() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-28 06:38:35 --> Call to a member function getName() on string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-28 06:38:46 --> Call to a member function getName() on string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-28 07:10:04 --> syntax error, unexpected '<'
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#2 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(15): view('user_review', Array)
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-03-28 07:13:28 --> syntax error, unexpected '<'
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#2 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(15): view('user_review', Array)
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-03-28 07:24:18 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#2 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(15): view('user_review', Array)
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-03-28 08:23:30 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user_review', Array, true)
+#2 C:\xampp1\htdocs\TC_Arena\app\Controllers\User_review.php(15): view('user_review', Array)
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#8 {main}
+CRITICAL - 2022-03-28 08:52:38 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(21): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-28 10:02:32 --> Table 'tc_arena.type' doesn't exist
+CRITICAL - 2022-03-28 10:02:32 --> Call to a member function getResult() on bool
+#0 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\app\Controllers\Index_admin.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#3 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\mrabh\\...')
+#7 {main}
+ERROR - 2022-03-28 10:03:10 --> Table 'tc_arena.type' doesn't exist
+CRITICAL - 2022-03-28 10:03:10 --> Call to a member function getResult() on bool
+#0 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\app\Controllers\Index_admin.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#3 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\mrabh\\...')
+#7 {main}
+ERROR - 2022-03-28 10:04:02 --> Table 'tc_arena.type' doesn't exist
+CRITICAL - 2022-03-28 10:04:02 --> Call to a member function getResult() on bool
+#0 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\app\Controllers\Bookingpage.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#3 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#4 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\mrabh\\...')
+#7 {main}
+ERROR - 2022-03-28 10:04:07 --> Table 'tc_arena.review' doesn't exist
+CRITICAL - 2022-03-28 10:04:07 --> Call to a member function getResult() on bool
+#0 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\app\Controllers\User_review.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(825): App\Controllers\User_review->user_review()
+#3 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_review))
+#4 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\mrabh\\...')
+#7 {main}
+ERROR - 2022-03-28 10:04:11 --> Table 'tc_arena.type' doesn't exist
+CRITICAL - 2022-03-28 10:04:11 --> Call to a member function getResult() on bool
+#0 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\app\Controllers\Bookingpage.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#3 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#4 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\mrabh\\...')
+#7 {main}
+ERROR - 2022-03-28 10:04:15 --> Table 'tc_arena.type' doesn't exist
+CRITICAL - 2022-03-28 10:04:15 --> Call to a member function getResult() on bool
+#0 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\app\Controllers\Bookingpage.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#3 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#4 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\mrabh\Downloads\9.56-28-3\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\mrabh\\...')
+#7 {main}
+ERROR - 2022-03-28 10:17:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-28 10:17:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-28 11:11:32 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(21): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-28 11:51:49 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp1\htdocs\TC_Arena\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp1\\htdoc...')
+#1 C:\xampp1\htdocs\TC_Arena\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}

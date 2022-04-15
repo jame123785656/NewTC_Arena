@@ -1,0 +1,76 @@
+ERROR - 2022-02-02 01:31:09 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-02-02 01:31:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(38): CodeIgniter\Model->insert(Array)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-02-02 03:00:50 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-02-02 03:00:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-02-02 03:02:01 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Update.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('../public/img/', '1643792521_24d6...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-02-02 03:45:21 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php on line 42
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(42): view('register', 'refresh', Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-02-02 08:22:20 --> Call to a member function get() on null
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\user.php(108): require()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\User.php(7): view('user')
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\user->User()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+ERROR - 2022-02-02 13:25:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-02 13:25:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('624259022@webma...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', '624259022@webma...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(27): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}

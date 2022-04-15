@@ -1,0 +1,84 @@
+CRITICAL - 2022-03-08 07:04:36 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1646744676_2290...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 07:05:49 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1646744749_1fee...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 07:15:59 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1646745359_f57f...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 08:24:27 --> Call to a member function get() on null
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(14): require()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(14): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-08 08:24:49 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(19): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 08:25:00 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(19): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 09:15:12 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1646752512_60eb...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 09:20:04 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1646752804_102c...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-08 09:21:05 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1646752865_5707...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}

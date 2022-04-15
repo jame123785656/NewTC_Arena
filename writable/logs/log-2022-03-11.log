@@ -1,0 +1,222 @@
+CRITICAL - 2022-03-11 03:22:12 --> syntax error, unexpected '{', expecting '('
+#0 C:\xampp1\htdocs\TC_Arena\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp1\\htdoc...')
+#1 C:\xampp1\htdocs\TC_Arena\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+ERROR - 2022-03-11 07:12:40 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_2` FOREIGN KEY (`H_idUser`) REFERENCES `user` (`ID`))
+ERROR - 2022-03-11 07:15:20 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_2` FOREIGN KEY (`H_idUser`) REFERENCES `user` (`ID`))
+ERROR - 2022-03-11 07:16:21 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_2` FOREIGN KEY (`H_idUser`) REFERENCES `user` (`ID`))
+ERROR - 2022-03-11 07:21:08 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_2` FOREIGN KEY (`H_idUser`) REFERENCES `user` (`ID`))
+ERROR - 2022-03-11 07:22:38 --> Column 'H_idTime' cannot be null
+ERROR - 2022-03-11 07:25:08 --> Column 'H_idTime' cannot be null
+ERROR - 2022-03-11 07:26:04 --> Column 'H_idTime' cannot be null
+ERROR - 2022-03-11 07:26:43 --> Column 'H_idTime' cannot be null
+ERROR - 2022-03-11 07:27:34 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 07:28:46 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:20:38 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:21:48 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:24:57 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:25:16 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:27:11 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:27:48 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:28:21 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 08:30:49 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 12:30:37 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 12:31:55 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`user_history`, CONSTRAINT `user_history_ibfk_1` FOREIGN KEY (`H_idTime`) REFERENCES `time` (`T_id`))
+ERROR - 2022-03-11 13:12:31 --> Column 'id_user' cannot be null
+ERROR - 2022-03-11 13:14:52 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`users`, CONSTRAINT `users_ibfk_2` FOREIGN KEY (`id_user`) REFERENCES `user` (`ID`))
+ERROR - 2022-03-11 13:17:01 --> Column 'id_user' cannot be null
+CRITICAL - 2022-03-11 13:40:57 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:41:23 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:41:31 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:41:49 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:43:30 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:54:59 --> Call to a member function post() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:55:08 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:57:51 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:58:07 --> Call to a member function ID() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 13:58:31 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 14:07:58 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 14:08:59 --> Call to a member function array() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 14:09:33 --> Call to a member function getVar() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+ERROR - 2022-03-11 14:15:17 --> Column 'F_ID' cannot be null
+ERROR - 2022-03-11 14:16:49 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:17:40 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:18:18 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`users`, CONSTRAINT `users_ibfk_3` FOREIGN KEY (`F_ids`) REFERENCES `field` (`F_ID`))
+ERROR - 2022-03-11 14:19:02 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`users`, CONSTRAINT `users_ibfk_3` FOREIGN KEY (`F_ids`) REFERENCES `field` (`F_ID`))
+ERROR - 2022-03-11 14:19:18 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:20:11 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:22:08 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:24:06 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:24:38 --> Column 'F_ids' cannot be null
+ERROR - 2022-03-11 14:26:00 --> Column 'F_ids' cannot be null
+CRITICAL - 2022-03-11 14:27:19 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 14:27:21 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-11 14:27:53 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+ERROR - 2022-03-11 14:29:01 --> Column 'F_ids' cannot be null

@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 55px;
+    background-color: #E3EBED;
+    display: flex;
+}
+
+.logo{
+    width: 5%;
+}
+
+.logo img{
+    width: 60%;
+    margin-left: 8%;
+    margin-top: -5%;
+}
+
+.menu-section{
+    width: 75%;
+    margin-left: 3%;
+    display: flex;
+}
+
+.menu-section p{
+    padding-left: 30px; 
+}
+
+.menu-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.showuser{
+    width: 15%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.imguser img{
+    width: 35px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.showuser a{
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+}
+
+.showuser .logout{
+    color: rgb(158, 3, 3);
+}
+
+.from-pay{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.from-pay h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.detailsPay{
+    width: 100%;
+    border: 1px solid rgb(131, 129, 129) ;
+    border-radius: 25px;
+    display: flex;
+}
+
+.detailsLeft{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.detailsLeft img{
+    width: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+}
+
+.detailsRight{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.detailsRight p{
+    font-size: 20px;
+}
+
+.from-payB{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border: 1px solid rgb(131, 129, 129);
+    border-radius: 20px;
+    display: flex;
+}
+
+.fromLeft{
+    width: 50%;
+}
+
+.box-icon{
+    width: 23%;
+    border: 1.5px solid rgb(156, 154, 154);
+    border-radius: 25px;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.box-icon img{
+    width: 50px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.box-icon p{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.box-bank{
+    width: 80%;
+    border: 1.5px solid rgb(156, 154, 154);
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.img-left{
+    width: 12%;
+    
+}
+
+.box-bank img{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.text-right{
+    width: 48%;
+}
+
+.text-right h4{
+    margin-top: 4%;
+    font-size: 18px;
+}
+
+.text-right p{
+    margin-top: -5%;
+    font-size: 18px;
+}
+
+.qrCode{
+    width: 39%;
+    border-radius: 15px;
+    margin-left: 1%;
+
+}
+
+.qrCode img{
+    margin-top: 0%;
+    width: 140px;
+    height: 120px;
+}
+
+.box-warn{
+    width: 80%;
+    border: 1.5px solid rgb(156, 154, 154);
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.warn-left{
+    width: 15%;
+}
+
+.box-warn img{
+    width: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.Text-right{
+    width: 82%;
+    margin-left: 3%;
+}
+
+.Text-right h4{
+    margin-top: 2%;
+    color: red;
+}
+
+.Text-right p{
+    margin-top: -4%;
+    color: red;
+}
+
+
+.fromRight{
+    width: 50%;
+}
+
+.icon-img{
+    width: 23%;
+    border: 1.5px solid rgb(156, 154, 154);
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.icon-img img{
+    width: 65px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.icon-img p{
+    margin-top: -3%;
+    text-align: center;
+}
+
+.img-check{
+    width: 50%;
+    height: 350px;
+    margin-left: 25%;
+}
+
+.img-check img{
+    width: 265px;
+}
+
+.btnO{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+.btnO button{
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 20px;
+    margin-left: 2.5%;
+}
+
+.btncf{
+    background-color: #597A7C;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .4s;
+}
+
+.btncf:hover{
+    background-color: #496364;
+}
+
+
+.btncan:hover{
+    background-color: #818181;
+}
+.btncan{
+    background-color: #989999;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .4s;
+}

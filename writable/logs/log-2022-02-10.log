@@ -1,0 +1,53 @@
+ERROR - 2022-02-10 07:18:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-02-10 07:18:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('624259022@webma...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', '624259022@webma...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(50): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2022-02-10 13:05:54 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\indexemployee->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\indexemployee))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-02-10 13:06:45 --> Call to a member function move() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\indexemployee->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\indexemployee))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-02-10 13:08:52 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\indexemployee->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\indexemployee))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-02-10 13:09:41 --> Call to a member function getRandomName() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\indexemployee->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\indexemployee))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-02-10 13:17:54 --> Call to a member function move() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\indexemployee->insert()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\indexemployee))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}

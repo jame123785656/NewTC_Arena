@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+.box-review{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    display: flex;
+}
+
+/* .showStar{
+    width: 20%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.showTable{
+    width: 40%;
+    margin-left: 5%;
+} */
+
+.showBtn{
+    width: 80%;
+    margin-left: 0.5%;
+}
+
+.showBtn button{
+    width: 20%;
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 52%;
+    border: 1px solid #2892DF;
+    border-radius: 20px;
+    background-color: #2892DF;
+    color: white;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.showBtn button:hover{
+    background-color: #2688ce;
+}
+
+.box-text{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 20px;
+    display: flex;
+}
+
+.section-left{
+    width: 6%;
+    height: 70px;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border: 1px solid #FD9999;
+    border-radius: 35px;
+    background-color: #FD9999;
+}
+
+.section-left p{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 16px;
+}
+
+.section-right{
+    width: 85%;
+    margin-left: 2.5%;
+}
+
+.section-right h5{
+    border-bottom: 1px solid silver;
+}
+
+.section-right p{
+    margin-top: 1%;
+    font-size: 16px;
+    color: rgb(121, 120, 120);
+}
+.section-right img{
+    width: 200px;
+    height: 150px;
+}
+
+
+
+/* #openForm{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(228, 0, 0);
+    text-align: center;
+  } */
+  
+  .form-popup {
+    width: 25%;
+    position: fixed;
+    top: 2%;
+    margin-left: 38%;
+    margin-top: 10.5%;
+    border: 1px solid #888686;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: none;
+  }
+  
+  .text-header h3{
+    text-align: center;
+    font-size: 18px;
+    cursor: default;
+  }
+  
+  .text-header input{
+    margin-left: 35%;
+    margin-top: 1.5%;
+  }
+  
+  .form-field p{
+    font-size: 18px;
+    margin-left: 15%;
+    cursor: default;
+  }
+  
+  .form-field input{
+    width: 80%;
+    height: 35px;
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-left: 10%;
+    transition: .4s;
+  }
+  
+  .form-field input:focus{
+    outline: none;
+    border: 2px solid rgb(139, 139, 139);
+  }
+  
+  .form-btn{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+  }
+  
+  .form-btn button{
+    width: 30%;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    cursor: pointer;
+  }
+  
+  .btnCf{
+    background-color: #1d9e11;
+    margin-left: 10%;
+    transition: .4s;
+  }
+  
+  .btnCf:hover{
+    background-color: #146d0c;
+  }
+  
+  .btnCancel{
+    background-color: rgb(243, 9, 9);
+    margin-left: 2%;
+    transition: .4s;
+  }
+  
+  .btnCancel:hover{
+    background-color: rgb(196, 5, 5);
+  }
+  .form-btn-edit button{
+    width: 20%;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+  .form-container-edit{
+    width: 40%;
+    margin-left: 30%;
+  }
+  .red{
+    color: red;
+  }
+  

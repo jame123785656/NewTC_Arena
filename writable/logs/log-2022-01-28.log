@@ -1,0 +1,37 @@
+ERROR - 2022-01-28 07:41:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-28 07:41:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(37): CodeIgniter\Model->insert(Array)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-01-28 07:47:15 --> Call to a member function get() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('indexemployee', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Indexemployee.php(11): view('indexemployee')
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\indexemployee->Indexemployee()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\indexemployee))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-28 08:08:46 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Update.php(27): CodeIgniter\HTTP\Files\UploadedFile->move('../public/img/', '1643378926_4d3e...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->update('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}

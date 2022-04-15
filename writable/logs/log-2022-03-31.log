@@ -1,0 +1,520 @@
+ERROR - 2022-03-31 04:06:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-31 04:06:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\index.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index->review()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+ERROR - 2022-03-31 05:04:25 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:04:25 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:05:11 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:05:11 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:05:34 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:05:34 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:05:35 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:05:35 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:05:56 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:05:56 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:05:57 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:05:57 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:06 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:06 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:16 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:16 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:17 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:17 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:17 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:17 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:17 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:17 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:18 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:18 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:18 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:18 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:06:18 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:06:18 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:13 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:13 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:14 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:14 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:14 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:14 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:14 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:14 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:15 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:15 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:15 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:15 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:15 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:15 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:15 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:15 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:16 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:16 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:16 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:16 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:16 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:16 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:07:16 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:07:16 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:09:48 --> Table 'tc_arena.filed' doesn't exist
+CRITICAL - 2022-03-31 05:09:48 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:24:16 --> Unknown column 'time.T_id' in 'on clause'
+CRITICAL - 2022-03-31 05:24:16 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 05:25:06 --> Unknown column 'detail.B_id' in 'on clause'
+CRITICAL - 2022-03-31 05:25:06 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-03-31 05:45:52 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('pay', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(16): view('pay', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-31 05:46:00 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('pay', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(16): view('pay', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-31 07:25:58 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(16): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-03-31 07:25:58 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(16): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+ERROR - 2022-03-31 09:26:57 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:26:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:27:07 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:27:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:28:35 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:28:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:28:35 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:28:35 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:28:36 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:28:36 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:28:36 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:28:36 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:28:44 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:28:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->first()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:30:14 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:30:14 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:30:14 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:30:14 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:30:15 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:30:15 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:30:15 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:30:15 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:30:23 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:30:23 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:31:05 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:31:05 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:32:02 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:32:02 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:32:02 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:32:02 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 09:32:09 --> Unknown column 'ID' in 'where clause'
+CRITICAL - 2022-03-31 09:32:09 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-31 21:26:41 --> Unknown column 'B_idUser' in 'where clause'
+CRITICAL - 2022-03-31 21:26:41 --> Call to a member function getResult() on bool
+#0 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('3')
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}

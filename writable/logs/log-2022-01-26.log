@@ -1,0 +1,193 @@
+ERROR - 2022-01-26 01:12:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-26 01:12:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-01-26 01:26:15 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:26:55 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:26:59 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:01 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:02 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:02 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:03 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:03 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:03 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:04 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:27:07 --> Function name must be a string
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2022-01-26 01:43:59 --> Call to undefined method CodeIgniter\Session\Session::row()
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Profile.php(11): view('profile', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Profile->profile()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+ERROR - 2022-01-26 07:07:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-26 07:07:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(35): CodeIgniter\Model->insert(Array)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-01-26 09:08:32 --> Call to a member function library() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-26 09:12:21 --> Call to a member function library() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-26 09:13:52 --> Call to a member function library() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-01-26 09:37:57 --> Call to a member function library() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Update->upload('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}

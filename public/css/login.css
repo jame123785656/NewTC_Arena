@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #F8FCF9, #205222);
+}
+
+.areaBox {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    border-radius: 8%;
+    background-color: white;
+    display: flex;
+}
+
+.boxLeft {
+    margin-left: 10%;
+    height: 607px;
+    width: 35%;
+}
+
+.loginText {
+    font-size: 35px;
+}
+
+.tableName {
+    width: 100%;
+    margin-top: 30%;
+}
+
+.tableN {
+    display: flex;
+}
+
+.tableName input {
+    width: 80%;
+    height: 35px;
+    border: 1.5px solid rgb(81, 87, 81);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: -3%;
+}
+
+.btnLogin {
+    width: 85%;
+    height: 6%;
+    border: 1.5px solid rgb(185, 192, 185);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 5%;
+    color: white;
+    background-color: #517072;
+    transition: .4s;
+}
+
+.btnLogin:hover {
+    background: #425c5e;
+}
+
+.btnback {
+    width: 85%;
+    height: 5.5%;
+    border: 1.5px solid rgb(102, 110, 102);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 2%;
+    color: white;
+    background-color: #8d8f8f;
+    transition: .4s;
+}
+
+.btnback:hover {
+    background: #7a7a7a;
+}
+
+.boxRight {
+    margin-left: 10%;
+    width: 35%;
+}
+
+.boxRight img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+.regis {
+    text-decoration: none;
+    color: rgb(218, 7, 7);
+}
+
+.alert{
+   color: red;
+  margin-left: 28%;
+}
+
+@media screen and (max-width: 360px){
+
+    body{
+        background-image: linear-gradient(45deg, #ffffff, #ffffff);     
+    }
+
+    .areaBox {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5%;
+        border-radius: 0px;
+        background-color: #205222;
+        background-image: url(/image/backgroundArena.png);
+        display: inline;
+    }
+
+
+    .boxRight{
+        width: 30%;
+        margin-left: 35%;
+        margin-top: -134%;
+        height: 80px;
+        display: block;
+    }
+
+    .boxRight img{
+        width: 70px;
+        margin-top: 0%;
+        margin-left: 15%;
+    }
+
+    .boxLeft {
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        margin-top: -6%;
+    }
+
+    .loginText {
+        font-size: 20px;
+        color: rgb(97, 96, 96);
+        text-align: center;
+    }
+
+    .tableName p{
+        margin-left: 7%;
+        font-size: 16px;
+    }
+
+    .tableName input {
+        width: 85%;
+        margin-left: 5%;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .btnLogin {
+        width: 89%;
+        height: 35px;
+        margin-left: 5%;
+        padding-left: 8px;
+        font-size: 15px;
+        margin-top: 15%;
+    }
+
+    .btnback {
+        width: 89%;
+        height: 35px;
+        margin-left: 5%;
+        font-size: 15px;
+        margin-top: 5%;
+    }
+    
+    .regis p{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .alert{
+       margin-left: 37%;
+     }
+}

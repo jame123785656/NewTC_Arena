@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    height: 55px;
+    background-color: #E3EBED;
+    display: flex;
+  }
+  
+  .logo{
+    width: 5%;
+  }
+  
+  .logo img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -8%;
+  }
+  
+  .menu-section{
+    width: 75%;
+    display: flex;
+  }
+  
+  .menu-section p{
+    padding-left: 30px; 
+  }
+  
+  .menu-section a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .showuser{
+    width: 15%;
+    margin-left: 2%;
+  }
+  
+  .showuser a{
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  .showuser .logout{
+    color: rgb(8, 141, 90);
+  }

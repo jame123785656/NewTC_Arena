@@ -1,0 +1,145 @@
+ERROR - 2022-04-02 10:53:39 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+ERROR - 2022-04-02 10:54:13 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+ERROR - 2022-04-02 10:59:01 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+ERROR - 2022-04-02 11:00:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+ERROR - 2022-04-02 11:00:47 --> Unknown column 'd_id' in 'where clause'
+CRITICAL - 2022-04-02 11:13:02 --> Call to a member function get() on null
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('12')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+ERROR - 2022-04-02 11:42:08 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+ERROR - 2022-04-02 11:42:10 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+ERROR - 2022-04-02 11:52:09 --> Cannot delete or update a parent row: a foreign key constraint fails (`tc_arena`.`detail`, CONSTRAINT `detail_ibfk_1` FOREIGN KEY (`d_id`) REFERENCES `booking` (`B_id`))
+CRITICAL - 2022-04-02 11:54:16 --> Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, null given, called in C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php on line 23
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(23): CodeIgniter\BaseModel->delete('8', NULL)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-04-02 11:54:50 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:21 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:22 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:23 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:23 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:28 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:45 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:55:51 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:56:16 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:56:20 --> Object of class App\Models\BookingModel could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-02 11:56:36 --> Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, null given, called in C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php on line 23
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(23): CodeIgniter\BaseModel->delete('8', NULL)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-04-02 11:56:39 --> Argument 2 passed to CodeIgniter\BaseModel::delete() must be of the type bool, null given, called in C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php on line 23
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(23): CodeIgniter\BaseModel->delete('8', NULL)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay_delete('8')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-04-02 11:59:36 --> Illegal string offset 'Price'
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\pay.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 38, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('pay', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(16): view('pay', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-04-02 12:00:26 --> Illegal string offset 'B_day'
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\pay.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 38, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('pay', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(16): view('pay', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-04-02 12:12:03 --> Division by zero
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\pay.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp1\\htdoc...', 35, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('pay', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Pay.php(16): view('pay', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Pay->pay('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pay))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}

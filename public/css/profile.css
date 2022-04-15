@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, #F8FCF9, #205222);
+  }
+
+  .areaBox{         
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    border-radius: 8%;
+    background-color: white;
+    display: flex;
+    background-image: url(/image/backgroundArena.png);
+}
+
+.boxLeft{
+    margin-left: 10%;
+    height: 608px;
+    width: 35%;
+}
+
+.tableName{
+    width: 100%;
+    margin-top: 10%;  
+}
+
+
+.profileText{
+    margin-top: 20%;
+}
+
+.tableName input{
+    width: 80%;
+    height: 35px;
+    border: 1.5px solid rgb(81, 87, 81);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: -3%;
+}
+
+.tableName p{
+    color: #8d8f8f;
+    font-size: 16px;
+}
+
+.btnprofile{
+    width: 85%;
+    height: 6%;
+    margin-left: 5%;
+    border: 1.5px solid rgb(185, 192, 185);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 22%;
+    color: white;
+    background-color: #517072;
+    transition: .4s;
+}
+
+.btnprofile:hover{
+    background: #425c5e;
+}
+
+.addprofile{
+    width: 60%;
+    height: 32px;
+    margin-left: 20%;
+    margin-top: 6%;
+    border: 1px solid #b6b9b9;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.btnback{
+    width: 85%;
+    height: 6%;
+    margin-top: 49%;
+    margin-left: 7%;
+    border: 1.5px solid rgb(102, 110, 102);
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #8d8f8f;
+    transition: .4s;
+}
+
+.btnback:hover{
+    background: #7a7a7a;
+}
+
+.boxRight{
+    margin-left: 10%;
+    width: 35%;
+}
+
+.boxRight img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 33%;
+    border-radius: 160px;
+}
+
+
+@media screen and (max-width: 360px){
+    body{
+        background-image: linear-gradient(45deg, #ffffff, #ffffff);  
+      }
+
+    .areaBox{         
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2.5%;
+        margin-bottom: 2%;
+        display: block;
+    }
+
+    .boxLeft{
+        width: 80%;
+        height: 520px;
+        margin-top: -10%;
+    }
+
+    .profileText{
+        margin-bottom: 75%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .tableName h3{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .tableName p{
+        font-size: 16px;
+        margin-left: 5%;
+    }
+
+    .boxRight{
+        margin-left: 0%;
+        margin-top: -150%;
+        width: 100%;
+        height: 150px;
+    }
+
+    .boxRight img{
+        width: 130px;
+        margin-left: 30%;
+        margin-top: 5%;
+        border: 1px solid silver;
+    }
+
+    .btnprofile{
+        width: 100%;
+        height: 35px;
+        margin-top: 5%;
+        font-size: 15px;
+    }
+
+    .btnback{
+        width: 80%;
+        height: 35px;
+        margin-top: 115%;
+        font-size: 15px;
+        margin-left: 14%;
+    }
+    
+}

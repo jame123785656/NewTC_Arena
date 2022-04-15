@@ -1,0 +1,131 @@
+.table-style{
+    border-collapse: collapse;
+    background-color:#dddd ;
+    border: 1px solid #DADBDB;
+    width: 40%;
+    border-radius: 2%;
+ 
+
+}
+  
+    td {
+
+        border-bottom: 2px solid #cfcbcb;
+        text-align: center;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #70635f;
+        border: 1px solid #f7f2f2;
+        text-align: center;
+        padding: 8px;
+
+    }
+#Addpromotion{
+    width: 50%;
+    height: 100px;
+    background-color: rosybrown;
+    text-align: center;
+  }
+  
+  .form-popup {
+    width: 30%;
+    position: fixed;
+    top: 2%;
+    margin-left: 35%;
+    border: 1px solid #888686;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: none;
+  }
+  
+  .text-header h3{
+    text-align: center;
+    font-size: 18px;
+    cursor: default;
+  }
+  
+  .text-header img{
+    width: 60%;
+    height: 150px;
+    margin-left: 21%;
+    margin-top: -2%;
+    border-radius: 15px;
+  }
+  
+  .text-header input{
+    margin-left: 35%;
+    margin-top: 1.5%;
+  }
+  
+  .form-field p{
+    margin-left: 15%;
+    cursor: default;
+  }
+  
+  .form-field input{
+    width: 65%;
+    height: 28px;
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-left: 15%;
+    transition: .4s;
+  }
+  
+  .form-field input:focus{
+    outline: none;
+    border: 2px solid rgb(139, 139, 139);
+  }
+  
+  .form-btn{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+  }
+  
+  .form-btn button{
+    width: 40%;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    cursor: pointer;
+  }
+  
+  .btnCf{
+    background-color: #1d9e11;
+    margin-left: 10%;
+    transition: .4s;
+  }
+  
+  .btnCf:hover{
+    background-color: #146d0c;
+  }
+  
+  .btnCancel{
+    background-color: rgb(243, 9, 9);
+    margin-left: 2%;
+    transition: .4s;
+  }
+  
+  .btnCancel:hover{
+    background-color: rgb(196, 5, 5);
+  }
+  .form-btn-edit button{
+    width: 20%;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 2%;
+  }
+  .form-container-edit{
+    width: 40%;
+    margin-left: 30%;
+  }
+  

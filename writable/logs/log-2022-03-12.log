@@ -1,0 +1,105 @@
+ERROR - 2022-03-12 03:50:47 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-03-12 03:50:47 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-03-12 03:54:30 --> Call to a member function get() on array
+#0 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include()
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('bookingpage', Array, true)
+#3 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(13): view('bookingpage', Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+ERROR - 2022-03-12 04:29:10 --> Column 'f_ids' cannot be null
+ERROR - 2022-03-12 04:31:34 --> Column 'f_ids' cannot be null
+ERROR - 2022-03-12 05:01:56 --> Column 'f_ids' cannot be null
+CRITICAL - 2022-03-12 07:00:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(318): strtr('INSERT INTO `de...', Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `de...', Array)
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#5 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(39): CodeIgniter\Model->insert(Array)
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->booking()
+#10 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#11 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2022-03-12 07:02:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->booking()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2022-03-12 07:03:35 --> Object of class stdClass could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(312): implode(',', Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `de...', Array)
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#5 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(40): CodeIgniter\Model->insert(Array)
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->booking()
+#10 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#11 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2022-03-12 07:05:36 --> Object of class stdClass could not be converted to string
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(312): implode(',', Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `de...', Array)
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#5 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#8 C:\xampp1\htdocs\TC_Arena\app\Controllers\Bookingpage.php(40): CodeIgniter\Model->insert(Array)
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->booking()
+#10 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#11 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#14 {main}
+ERROR - 2022-03-12 10:22:35 --> Column 'H_idUser' cannot be null
+ERROR - 2022-03-12 10:31:09 --> Column 'B_idUser' cannot be null
+ERROR - 2022-03-12 10:31:09 --> Column 'd_id' cannot be null
+ERROR - 2022-03-12 10:31:09 --> Column 'd_id' cannot be null
+ERROR - 2022-03-12 10:32:09 --> Column 'B_idUser' cannot be null
+ERROR - 2022-03-12 10:32:09 --> Column 'd_id' cannot be null
+ERROR - 2022-03-12 10:32:09 --> Column 'd_id' cannot be null
+ERROR - 2022-03-12 10:33:37 --> Column 'B_idUser' cannot be null
+ERROR - 2022-03-12 10:33:37 --> Column 'd_id' cannot be null
+ERROR - 2022-03-12 10:33:37 --> Column 'd_id' cannot be null
+CRITICAL - 2022-03-12 10:50:46 --> The original file is not a valid file.
+#0 C:\xampp1\htdocs\TC_Arena\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('../public/admin...', '1647103846_9105...')
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->update()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-03-12 11:03:54 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`field`, CONSTRAINT `field_ibfk_1` FOREIGN KEY (`Type`) REFERENCES `type` (`T_id`))
+ERROR - 2022-03-12 11:04:16 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`field`, CONSTRAINT `field_ibfk_1` FOREIGN KEY (`Type`) REFERENCES `type` (`T_id`))
+ERROR - 2022-03-12 11:06:16 --> Cannot add or update a child row: a foreign key constraint fails (`tc_arena`.`field`, CONSTRAINT `field_ibfk_1` FOREIGN KEY (`Type`) REFERENCES `type` (`T_id`))

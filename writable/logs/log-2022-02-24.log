@@ -1,0 +1,14 @@
+ERROR - 2022-02-24 08:24:12 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-02-24 08:24:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\Tc-Arena1\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}

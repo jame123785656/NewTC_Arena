@@ -1,0 +1,10 @@
+ERROR - 2022-03-27 10:06:17 --> Table 'tc_arena.type' doesn't exist
+CRITICAL - 2022-03-27 10:06:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TC_Arena\TC-Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\TC_Arena\TC-Arena\app\Controllers\Bookingpage.php(14): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\TC_Arena\TC-Arena\system\CodeIgniter.php(825): App\Controllers\Bookingpage->bookingpage()
+#3 C:\xampp\htdocs\TC_Arena\TC-Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookingpage))
+#4 C:\xampp\htdocs\TC_Arena\TC-Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\TC_Arena\TC-Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\TC_Arena\TC-Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

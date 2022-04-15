@@ -1,0 +1,55 @@
+.navbar{
+    width: 100%;
+    height: 55px;
+    background-color: #E3EBED;
+    display: flex;
+}
+
+.logo{
+    width: 5%;
+}
+
+.logo img{
+    width: 60%;
+    margin-left: 8%;
+    margin-top: -10%;
+}
+
+.menu-section{
+    width: 75%;
+    margin-left: 3%;
+    display: flex;
+}
+
+.menu-section p{
+    padding-left: 30px; 
+}
+
+.menu-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.showuser{
+    width: 15%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.imguser img{
+    width: 35px;
+    border-radius: 20px;
+    margin-top: -8%;
+    
+}
+
+.showuser a{
+    text-decoration: none;
+    color: black;
+    margin-left: 12%;
+}
+
+.showuser .logout{
+    color: rgb(158, 3, 3);
+    
+}
