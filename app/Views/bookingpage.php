@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/bookingpage.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_user.css'); ?>" >
     <title>จองสนาม</title>
@@ -58,7 +61,7 @@
                 <input type="hidden" name="F_ID" id="F_ID02" value="">
                     
                 <input type="hidden" name="ID"  disabled class="form-control" id="inputforID"  value="<?php echo  $session->get('ID'); ?>">
-                <input type="date" name="B_day"  required=""oninvalid="this.setCustomValidity('กรุณาเลือกวัน-เวลา')" oninput="this.setCustomValidity('')" value="<?= set_value('B_day'); ?>" min="<?php echo date('Y-m-d');?>">
+                <input type="date" name="B_day" id="inputdate" onchange="getTime()" required="" oninvalid="this.setCustomValidity('กรุณาเลือกวัน-เวลา')" oninput="this.setCustomValidity('')" value="<?= set_value('B_day'); ?>" min="<?php echo date('Y-m-d');?>">
                 </asp:TextBox>
                 <p>เวลาที่ต้องการจอง</p>
                <div class="w3-dropdown-hover">
@@ -66,14 +69,7 @@
                     <i class="fa-solid fa-angle-down"></i> 
                   
                         <div class="w3-dropdown-content dropdow-item"> 
-                          <?php if ($time) : ?>
-                        <?php foreach ($time as $time) : ?>
-                            <div>                         
-                                <input  type="checkbox"   id="time"  name="<?php echo 'time'.$time['T_id'] ?>"  value="<?php echo $time['T_id'] ?>">
-                                <label for="time"><?php echo $time['T_start']; ?>-<?php echo $time['T_end']; ?></label>
-                                </div>
-                                 <?php endforeach; ?>
-                            <?php endif; ?>
+                            <div id="edittime">
                             </div>
                       
                 </div>
@@ -91,6 +87,25 @@
             }
             function close(){
                 document.getElementById("myForm").style.display = "none";
+            }
+
+            function getTime()
+            {
+                var date = document.getElementById("inputdate").value;
+                $.ajax({
+                    type: "POST",
+                    url: "ajax/ajax_getTime.php",
+                    dataType: "html",
+                    data: {
+                        date: date
+                    },
+                    success: function(data) {
+                        $('#edittime').html(data);
+                    },
+                    error() {
+                        $('#edittime').html('An Error');
+                    }
+                    });
             }
         </script>
 
