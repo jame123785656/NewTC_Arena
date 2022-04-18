@@ -28,7 +28,8 @@
                             </asp:TextBox>
 
                             <p for="inputpassword">รหัสผ่าน*</p>
-                            <input type="password" name="password" placeholder="password" required=""oninvalid="this.setCustomValidity('กรุณากรอกรหัสผ่าน')" oninput="this.setCustomValidity('')" id="inputforpassword">
+                            <input type="password" name="password" placeholder="password" required=""oninvalid="this.setCustomValidity('กรุณากรอกรหัสผ่าน')" 
+                            oninput="this.setCustomValidity('')" id="inputforpassword">
                             </asp:TextBox>
                     </div>
                     <button type="submit" class="btnLogin">เข้าสู่ระบบ</button></a>
