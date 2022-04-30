@@ -92,12 +92,14 @@
             function getTime()
             {
                 var date = document.getElementById("inputdate").value;
+                var f_id = document.getElementById("F_ID02").value;
                 $.ajax({
                     type: "POST",
                     url: "ajax/ajax_getTime.php",
                     dataType: "html",
                     data: {
-                        date: date
+                        date: date,
+                        F_ID:f_id
                     },
                     success: function(data) {
                         $('#edittime').html(data);
