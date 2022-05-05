@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_Admin.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
-    
+
     <title>สรุปยอด</title>
 </head>
 
@@ -19,120 +19,136 @@
     <div class="row-report">
         <div class="card-report">
             <h2>จำนวนผู้ใช้บริการ</h2>
-            <h3>150 คน</h3>
+            <h3><?php echo $count_id; ?> คน</h3>
         </div>
         <div class="card-report">
             <h2>จำนวนการจอง</h2>
-            <h3>256 ครั้ง</h3>
+            <h3><?php echo $book_total; ?> ครั้ง</h3>
         </div>
     </div>
 
-    
-
 
     <div class="form-time-report">
-        <input type="date" id="birthday" name="birthday">
-        <div class="table-style">
-            <table style="width:100%">
+        <input class="input" type="text" id="myInput"  onkeyup="myFunction()" placeholder="ค้นหาวันที่จอง" title="Type in a name">
+        <button class="btn"  type="submit">ค้นหา</button>
+    </div>
+    <div class="table-style">
+        <table style="width:100%">
 
-                <center>
-                    <tr>
-                        <td>วันที่จอง</td>
-                        <td>เวลา</td>
-                        <td>ชื่อลูกค้า</td>
-                        <td>สนามที่จอง</td>
-                        <td>จำนวนชั่วโมง</td>
-                        <td>สถานะ</td>
+            <center>
+                <tr>
+                    <td>วันที่จอง</td>
+                    <td>เวลา</td>
+                    <td>ชื่อลูกค้า</td>
+                    <td>สนามที่จอง</td>
+                    <td>จำนวนชั่วโมง</td>
+                    <td>สถานะ</td>
 
-                    </tr>
+                </tr>
 
+                <?php if($books): ?>
+                <?php foreach($books as $books): ?>
+                <tr id="myUL">
+                    <td><?php echo $books['B_day']?></td>
+                    <td><?php echo $books['username']?></td>
+                    <td><?php echo $books['Name']?></td>
+                    <td> <?php  
+                $count = 0;
+                        if ($detail) : ?>
+                        <?php foreach ($detail as $details) : ?>
+                            <?php if($details['d_id'] == $books['B_id']){
+                                $count += 1;
+                                echo  $details['T_start']; ?>-<?php echo $details['T_end'] .'<br/>' ;
+                            }?>
+                         <?php endforeach; ?>
+                    <?php endif; ?></td> 
+                <td><?php echo $count ?> ชั่วโมง</td>
+                <td><?php echo $books['S_name']?></td>
+                </tr>
+                <?php endforeach; ?>
+                <?php endif; ?>
+            </center>
+        </table>
 
+    </div>
 
-                    <tr>
-                        <td>1/05/2565</td>
-                        <td>10.00-11.00 <br>11.00-12.00 </td>
-                        <td> เจรามี่ </td>
-                        <td> A </td>
-                        <td> 2 </td>
-                        <td>ยืนยันเรียบร้อย</td>
-                    </tr>
+    <style>
+    .table-style {
+        border-collapse: collapse;
+        background-color: #dddd;
+        border: 1px solid #DADBDB;
+        width: 60%;
+        border-radius: 2px;
+        margin-left: 20%;
+        margin-top: 4%;
+    }
 
-                    <tr>
-                        <td>1/05/2565</td>
-                        <td>12.00-13.00</td>
-                        <td> โอน้อยออก </td>
-                        <td> B </td>
-                        <td> 1 </td>
-                        <td>ยังไม่ได้รับการยืนยัน</td>
-                    </tr>
+    .form-time-report {
+        position: fixed;
+        left: 47%;
+    }
 
-                    <tr>
-                        <td>1/05/2565</td>
-                        <td>12.00-13.00 <br> 13.00-14.00</td>
-                        <td> บิววี่ </td>
-                        <td> D </td>
-                        <td> 2 </td>
-                        <td>ยังไม่ได้รับการยืนยัน</td>
-                    </tr>
+    .form {
+        border: 2px solid black;
+        border-radius: 12px;
+        padding: 8px;
+    }
 
-                    <tr>
-                        <td>1/05/2565</td>
-                        <td>12.00-13.00
-                        <td> ติ๋ม </td>
-                        <td> C </td>
-                        <td> 1 </td>
-                        <td>ยืนยันเรียบร้อย</td>
-                    </tr>
+    .input {
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 5px;
+    }
 
+    td {
+        border-bottom: 2px solid #cfcbcb;
+        text-align: center;
+        padding: 8px;
+    }
 
-            </table>
+    th {
+        background-color: #70635f;
+        border: 1px solid #f7f2f2;
+        text-align: center;
+        padding: 8px;
 
-            
-        </div>
-        <style>
-            .table-style {
-                border-collapse: collapse;
-                background-color: #dddd;
-                border: 1px solid #DADBDB;
-                width: 60%;
-                border-radius: 2%;
+    }
 
+    .search {
+        border-radius: 25px;
+        margin-left: 68%;
+        margin-bottom: 10px;
+        display: flex;
 
+    }
+
+    .red {
+        color: red;
+    }
+
+    .Green {
+        color: #25E327;
+    }
+    </style>
+
+    <script>
+    function myFunction() {
+        var input, filter, tr, td, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        tr = document.getElementById("myUL");
+        td = tr.getElementsByTagName("td");
+        for (i = 0; i < td.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                td[i].style.display = "";
+            } else {
+                td[i].style.display = "none";
             }
-
-            td {
-
-                border-bottom: 2px solid #cfcbcb;
-                text-align: center;
-                padding: 8px;
-            }
-
-            th {
-                background-color: #70635f;
-                border: 1px solid #f7f2f2;
-                text-align: center;
-                padding: 8px;
-
-            }
-
-            .search {
-                border-radius: 25px;
-                margin-left: 68%;
-                margin-bottom: 10px;
-                display: flex;
-
-            }
-
-            .red {
-                color: red;
-            }
-
-            .Green {
-                color: #25E327;
-            }
-
-        </style>
-
+        }
+    }
+    </script>
 </body>
 
 </html>

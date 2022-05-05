@@ -1,0 +1,68 @@
+CRITICAL - 2022-05-01 07:23:08 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#2 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Controllers\Report_admin.php(14): view('report_admin', Array)
+#3 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#4 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#5 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-01 07:23:12 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#2 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Controllers\Report_admin.php(14): view('report_admin', Array)
+#3 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#4 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#5 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-01 07:23:53 --> Undefined variable $searchdata
+#0 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Views\report_admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#4 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Controllers\Report_admin.php(14): view('report_admin', Array)
+#5 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#6 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#7 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-01 07:23:54 --> Undefined variable $searchdata
+#0 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Views\report_admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#4 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Controllers\Report_admin.php(14): view('report_admin', Array)
+#5 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#6 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#7 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-01 21:50:19 --> Undefined variable $books
+#0 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Views\report_admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#4 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Controllers\Report_admin.php(14): view('report_admin', Array)
+#5 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#6 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#7 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-01 21:50:32 --> Undefined variable $book
+#0 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Views\report_admin.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#4 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\app\Controllers\Report_admin.php(14): view('report_admin', Array)
+#5 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#6 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#7 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project TC-Arena\NewTC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
