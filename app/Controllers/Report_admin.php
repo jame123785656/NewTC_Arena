@@ -30,10 +30,5 @@ class report_admin extends Controller {
     //     return view('report_admin, $data');
     //     }
 
-    public function Search() {
-        $this->db->select("*");  
-        $this->db->like('booking',$this->input->get('search'));
-        $query = $this->db->get("booking"); 
-        return $query->result();
-     }
+ 
 }
