@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_Admin.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
+     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/report.css'); ?>" >
 
     <title>สรุปยอด</title>
 </head>
@@ -28,27 +29,22 @@
     </div>
 
 
-    <div class="form-time-report">
-        <input class="input" type="text" id="myInput"  onkeyup="myFunction()" placeholder="ค้นหาวันที่จอง" title="Type in a name">
-        <button class="btn"  type="submit">ค้นหา</button>
-    </div>
     <div class="table-style">
-        <table style="width:100%">
-
-            <center>
+        <table id="student-list">
+                <thead>
                 <tr>
                     <td>วันที่จอง</td>
-                    <td>เวลา</td>
                     <td>ชื่อลูกค้า</td>
                     <td>สนามที่จอง</td>
+                    <td>เวลา</td>
                     <td>จำนวนชั่วโมง</td>
                     <td>สถานะ</td>
 
                 </tr>
-
+                </thead>
                 <?php if($books): ?>
                 <?php foreach($books as $books): ?>
-                <tr id="myUL">
+                <tr>
                     <td><?php echo $books['B_day']?></td>
                     <td><?php echo $books['username']?></td>
                     <td><?php echo $books['Name']?></td>
@@ -71,84 +67,15 @@
         </table>
 
     </div>
-
-    <style>
-    .table-style {
-        border-collapse: collapse;
-        background-color: #dddd;
-        border: 1px solid #DADBDB;
-        width: 60%;
-        border-radius: 2px;
-        margin-left: 20%;
-        margin-top: 4%;
-    }
-
-    .form-time-report {
-        position: fixed;
-        left: 47%;
-    }
-
-    .form {
-        border: 2px solid black;
-        border-radius: 12px;
-        padding: 8px;
-    }
-
-    .input {
-        border: 1px solid black;
-        border-radius: 12px;
-        padding: 5px;
-    }
-
-    td {
-        border-bottom: 2px solid #cfcbcb;
-        text-align: center;
-        padding: 8px;
-    }
-
-    th {
-        background-color: #70635f;
-        border: 1px solid #f7f2f2;
-        text-align: center;
-        padding: 8px;
-
-    }
-
-    .search {
-        border-radius: 25px;
-        margin-left: 68%;
-        margin-bottom: 10px;
-        display: flex;
-
-    }
-
-    .red {
-        color: red;
-    }
-
-    .Green {
-        color: #25E327;
-    }
-    </style>
-
-    <script>
-    function myFunction() {
-        var input, filter, tr, td, i, txtValue;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        tr = document.getElementById("myUL");
-        td = tr.getElementsByTagName("td");
-        for (i = 0; i < td.length; i++) {
-            td = tr[i].getElementsByTagName("td")[0];
-            txtValue = td.textContent || td.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                td[i].style.display = "";
-            } else {
-                td[i].style.display = "none";
-            }
-        }
-    }
-    </script>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#student-list').DataTable();
+            });
+        </script>
+        <script src="/main.js"></script>
 
 </html>
