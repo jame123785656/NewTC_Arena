@@ -19,12 +19,12 @@
 
     <div class="row-report">
         <div class="card-report">
-            <h2>จำนวนผู้ใช้บริการ</h2>
+            <h2>จำนวนผู้ใช้บริการทั้งหมด</h2>
             <h3><?php echo $count_id; ?> คน</h3>
         </div>
         <div class="card-report">
-            <h2>จำนวนการจอง</h2>
-            <h3><?php echo $book_total; ?> ครั้ง</h3>
+            <h2>จำนวนการจองสำเร็จ</h2>
+            <h3><?php echo $book_total; ?> รายการ</h3>
         </div>
     </div>
 
