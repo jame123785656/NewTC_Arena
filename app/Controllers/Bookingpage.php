@@ -5,6 +5,7 @@ use App\Models\FieldModel;
 use App\Models\BookingModel;
 use App\Models\DetailModel;
 use App\Models\TimeModel;
+
 class Bookingpage extends Controller {
     public function bookingpage() {
         // include helper form
