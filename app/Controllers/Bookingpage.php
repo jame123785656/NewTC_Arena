@@ -10,22 +10,8 @@ class Bookingpage extends Controller {
     public function bookingpage() {
         // include helper form
         helper(['form']);
-        // $model = new BookingModel();
         $FieldModel = new FieldModel();
-        // $TimeModel = new TimeModel();
         $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('promotion','field.Promotion = promotion.p_id' )->orderBy('F_ID', 'Asc')->findAll();
-
-        // $databooking_count = $model->countTimeBooking();
-        // if ($databooking_count >= 1) {
-        //     $databooking = $model->getTimeBooking();
-        //     foreach ($databooking as $value) {
-        //         $times = $value['T_id'];
-        //         $data['time'] = $TimeModel->checkTime($times);
-        //     }
-        // } else {
-        //     $data['time'] = $TimeModel->orderBy('T_id', 'Asc')->findAll(); //บรรทัดเก่า
-        // }
-
         echo view('bookingpage', $data);
     }
     public function booking(){
