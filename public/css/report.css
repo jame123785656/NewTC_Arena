@@ -19,11 +19,6 @@
     padding: 8px;
 }
 
-.input {
-    border: 1px solid black;
-    border-radius: 12px;
-    padding: 5px;
-}
 
 td {
     border-bottom: 2px solid #cfcbcb;
@@ -39,18 +34,5 @@ th {
 
 }
 
-.search {
-    border-radius: 25px;
-    margin-left: 68%;
-    margin-bottom: 10px;
-    display: flex;
 
-}
 
-.red {
-    color: red;
-}
-
-.Green {
-    color: #25E327;
-}

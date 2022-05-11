@@ -19,16 +19,5 @@ class report_admin extends Controller {
         echo view('report_admin', $data);
     }
 
-    // public function pass() {
-    //     $model = new passModel();
-    //     if($this->request->getGet('q')){
-    //         $q = $this->request->getGet('q');
-    //          $data['users'] = $model->like('booking', $q)->getAll();
-    //     }else {
-    //         $data['users'] = $model->getAll();
-    //     }
-    //     return view('report_admin, $data');
-    //     }
-
  
 }
