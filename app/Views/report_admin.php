@@ -76,6 +76,6 @@
                 $('#student-list').DataTable();
             });
         </script>
-        <script src="/main.js"></script>
+       
 
 </html>

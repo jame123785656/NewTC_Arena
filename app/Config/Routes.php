@@ -52,6 +52,7 @@ $routes->get('/update_pay/(:any)', 'Pay_admin::update_pay/$1');
 $routes->get('/cancel_pay/(:any)', 'Pay_admin::cancel_pay/$1');
 $routes->get('/report_admin', 'Report_admin::report_admin');
 $routes->get('/promotion_admin', 'Index_admin::promotion_admin');
+$routes->get('/historyadmin/(:num)', 'Historyadmin::historyadmin/$1');
 
 
 

@@ -1,0 +1,21 @@
+#Addpromotion{
+    width: 50%;
+    height: 100px;
+    background-color: rosybrown;
+    text-align: center;
+  }
+  
+  .form-popup {
+    width: 30%;
+    position: fixed;
+    top: 2%;
+    margin-left: 35%;
+    border: 1px solid #888686;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: none;
+  }
+  .img{
+    height: 50px;
+    width: 50%;
+  }
