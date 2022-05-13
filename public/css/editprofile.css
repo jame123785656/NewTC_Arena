@@ -53,7 +53,7 @@ body{
     border-radius: 15px;
     padding-left: 10px;
     font-size: 15px;
-    margin-top: 30%;
+    margin-top: 27%;
     color: white;
     background-color: #517072;
     transition: .4s;
@@ -81,7 +81,7 @@ body{
 .btnback{
     width: 85%;
     height: 6%;
-    margin-top: 40%;
+    margin-top: 35%;
     margin-left: 7%;
     border: 1.5px solid rgb(102, 110, 102);
     border-radius: 15px;

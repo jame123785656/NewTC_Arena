@@ -3,60 +3,6 @@ body{
     padding: 0;
 }
 
-.navbar{
-    width: 100%;
-    height: 55px;
-    background-color: #E3EBED;
-    display: flex;
-}
-
-.logo{
-    width: 5%;
-}
-
-.logo img{
-    width: 60%;
-    margin-left: 8%;
-    margin-top: -5%;
-}
-
-.menu-section{
-    width: 75%;
-    margin-left: 3%;
-    display: flex;
-}
-
-.menu-section p{
-    padding-left: 30px; 
-}
-
-.menu-section a{
-    text-decoration: none;
-    color: black;
-}
-
-.showuser{
-    width: 15%;
-    display: flex;
-    margin-left: 2%;
-}
-
-.imguser img{
-    width: 35px;
-    border-radius: 20px;
-    margin-top: 8px;
-}
-
-.showuser a{
-    text-decoration: none;
-    color: black;
-    margin-left: 3%;
-}
-
-.showuser .logout{
-    color: rgb(158, 3, 3);
-}
-
 .from-pay{
     width: 50%;
     margin-left: 25%;
@@ -68,7 +14,8 @@ body{
 }
 
 .detailsPay{
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
     border: 1px solid rgb(131, 129, 129) ;
     border-radius: 25px;
     display: flex;
@@ -240,7 +187,7 @@ body{
 
 .img-check{
     width: 50%;
-    height: 350px;
+    height: 300px;
     margin-left: 25%;
 }
 
@@ -276,10 +223,6 @@ body{
     background-color: #496364;
 }
 
-
-.btncan:hover{
-    background-color: #818181;
-}
 .btncan{
     background-color: #989999;
     color: white;
@@ -287,3 +230,80 @@ body{
     font-size: 16px;
     transition: .4s;
 }
+
+.btncan:hover{
+    background-color: #818181;
+}
+
+@media screen and (max-width: 360px){
+
+    .from-pay h4{
+        font-size: 18px;
+    }
+
+    .detailsPay{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .detailsLeft img{
+        width: 150px;
+    }
+
+    .detailsRight h3{
+        font-size: 16px;
+        border-bottom: 1px solid silver;
+    }
+
+    .detailsRight p{
+        font-size: 12px;
+    }
+
+    .from-payB{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        display: flex;
+    }
+
+    .box-icon{
+        width: 35%;
+        margin-left: 35%;
+    }
+    
+    .box-icon img{
+        width: 25px;
+    }
+    
+    .box-icon p{
+        font-size: 10px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    .box-bank{
+        width: 80%;
+        border: 1.5px solid rgb(156, 154, 154);
+        border-radius: 15px;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+    }
+    
+    .img-left{
+        width: 12%;
+        
+    }
+    
+    .box-bank img{
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+
+}
+
