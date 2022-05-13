@@ -1,3 +1,21 @@
+.row-report{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card-report{
+    width: 80%;
+    margin-left: 75%;
+}
+
+.card-report h2{
+    font-size: 18px;
+}
+
+.card-report h3{
+    color: rgb(65, 65, 65);
+}
+
 .table-style {
     border-collapse: collapse;
     background-color: #dddd;
@@ -31,7 +49,6 @@ th {
     border: 1px solid #f7f2f2;
     text-align: center;
     padding: 8px;
-
 }
 
 

@@ -15,6 +15,7 @@
 
         <div class="from-pay">
             <h4>ชำระเงิน</h4>
+        </div> 
             <div class="detailsPay">
            
                 <div class="detailsLeft">
@@ -23,7 +24,7 @@
                 <img src="/adminimage_stadium/<?php echo $booking['f_image'] ?>">
                 </div>
                 <div class="detailsRight">
-                    <h3><?php echo $booking['Name']; ?></h3><hr>
+                    <h3><?php echo $booking['Name']; ?></h3>
                     <p>- วันที่ <?php echo $booking['B_day']; ?></p>
                     <?php endforeach; ?>
                             <?php endif; ?>
@@ -40,7 +41,7 @@
                 </div>
               
             </div>
-        </div>
+        
         <div class="from-payB">
             <div class="fromLeft">
                 <div class="box-icon">

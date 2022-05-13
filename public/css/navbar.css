@@ -42,3 +42,27 @@
   .showuser .logout{
     color: rgb(8, 141, 90);
   }
+
+  @media screen and (max-width: 360px){
+
+    .navbar{
+      height: 40px;
+    }
+
+    .logo img{
+      width: 30px;
+    }
+
+    .menu-section p{
+        font-size: 10px;
+        padding-left: 0px;
+    }
+
+    .menu-section a{
+      margin-left: 7%;
+  }
+
+    .showuser a{
+      font-size: 10px;
+    }
+  }

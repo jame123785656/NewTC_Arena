@@ -4,32 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/footer.css" rel="stylesheet" />
+    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/footer.css'); ?>" >
+    <script src="https://kit.fontawesome.com/4d011b0a39.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-<footer>
-  <div class="footer">
-    <font color="black" :>
-      <table style="width:100%">
-        <tr>
-         <th> ติดต่อเรา
-            <br>
-            1/2 หมู่ 3 อ.เมือง ต.เมือง จ.สมุทรสาคร 74000
-          </th>
-      
-          <th><img src="https://cdn.discordapp.com/attachments/934731258976677898/934731507208192050/phone-call.png" width="18" height="18"> โทร : 094-7891526,081-8565545</th>
-
-          <th>
-
-            <img src="https://cdn.discordapp.com/attachments/934731258976677898/934731643686649886/facebook.png" width="15" height="15"> สนามฟุตบอลหญ้าเทียม TC ARENA
-
-            <br> <br>
-            <img src="https://cdn.discordapp.com/attachments/934731258976677898/934731353461768251/instagram.png" width="15" height="15"> สนามฟุตบอลหญ้าเทียม TC ARENA
-          </th>
-        </tr>
-    </font>
-  </div>
-</footer>
+    <div class="footer">
+        <div class="sectionA">
+            <h5>ติดต่อเรา</h5>
+            <p>1/2 หมู่ 3 อ.เมือง ต.เมือง จ.สมุทรสาคร 74000</p>
+        </div>
+        <div class="sectionB">
+            <p><i class="fa-solid fa-phone"></i> โทร: 094-7891526,081-8565545</p>
+        </div>
+        <div class="sectionC">
+            <p><i class="fa-brands fa-facebook"></i> สนามฟุตซอลหญ้าเทียม TC ARENA</p>
+            <p><i class="fa-brands fa-instagram"></i> สนามฟุตซอลหญ้าเทียม TC ARENA</p>
+        </div>
+    </div>
 </body>
 </html>

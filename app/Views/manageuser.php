@@ -40,7 +40,7 @@
                   } else if($user['status']==='member'){
                     echo 'Green';
                    } ?>><?php echo $user['status']?></td>
-        <td><a href="/historyadmin/<?php echo $user['ID']?>"> <img src="https://cdn.discordapp.com/attachments/934731258976677898/946017908411236382/bin.png" width="15px" height="15px" ></a></td>
+        <td><a href="/historyadmin/<?php echo $user['ID']?>"> <img src="/image/iconeyes.png" width="15px" height="15px" ></a></td>
       </tr>
       <?php endforeach; ?>
 <?php endif; ?>
