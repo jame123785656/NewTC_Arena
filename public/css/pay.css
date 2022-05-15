@@ -268,12 +268,13 @@ body{
     }
 
     .box-icon{
-        width: 35%;
+        width: 40%;
         margin-left: 35%;
     }
     
     .box-icon img{
-        width: 25px;
+        width: 20px;
+        margin-left: 35%;
     }
     
     .box-icon p{
@@ -283,7 +284,7 @@ body{
     }
     
     .box-bank{
-        width: 80%;
+        width: 90%;
         border: 1.5px solid rgb(156, 154, 154);
         border-radius: 15px;
         margin-left: 10%;
@@ -293,16 +294,129 @@ body{
     }
     
     .img-left{
-        width: 12%;
-        
+        width: 17%;
     }
     
     .box-bank img{
-        width: 35px;
-        height: 35px;
+        width: 20px;
+        height: 20px;
         border-radius: 20px;
         margin-left: 10%;
-        margin-top: 8%;
+        margin-top: 20%;
+    }
+
+    .text-right{
+        width: 53%;
+    }
+    
+    .text-right h4{
+        margin-top: 4%;
+        font-size: 10px;
+    }
+    
+    .text-right p{
+        margin-top: -10%;
+        font-size: 10px;
+    }
+    
+    .qrCode{
+        width: 30%;
+        border-radius: 15px;
+        margin-left: 0%;
+    
+    }
+    
+    .qrCode img{
+        margin-top: 10%;
+        width: 40px;
+        height: 35px;
+        margin-left: -1%;
+    }
+
+    .box-warn{
+        width: 90%;
+    }
+    
+    .warn-left{
+        width: 17%;
+    }
+    
+    .box-warn img{
+        width: 25px;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    
+    .Text-right{
+        width: 83%;
+        margin-left: 3%;
+    }
+    
+    .Text-right h4{
+       font-size: 12px;
+       margin-left: 2%;
+    }
+    
+    .Text-right p{
+        margin-top: -12%;
+        margin-left: 4%;
+        font-size: 10px;
+    }
+
+    .fromRight{
+        width: 50%;
+    }
+    
+    .icon-img{
+        width: 40%;
+        height: 55px;
+        margin-left: 30%;
+    }
+    
+    .icon-img img{
+        width: 25px;
+        margin-left: 32%;
+    }
+    
+    .icon-img p{
+        font-size: 10px;
+    }
+    
+    .img-check{
+        width: 75%;
+        height: 100px;
+        margin-left: 15%;
+    }
+    
+    .img-check img{
+        width: 110px;
+        margin-left: 2.5%;
+        margin-top: -2%;
+    }
+
+    .img-check input{
+        font-size: 10px;
+    }
+
+    .btnO{
+        width: 75%;
+        margin-left: 15%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    
+    .btnO button{
+        width: 50px;
+        height: 25px;
+        margin-left: 7%;
+    }
+    
+    .btncf{
+        font-size: 10px;
+    }
+
+    .btncan{
+        font-size: 10px;
     }
 
 }
