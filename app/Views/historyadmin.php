@@ -45,7 +45,7 @@
                     <?php endif; ?></td> 
                 <td><?php echo $count ?> ชั่วโมง</td>
                 <td><?= $sumprice[] = $bookings['Price'] * $count?> บาท</td>
-                <td>   <img class="img" src="/img_ slip/<?php echo $bookings['B_img'] ?>"></td>
+                <td><img class="img" src="/img_ slip/<?php echo $bookings['B_img'] ?>"></td>
             <div class="colorhis">
                 <td class= <?php if($bookings['B_status']=== '3'){
                     echo 'Green';
