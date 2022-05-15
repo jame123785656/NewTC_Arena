@@ -32,7 +32,7 @@
             echo "<img src='/img/".$review['r_image']."'>";
             }
       ?>     
-            <p><?php echo $review['r_name']; ?></p>
+            <p>: <?php echo $review['r_name']; ?></p>
         </div>
     </div>
     <?php endforeach; ?>

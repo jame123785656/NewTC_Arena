@@ -36,7 +36,7 @@
                         </div>
                 </div>
                 <div class="detailsA">
-                    <h2><?php echo $field['Name']; ?></h2><hr>
+                    <h2><?php echo $field['Name']; ?></h2>
                     <p>- รองรับผู้เล่นได้มากสุด <?php echo $field['person']; ?> คน</p>
                     <p>- อัตราค่าบริกการ ชั่วโมงละ <?php echo $field['Price']; ?> บาท </p>
                     <p>- <?php echo $field['p_name']; ?></p>
