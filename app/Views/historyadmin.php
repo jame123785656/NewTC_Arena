@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/userhistory.css'); ?>" >
+    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/historyadmin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/history.css'); ?>" >
     <title>ประวัติการจอง</title>
 </head>
@@ -45,7 +45,7 @@
                     <?php endif; ?></td> 
                 <td><?php echo $count ?> ชั่วโมง</td>
                 <td><?= $sumprice[] = $bookings['Price'] * $count?> บาท</td>
-                <td>   <img class="img" src="/img_ slip/<?php echo $bookings['B_img'] ?>"></td>
+                <td><img class="img" src="/img_ slip/<?php echo $bookings['B_img'] ?>"></td>
             <div class="colorhis">
                 <td class= <?php if($bookings['B_status']=== '3'){
                     echo 'Green';
