@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +7,6 @@
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/login.css'); ?>" >
     <title>เข้าสู่ระบบ</title>
 </head>
-
-
 <body>
 
     <div class="areaBackground">
@@ -45,5 +42,4 @@
         </div>
     </div>
 </body>
-
 </html>
