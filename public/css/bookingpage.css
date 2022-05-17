@@ -93,12 +93,18 @@ body{
 }
 
 .form-container h3{
+    font-size: 18px;
     margin-left: 10%;
 }
 
 .text-header{
     width: 100%;
     display: flex;
+}
+
+.text-header h3{
+    margin-left: 4%;
+    font-size: 24px;
 }
 
 .text-header img{
@@ -109,7 +115,7 @@ body{
 
 .text-header a{
     margin-top: 3%;
-    margin-left: 43%;
+    margin-left: 48%;
 }
 
 .click-cross{
