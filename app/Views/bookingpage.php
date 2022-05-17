@@ -72,7 +72,7 @@
                             <div id="edittime">
                             </div>
                       
-                </div>
+            </div>
 
                <button class="btnform" type="submit">จองสนาม</button>
             </div>
