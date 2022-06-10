@@ -20,6 +20,7 @@
         <div class="items-table">
             <table>
             <tr>
+                <th>สลิป</th>
                 <th>วัน/เวลาที่จอง</th>
                 <th>สนามที่จอง</th>
                 <th>เวลา</th>
@@ -31,6 +32,7 @@
 <?php if ($booking) : ?>
     <?php foreach ($booking as $bookings) : ?>
             <tr>
+                <td><img class="img" src="/img_ slip/<?php echo $bookings['B_img'] ?>"></td>
                 <td><?php echo $bookings['B_day']; ?></td>
                 <td><?php echo $bookings['Name']; ?></td>  
                 <td> <?php  

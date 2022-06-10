@@ -53,4 +53,5 @@ body{
   
   .img:hover{
      transform:scale(4.0,8.0);
+     width: 80%;
   }

@@ -38,7 +38,7 @@ $routes->get('/review', 'index::review');
 $routes->get('/user', 'User::user');
 $routes->get('/logout', 'Login::logout');
 $routes->get('/stadium', 'Stadium::stadium');
-$routes->get('/profile', 'user::profile');
+$routes->get('/profile', 'User::profile');
 $routes->get('/editprofile/(:num)', 'user::edit/$1');
 $routes->get('/user_review', 'User_review::user_review');
 $routes->get('/index_admin', 'Index_admin::index_admin');
