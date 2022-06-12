@@ -51,6 +51,15 @@ body{
   border-radius: 20px;
 }
 
+.img{
+  width: 50%;
+  height: 100px;
+}
+
+.img:hover{
+  transform:scale(2.0,3.5);
+}
+
 @media screen and (max-width: 360px){
 
   .box-table{
@@ -72,6 +81,7 @@ body{
   }
   
   .items-table td, th {
+    width: 11%;
     border: 1px solid #dddddd;
     text-align: center;
     padding: 0px;
@@ -81,8 +91,13 @@ body{
   .colorhis{
     width: 10%;
   }
-}
-.img{
-  width: 50%;
-  height: 80px;
+
+  .img{
+    width: 40%;
+    height: 50px;
+  }
+  
+  .img:hover{
+    transform:scale(2.0,1.5);
+  }
 }
