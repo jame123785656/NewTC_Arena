@@ -28,20 +28,21 @@
             <div class="card">
                 <div class="show-imgA">
                     <img src="/adminimage_stadium/<?php echo $field['f_image'] ?>">
-                        <div class="img-smallA">
-                            <img src="/adminimage_stadium/<?php echo $field['f_image'] ?> ">
-                            <img src="/adminimage_stadium/<?php echo $field['f_image'] ?> ">
-                            <img src="/adminimage_stadium/<?php echo $field['f_image'] ?> ">
-                            <img src="/adminimage_stadium/<?php echo $field['f_image'] ?> ">
-                        </div>
+                       
                 </div>
                 <div class="detailsA">
                     <h2><?php echo $field['Name']; ?></h2>
                     <p>- รองรับผู้เล่นได้มากสุด <?php echo $field['person']; ?> คน</p>
                     <p>- อัตราค่าบริกการ ชั่วโมงละ <?php echo $field['Price']; ?> บาท </p>
                     <p>- <?php echo $field['p_name']; ?></p>
+
+                    <?php if($field['f_status']== 5) : ?>
+                    <button type="button" class="btn-reserve" onclick="openForm(<?php echo $field['F_ID'] ?>)">จองสนาม</button> 
+                    <?php else : ?>
+                        <button disabled>ปิด</button>   
+                    <?php endif; ?>
                 
-                    <button type="button" class="btn-reserve" onclick="openForm(<?php echo $field['F_ID'] ?>)">จองสนาม</button>
+                   
                 </div>
             </div>
     <?php endforeach; ?>

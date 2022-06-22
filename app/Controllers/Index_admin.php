@@ -7,6 +7,7 @@ use CodeIgniter\Controller;
 use App\Models\FieldModel;
 use App\Models\TypeModel;
 use App\Models\PromotionModel;
+use App\Models\StatusModel;
 
 
 class index_admin extends Controller{   
@@ -14,8 +15,10 @@ class index_admin extends Controller{
         helper(['form']);
         $FieldModel = new FieldModel();
         $PromotionModel = new PromotionModel();
+        $TypeModel = new TypeModel();
         $data ['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
-        $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('promotion','field.Promotion = promotion.p_id' )->orderBy('F_ID', 'Asc')->findAll();
+        $data['type'] = $TypeModel->orderBy('T_id', 'Asc')->findAll();
+        $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('promotion','field.Promotion = promotion.p_id' )->join('statuss','field.f_status = statuss.S_id')->orderBy('F_ID', 'Asc')->findAll();
         echo view('index_admin',$data);
     }
     // -------------------->จัดการสนาม
@@ -29,7 +32,8 @@ class index_admin extends Controller{
             'person' => $this->request->getVar('person'),
             'Price' => $this->request->getVar('Price'),
             'Promotion' => $this->request->getVar('Promotion'),
-            'f_image' => $img->getName()
+            'f_image' => $img->getName(),
+            'f_status' => 5
         ];
         $model->insert($data);
         return redirect()->to('/index_admin');
@@ -39,8 +43,11 @@ class index_admin extends Controller{
         $FieldModel = new FieldModel();
         $TypeModel = new TypeModel();
         $PromotionModel = new PromotionModel();
+        $StatusModel = new StatusModel();
+        $sql="S_id IN (5,6)";
         $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('Promotion','field.promotion = Promotion.p_id')->where('F_ID',$F_ID)->first();
         $data['type'] = $TypeModel->orderBy('T_id', 'Asc')->findAll();
+        $data ['status'] = $StatusModel->where($sql)->orderBy('S_id', 'Asc')->findAll();
         $data ['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
         echo view('edit_admin',$data);
     }
@@ -64,6 +71,7 @@ class index_admin extends Controller{
             'Price' => $this->request->getVar('Price'),
             'Promotion' => $this->request->getVar('Promotion'),
             'f_image' => $f_image,
+            'f_status' => $this->request->getVar('f_status'),
         ];
         $session->setFlashdata('swel_title', 'แก้ไขข้อมูลสำเร็จ');
         // $session->setFlashdata('swel_text', 'โปรดเข้าสู่ระบบก่อนทำรายการ');

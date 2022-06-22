@@ -32,7 +32,7 @@
     <?php foreach ($field as $field) : ?>
             <div class="card">
             <input type="hidden" name="F_ID" value="<?php echo  $field['F_ID']; ?>">
-              <h3 class="title-section"><?php echo $field['Name']; ?></h3>
+              <h3 class="title-section"><?php echo $field['Name']; ?> สถานะ:<?php echo $field['S_name']; ?></h3>
                   <div class="img-show">
                       <img src="/adminimage_stadium/<?php echo $field['f_image'] ?>">
                   </div>
@@ -67,9 +67,15 @@
                 <input type="text" name="Name" placeholder="กรุณาใส่ชื่อสนาม" required value="<?= set_value('Name'); ?>">
                 <p>เพิ่มขนาดสนาม</p>
                 <select name="Type" id="Type" class="type">
-                 <option value="1">สนามเล็ก</option>
-                 <option value="2">สนามใหญ่</option>
-                </select> 
+                     <?php if ($type) : ?>
+                      <?php foreach ($type as $type) : ?>
+                  <option value="<?php echo $type['T_id'] ?>" <?php if($field['Type']==$type['T_id']){
+                    echo 'selected';
+                  } ?>><?php echo $type['T_name']; ?></option>
+               
+                  <?php endforeach; ?>
+                    <?php endif; ?>
+                </select>
                 <p>เพิ่มจำนวนผู้เล่น</p>
                 <input type="text" name="person" placeholder="กรุณาใส่จำนวนผู้เล่น" required value="<?= set_value('person'); ?>">
                 <p>เพิ่มค่าบริการ/ชม.</p>
