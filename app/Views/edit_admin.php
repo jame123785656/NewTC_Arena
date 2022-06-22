@@ -49,7 +49,7 @@
                 <input type="text"  name="Price" id="inputforPrice" value="<?php echo $field['Price']; ?>">
                 <p>เพิ่มโปรโมชั่น</p>
                 <select name="Promotion" id="Promotion" class="type">
-             <?php if ($promotion) : ?>
+                      <?php if ($promotion) : ?>
                       <?php foreach ($promotion as $promotion) : ?>
                   <option value="<?php echo $promotion['p_id'] ?>" <?php if($field['Promotion']==$promotion['p_id']){
                     echo 'selected';

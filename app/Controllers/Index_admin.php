@@ -10,22 +10,25 @@ use App\Models\PromotionModel;
 use App\Models\StatusModel;
 
 
-class index_admin extends Controller{   
-     public function Index_admin(){
+class index_admin extends Controller
+{
+    public function Index_admin()
+    {
         helper(['form']);
         $FieldModel = new FieldModel();
         $PromotionModel = new PromotionModel();
         $TypeModel = new TypeModel();
-        $data ['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
+        $data['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
         $data['type'] = $TypeModel->orderBy('T_id', 'Asc')->findAll();
-        $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('promotion','field.Promotion = promotion.p_id' )->join('statuss','field.f_status = statuss.S_id')->orderBy('F_ID', 'Asc')->findAll();
-        echo view('index_admin',$data);
+        $data['field'] = $FieldModel->join('type', 'field.type = type.T_id')->join('promotion', 'field.Promotion = promotion.p_id')->join('statuss', 'field.f_status = statuss.S_id')->orderBy('F_ID', 'Asc')->findAll();
+        echo view('index_admin', $data);
     }
     // -------------------->จัดการสนาม
-    public function insert(){
+    public function insert()
+    {
         $model = new FieldModel();
-            $img = $this->request->getFile('file');
-            $img->move(WRITEPATH . '../public/adminimage_stadium');
+        $img = $this->request->getFile('file');
+        $img->move(WRITEPATH . '../public/adminimage_stadium');
         $data = [
             'Name' => $this->request->getVar('Name'),
             'Type' => $this->request->getVar('Type'),
@@ -44,12 +47,12 @@ class index_admin extends Controller{
         $TypeModel = new TypeModel();
         $PromotionModel = new PromotionModel();
         $StatusModel = new StatusModel();
-        $sql="S_id IN (5,6)";
-        $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('Promotion','field.promotion = Promotion.p_id')->where('F_ID',$F_ID)->first();
+        $sql = "S_id IN (5,6)";
+        $data['field'] = $FieldModel->join('type', 'field.type = type.T_id')->join('Promotion', 'field.promotion = Promotion.p_id')->where('F_ID', $F_ID)->first();
         $data['type'] = $TypeModel->orderBy('T_id', 'Asc')->findAll();
-        $data ['status'] = $StatusModel->where($sql)->orderBy('S_id', 'Asc')->findAll();
-        $data ['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
-        echo view('edit_admin',$data);
+        $data['status'] = $StatusModel->where($sql)->orderBy('S_id', 'Asc')->findAll();
+        $data['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
+        echo view('edit_admin', $data);
     }
     public function update()
     {
@@ -57,13 +60,13 @@ class index_admin extends Controller{
         $model = new FieldModel();
         $F_ID = $this->request->getVar('F_ID');
         $file = $this->request->getFile('f_image');
-        if($_FILES['f_image']['name'] !=""){
-        $f_image = $file->getRandomName();
-        $file->move('../public/adminimage_stadium', $f_image);
-        }else{
+        if ($_FILES['f_image']['name'] != "") {
+            $f_image = $file->getRandomName();
+            $file->move('../public/adminimage_stadium', $f_image);
+        } else {
             $f_image = $this->request->getVar('old_image');
         }
-      
+
         $data = [
             'Name' => $this->request->getVar('Name'),
             'Type' => $this->request->getVar('Type'),
@@ -80,10 +83,10 @@ class index_admin extends Controller{
         $model->update($F_ID, $data);
 
         return redirect()->to('/index_admin');
-    
     }
-    
-    public function delete($F_ID = null) {
+
+    public function delete($F_ID = null)
+    {
         $session = session();
         $FieldModel = new FieldModel();
         $data['group_project'] = $FieldModel->where('F_ID', $F_ID)->delete($F_ID);
@@ -96,13 +99,15 @@ class index_admin extends Controller{
 
 
     // -------------------------------------จัดการโปรโมชั่น
-    public function promotion_admin() {
+    public function promotion_admin()
+    {
         helper(['form']);
         $PromotionModel = new PromotionModel();
-        $data ['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
-        echo view('promotion_admin',$data);
+        $data['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
+        echo view('promotion_admin', $data);
     }
-    public function p_insert(){
+    public function p_insert()
+    {
         $model = new PromotionModel();
         $data = [
             'p_name' => $this->request->getVar('p_name'),
@@ -110,16 +115,15 @@ class index_admin extends Controller{
         $model->insert($data);
         return redirect()->to('/promotion_admin');
     }
-    public function p_delete($p_id = null) {
+    public function p_delete($p_id = null)
+    {
         $session = session();
         $PromotionModel = new PromotionModel();
         $data['Promotion'] = $PromotionModel->where('p_id', $p_id)->delete($p_id);
-      
+
         $session->setFlashdata('swel_title', 'ลบข้อมูลสำเร็จ');
         $session->setFlashdata('swel_icon', 'success');
         $session->setFlashdata('swel_button', 'ตกลง');
         return $this->response->redirect(site_url('/index_admin'));
     }
-
-
 }
