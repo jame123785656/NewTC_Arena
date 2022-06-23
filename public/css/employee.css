@@ -492,5 +492,11 @@ padding-left: 15px;
 transition: .4s;
 margin-left: 20%;
 }
+.red{
+  color: red;
+}
+.Green{
+  color: rgb(22, 238, 22);
+}
 
 

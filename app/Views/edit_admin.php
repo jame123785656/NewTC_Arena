@@ -49,7 +49,7 @@
                 <input type="text"  name="Price" id="inputforPrice" value="<?php echo $field['Price']; ?>">
                 <p>เพิ่มโปรโมชั่น</p>
                 <select name="Promotion" id="Promotion" class="type">
-             <?php if ($promotion) : ?>
+                      <?php if ($promotion) : ?>
                       <?php foreach ($promotion as $promotion) : ?>
                   <option value="<?php echo $promotion['p_id'] ?>" <?php if($field['Promotion']==$promotion['p_id']){
                     echo 'selected';
@@ -58,6 +58,18 @@
                   <?php endforeach; ?>
                     <?php endif; ?>
                 </select>      
+
+                <p>เปิด-ปิดสนาม</p>
+                <select name="f_status" id="f_status" class="type">
+             <?php if ($status) : ?>
+                      <?php foreach ($status as $status) : ?>
+                  <option value="<?php echo $status['S_id'] ?>" <?php if($field['f_status']==$status['S_id']){
+                    echo 'selected';
+                  } ?>><?php echo $status['S_name']; ?></option>
+               
+                  <?php endforeach; ?>
+                    <?php endif; ?>
+                </select>
             </div>
             <div class="form-btn-edit">
                 <button class="btnCf" type="submit" >ยืนยัน</button>
