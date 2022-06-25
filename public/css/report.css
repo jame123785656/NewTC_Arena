@@ -51,5 +51,30 @@ th {
     padding: 8px;
 }
 
+.row-report{
+    display: grid;
+   grid-template-columns: repeat(3,2fr);
+   width: 100%;
+   row-gap: 40px;
+   margin-top: 25px;
+   margin-left: 5%;
+   margin-bottom: 2%;
+   }
+   
+   .form-time-report{
+   width: 93%;
+   height: 40px;
+   border-radius: 20px;
+   padding-left: 15px;
+   transition: .4s;
+   margin-left: 20%;
+   }
+   .red{
+     color: red;
+   }
+   .Green{
+     color: rgb(22, 238, 22);
+   }
+
 
 

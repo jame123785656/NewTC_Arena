@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/backgroundArena.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .text-header{
+    width: 100%;
+  }
+
+  .form-container-edit{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 0 30px 40px rgba(0,0,0,.2);
+  }
+  
+  .text-header h3{
+    text-align: center;
+    font-size: 18px;
+    cursor: default;
+  }
+
+  .text-header img{
+    width: 60%;
+    height: 150px;
+    margin-left: 21%;
+    margin-top: -2%;
+    border-radius: 15px;
+  }
+  
+  .text-header input{
+    margin-left: 35%;
+    margin-top: 1.5%;
+  }
+  
+  .form-field p{
+    margin-left: 15%;
+    cursor: default;
+  }
+  
+  .form-field input{
+    width: 63.5%;
+    height: 26px;
+    border: 1px solid rgb(133, 132, 132);
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-left: 15%;
+    transition: .4s;
+  }
+  
+  .form-field input:focus{
+    outline: none;
+    border: 2px solid rgb(139, 139, 139);
+  }
+  
+  .form-btn{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    background-color: aqua;
+  }
+  
+  .form-btn button{
+    width: 40%;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    cursor: pointer;
+  }
+  
+  .btnCf{
+    background-color: #1d9e11;
+    margin-left: 10%;
+    transition: .4s;
+  }
+  
+  .btnCf:hover{
+    background-color: #146d0c;
+  }
+  
+  .btnCancel{
+    background-color: rgb(243, 9, 9);
+    margin-left: 2%;
+    transition: .4s;
+  }
+  
+  .btnCancel:hover{
+    background-color: rgb(196, 5, 5);
+  }
+  .form-btn-edit button{
+    width: 20%;
+    height: 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(145, 145, 145);
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .red{
+    color: red;
+  }
+
+  .type{
+    margin-left: 15%;
+    width: 68%;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
