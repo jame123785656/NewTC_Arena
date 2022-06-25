@@ -17,6 +17,7 @@ body{
   border: 1px solid silver;
   border-radius: 10px;
   background-color: #E3EBED;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
 }
 
 .section-img{
@@ -50,6 +51,7 @@ body{
   border: 1px solid silver;
   border-radius: 10px;
   background-color: #E3EBED;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
 }
 
 @media screen and (max-width: 360px){

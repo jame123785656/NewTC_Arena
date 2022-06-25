@@ -41,7 +41,7 @@
                         <?php if ($field['f_status'] == 5) : ?>
                             <button type="button" class="btn-reserve" onclick="openForm(<?php echo $field['F_ID'] ?>)">จองสนาม</button>
                         <?php else : ?>
-                            <button disabled>ปิด</button>
+                            <button class="btndis" disabled>ปิดชั่วคราว</button>
                         <?php endif; ?>
 
 
