@@ -58,6 +58,7 @@ h3{
     margin-top: 2%;
     border: 1px solid silver;
     border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
     display: flex;
 }
 
