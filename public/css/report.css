@@ -1,0 +1,80 @@
+.row-report{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card-report{
+    width: 80%;
+    margin-left: 75%;
+}
+
+.card-report h2{
+    font-size: 18px;
+}
+
+.card-report h3{
+    color: rgb(65, 65, 65);
+}
+
+.table-style {
+    border-collapse: collapse;
+    background-color: #dddd;
+    border: 1px solid #DADBDB;
+    width: 60%;
+    border-radius: 2px;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+.form-time-report {
+    position: fixed;
+    left: 47%;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+
+td {
+    border-bottom: 2px solid #cfcbcb;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #70635f;
+    border: 1px solid #f7f2f2;
+    text-align: center;
+    padding: 8px;
+}
+
+.row-report{
+    display: grid;
+   grid-template-columns: repeat(3,2fr);
+   width: 100%;
+   row-gap: 40px;
+   margin-top: 25px;
+   margin-left: 5%;
+   margin-bottom: 2%;
+   }
+   
+   .form-time-report{
+   width: 93%;
+   height: 40px;
+   border-radius: 20px;
+   padding-left: 15px;
+   transition: .4s;
+   margin-left: 20%;
+   }
+   .red{
+     color: red;
+   }
+   .Green{
+     color: rgb(22, 238, 22);
+   }
+
+
+

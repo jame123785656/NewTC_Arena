@@ -35,23 +35,24 @@ $routes->get('/', 'index::index');
 $routes->get('/login', 'Login::login');
 $routes->get('/register', 'Register::register');
 $routes->get('/review', 'index::review');
-$routes->get('/user', 'User::user');
+$routes->get('/user', 'User::user',['filter' => 'auth']);
 $routes->get('/logout', 'Login::logout');
 $routes->get('/stadium', 'Stadium::stadium');
-$routes->get('/profile', 'user::profile');
+$routes->get('/profile', 'User::profile',['filter' => 'auth']);
 $routes->get('/editprofile/(:num)', 'user::edit/$1');
-$routes->get('/user_review', 'User_review::user_review');
-$routes->get('/index_admin', 'Index_admin::index_admin');
-$routes->get('/bookingpage', 'Bookingpage::bookingpage');
-$routes->get('/manageuser', 'Manageuser::manageuser');
-$routes->get('/pay/(:num)', 'Pay::pay/$1');
-$routes->get('/edit_admin/(:num)', 'Index_admin::edit_admin/$1');
-$routes->get('/userhistory/(:num)', 'Userhistory::userhistory/$1');
-$routes->get('/pay_admin', 'Pay_admin::pay_admin');
+$routes->get('/user_review', 'User_review::user_review',['filter' => 'auth']);
+$routes->get('/index_admin', 'Index_admin::index_admin',['filter' => 'auth']);
+$routes->get('/bookingpage', 'Bookingpage::bookingpage',['filter' => 'auth']);
+$routes->get('/manageuser', 'Manageuser::manageuser',['filter' => 'auth']);
+$routes->get('/pay/(:num)', 'Pay::pay/$1',['filter' => 'auth']);
+$routes->get('/edit_admin/(:num)', 'Index_admin::edit_admin/$1',['filter' => 'auth']);
+$routes->get('/userhistory/(:num)', 'Userhistory::userhistory/$1',['filter' => 'auth']);
+$routes->get('/pay_admin', 'Pay_admin::pay_admin',['filter' => 'auth']);
 $routes->get('/update_pay/(:any)', 'Pay_admin::update_pay/$1');
 $routes->get('/cancel_pay/(:any)', 'Pay_admin::cancel_pay/$1');
-$routes->get('/report_admin', 'Report_admin::report_admin');
-$routes->get('/promotion_admin', 'Index_admin::promotion_admin');
+$routes->get('/report_admin', 'Report_admin::report_admin',['filter' => 'auth']);
+$routes->get('/promotion_admin', 'Index_admin::promotion_admin',['filter' => 'auth']);
+$routes->get('/historyadmin/(:num)', 'Historyadmin::historyadmin/$1',['filter' => 'auth']);
 
 
 

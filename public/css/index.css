@@ -1,23 +1,95 @@
-.card {
-  margin: 60px 60px 60px;
-  background-color: rgb(233, 233, 233);
-  float: left;
-  font-size: 17px;
-}
-.carousel-1{
-  margin-left: 55%;
-  margin-bottom: 5%;
-  margin-top: 2.3%;
-  margin-right: 60px;
-}
-.google-map{
-  float: left;
-  margin: 60px;
-  margin-top: 0%;
-}
-.card-2{
-  background-color: rgb(233, 233, 233);
-  margin-left: 55%;
-  font-size: 17px;
+body{
+  padding: 0;
+  margin: 0;
 }
 
+.box-top{
+   width: 100%;
+   margin-top: 4%;
+   display: flex;
+}
+
+.section-text{
+  width: 40%;
+  margin-left: 7%;
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  background-color: #E3EBED;
+}
+
+.section-img{
+  width: 40%;
+  margin-left: 6%;
+}
+
+.section-img img{
+  width: 400px;
+  height: 250px;
+  margin-left: 17%;
+  border-radius: 20px
+}
+
+.box-bottom{
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+}
+
+.google-map{
+  width: 40%;
+  margin-left: 7%;
+}
+
+.text-service{
+  width: 30%;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 11%;
+  border: 1px solid silver;
+  border-radius: 10px;
+  background-color: #E3EBED;
+}
+
+@media screen and (max-width: 360px){
+
+  .box-top{
+    display: block;
+ }
+
+ .section-text{
+  width: 80%;
+  margin-left: 10%;
+  font-size: 14px;
+  }
+
+  .section-text h5{
+    font-size: 16px;
+  }
+
+  .section-img img{
+    width: 300px;
+    height: 150px;
+    margin-top: 30%;
+    margin-left: 3%;
+  }
+
+  .box-bottom{
+    display: block;
+  }
+  
+  .google-map iframe{
+    width: 210%;
+    height: 150px;
+    margin-top: 20%;
+    border-radius: 20px;
+  }
+
+  .text-service{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 14px;
+    margin-top: 10%;
+  }
+}

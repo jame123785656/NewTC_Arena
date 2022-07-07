@@ -32,14 +32,5 @@ class report_admin extends Controller {
         echo view('report_admin', $data);
     }
 
-    // public function total() {
-    //     $session = session();
-    //     $data_send = [];
-    //     if (isset($ses_ID)) {
-    //     $model = new UserModel();
-    //     $model_ = new BookingModel();
-    //     require_once(APPPATH . 'Controllers\User.php');
-    //         $data_send['']
-    //     }
-    // }
+
 }

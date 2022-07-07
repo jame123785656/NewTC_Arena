@@ -3,7 +3,6 @@ body{
     padding: 0;
 }
 
-
 .big-section{
     text-align: center;
     font-size: 40px;
@@ -13,7 +12,6 @@ body{
     width: 70%;
     margin-left: 15%;
     margin-bottom: 5%;
-    
 }
 
 .box-card p{
@@ -22,10 +20,11 @@ body{
 
 .card{
     width: 100%;
-    height: 380px;
+    height: 330px;
     border: 1px solid rgb(124, 122, 122);
     border-radius: 20px;
-    background-color: #DADBDB;
+    background-color: #e7eaea;
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     display: flex;
 }
 
@@ -33,7 +32,6 @@ body{
     width: 50%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    
 }
 
 .show-imgA img{
@@ -62,15 +60,32 @@ body{
     margin-top: 5%;
     margin-left: 60%;
     font-size: 16px;
-    border: 1px solid rgb(64, 86, 87);
-    border-radius: 15px;
-    transform: 4s;
+    border: 1px solid rgb(76, 103, 104);
+    border-radius: 10px;
+    transition: .4s;
     color: rgb(255, 255, 255);
-    background-color: #597A7C;
+    background-color: #688f91;
 }
 
 .btn-reserve:hover{
     background-color: #4a6566;
+}
+
+.btndis{
+    width: 25%;
+    height: 35px;
+    border: 1.5px solid silver;
+    border-radius: 5px;
+    color: #8c8c8c;
+    font-size: 16px;
+    margin-top: 5%;
+    margin-left: 60%;
+    transition: .4s;
+}
+
+.btndis:hover{
+    background-color: #8c8c8c;
+    color: #ffffff;
 }
 
 /* #openForm{
@@ -93,12 +108,18 @@ body{
 }
 
 .form-container h3{
+    font-size: 18px;
     margin-left: 10%;
 }
 
 .text-header{
     width: 100%;
     display: flex;
+}
+
+.text-header h3{
+    margin-left: 4%;
+    font-size: 24px;
 }
 
 .text-header img{
@@ -109,7 +130,7 @@ body{
 
 .text-header a{
     margin-top: 3%;
-    margin-left: 43%;
+    margin-left: 48%;
 }
 
 .click-cross{
@@ -179,6 +200,164 @@ body{
 .dropdow-item label{
     font-size: 16px;
     margin-left: -8%;
+}
+
+@media screen and (max-width: 360px){
+    .big-section{
+        font-size: 18px;
+    }
+
+    .box-card p{
+        font-size: 15px;
+    }
+
+    .box-card{
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 2.5%; 
+    }
+
+    .card{
+        height: auto;
+        border-radius: 0px;
+        border: 1px solid rgb(175, 174, 174);
+        box-shadow: 0 30px 50px rgba(0,0,0,.2);
+        display: block;
+    }
+
+    .show-imgA{
+        width: 100%;
+        border-top-left-radius: 2.5px;
+        border-bottom-left-radius: 2.5px;  
+    }
+
+    .show-imgA img{
+        width: 250.2px;
+        margin-left: 0%;
+        margin-top: 0%;
+        border-radius: 0px;
+    }
+
+    /* .img-smallA img{
+        width: 55px;
+        margin-top: 10%;
+    } */
+
+    .detailsA{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .detailsA h2{
+        font-size: 16px;
+        border-bottom: 1px solid silver;
+    }
+
+    .detailsA p{
+        margin-top: -2%;
+        font-size: 12px;
+        margin-left: -0%;
+    }
+
+    .btn-reserve{
+        width: 35%;
+        height: 25px;
+        font-size: 12px;
+        margin-top: 1%;
+        margin-bottom: 6%;
+        margin-left: 65%;
+        transition: .4s;
+    }
+
+    .btn-reserve:hover{
+        background-color: #4a6566;
+    }
+
+    .btndis{
+        width: 35%;
+        height: 25px;
+        font-size: 12px;
+        margin-top: 1%;
+        margin-bottom: 6%;
+        margin-left: 65%;
+        transition: .4s;
+    }
+
+    .form-popup {
+        width: 70%;
+        margin-left: 15%;
+        border: 1px solid #5a5858;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+      }
+
+    .text-header{
+        width: 100%;
+    }
+
+    .text-header h3{
+        font-size: 15px;
+        margin-left: 5%;
+    }
+
+    .text-header img{
+        width: 20px;
+        height: 20px;
+        margin-top: 3%;
+    }
+    
+    .text-header a{
+        margin-top: 3%;
+        margin-left: 43%;
+    }
+
+    .form-time{
+        width: 95%;
+        margin-left: 5%;
+        margin-top: -15%;
+    }
+
+    .form-time p{
+        font-size: 14px;
+    }
+    
+    .form-time input{
+        width: 95%;
+        height: 28px;
+        padding-left: 10px;
+    }
+
+    .form-time button{
+        width: 35%;
+        height: 25px;
+        margin-left: 60%;
+        margin-top: 5%;
+        margin-bottom: 4.5%;
+        font-size: 12px;
+    }
+
+    .w3-dropdown-hover{
+        width: 100%;
+    }
+    
+    .dropdow-item{
+        width: 60%;
+        border: 1px solid rgb(150, 149, 149);
+        border-radius: 20px;
+    }
+    
+    .dropdow-item input{
+        width: 25%;
+        height: 20px;
+        margin-top: 1%;
+        margin-bottom: 7%;
+        margin-top: 2%;
+    }
+    
+    .dropdow-item label{
+        font-size: 14px;
+    }
 }
 
 

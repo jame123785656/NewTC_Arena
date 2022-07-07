@@ -12,17 +12,15 @@
     <!-- ส่วนประกอบเพิ่มเติม -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/employee.css'); ?>" >
+    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/edit_admin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_admin.css'); ?>" >
-  <title>Employee</title>
+  <title>แก้ไขข้อมูลสนาม</title>
 </head>
 
 
 <body>
-  <?php require('component/navbar_admin.php') ?>
   <div class="text-header">
-    
-  <form action="<?= base_url('/Index_admin/update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
+    <form action="<?= base_url('/Index_admin/update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
         <input type="hidden" name="F_ID" value="<?php echo  $field['F_ID']; ?>">
                 <h3>แก้ไขข้อมูลสนาม</h3>
                 <br>
@@ -49,7 +47,7 @@
                 <input type="text"  name="Price" id="inputforPrice" value="<?php echo $field['Price']; ?>">
                 <p>เพิ่มโปรโมชั่น</p>
                 <select name="Promotion" id="Promotion" class="type">
-             <?php if ($promotion) : ?>
+                      <?php if ($promotion) : ?>
                       <?php foreach ($promotion as $promotion) : ?>
                   <option value="<?php echo $promotion['p_id'] ?>" <?php if($field['Promotion']==$promotion['p_id']){
                     echo 'selected';
@@ -58,15 +56,27 @@
                   <?php endforeach; ?>
                     <?php endif; ?>
                 </select>      
+
+                <p>เปิด-ปิดสนาม</p>
+                <select name="f_status" id="f_status" class="type">
+             <?php if ($status) : ?>
+                      <?php foreach ($status as $status) : ?>
+                  <option value="<?php echo $status['S_id'] ?>" <?php if($field['f_status']==$status['S_id']){
+                    echo 'selected';
+                  } ?>><?php echo $status['S_name']; ?></option>
+               
+                  <?php endforeach; ?>
+                    <?php endif; ?>
+                </select>
             </div>
             <div class="form-btn-edit">
                 <button class="btnCf" type="submit" >ยืนยัน</button>
                 <a href="/index_admin"><button class="btnCancel" type="button">ยกเลิก</button></a>
             </div>
-</form>
+    </form>
+  </div>
 
-
-  </body>
+</body>
 
 </html>
 <script>

@@ -22,7 +22,7 @@
                         <?php foreach ($booking as $booking) : ?>
                  <div class="detailsPay">
                     <div class="detailsLeft">
-                    <input type="hidden" name="B_id" value="<?php echo  $booking['B_id']; ?>"> 
+                        <input type="hidden" name="B_id" value="<?php echo  $booking['B_id']; ?>"> 
                         <img src="/img_ slip/<?php echo $booking['B_img'] ?>">
                     </div>
                     <div class="detailsRight">

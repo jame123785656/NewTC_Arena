@@ -19,24 +19,7 @@
 
     <div class="row-report">
         <div class="card-report">
-            <h2>ผู้ใช้บริการทั้งหมด</h2>
-            <h3><?php echo $count_id; ?> คน</h3>
-        </div>
-        <div class="card-report">
-            <h2>กำลังรอดำเนินการ</h2>
-            <h3><?php echo $books_wait; ?> รายการ</h3>
-        </div>
-        <div class="card-report">
-            <h2>จำนวนการจองสำเร็จ</h2>
-            <h3><?php echo $book_total; ?> รายการ</h3>
-        </div>
-        <div class="card-report">
-            <h2>รายได้ทั้งหมด</h2>
-            <h3><?php echo $book_price; ?> บาท</h3>
-        </div>
-        <div class="card-report">
-            <h2>รายได้เดือนปัจจุบัน</h2>
-            <h3><?php echo $book_month; ?> บาท</h3>
+
         </div>
     </div>
 

@@ -58,6 +58,7 @@ h3{
     margin-top: 2%;
     border: 1px solid silver;
     border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
     display: flex;
 }
 
@@ -116,17 +117,6 @@ h3{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     display: none;
-  }
-  
-  .text-header h3{
-    text-align: center;
-    font-size: 18px;
-    cursor: default;
-  }
-  
-  .text-header input{
-    margin-left: 35%;
-    margin-top: 1.5%;
   }
   
   .form-field p{
@@ -201,5 +191,95 @@ h3{
   }
   .red{
     color: red;
+  }
+  
+
+  @media screen and (max-width: 360px){
+  
+  h3{
+      font-size: 16px;
+    }
+
+  .showBtn{
+      width: 80%;
+      margin-left: 10%;
+  }
+  
+  .showBtn button{
+      width: 30%;
+      height: 30px;
+      margin-left: 35%;
+      font-size: 12px;
+  }
+  
+  .showBtn button:hover{
+      background-color: #2688ce;
+  }
+    
+    .box-text{
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    
+    .section-left{
+      width: 15%;
+      height: 40px;
+      margin-top: 2%;
+    }
+    
+    .section-left p{
+      font-size: 10px;
+    }
+  
+    .section-right{
+      width: 80%;
+      margin-left: 2.5%;
+    }
+    
+    .section-right h5{
+      font-size: 12px;
+    }
+    
+    .section-right p{
+      margin-top: 4%;
+      font-size: 10px;
+      color: rgb(121, 120, 120);
+    }
+    .section-right img{
+      width: 150px;
+      height: 110px;
+      border-radius: 15px;
+    }
+
+    .form-popup {
+      width: 80%;
+      top: 5%;
+      margin-left: 10%;
+      margin-top: 10.5%;
+    }
+    
+    .form-field p{
+      font-size: 16px;
+      margin-left: 12%;
+    }
+
+    
+    .form-field input{
+      width: 80%;
+      height: 25px;
+      font-size: 10px;
+      padding-left: 15px;
+      margin-left: 10%;
+      transition: .4s;
+    }
+    
+    .form-btn button{
+      width: 25%;
+      height: 20px;
+      font-size: 10px;
+      margin-bottom: 5%;
+      margin-top: 3%;
+    }
+  
   }
   
