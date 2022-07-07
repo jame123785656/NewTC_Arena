@@ -58,7 +58,7 @@ class BookingModel extends Model
 
     public function mtotal() {
         $month = date("m");
-        $m = $month -0;
+        $m = $month - 0;
         if($m == 0) {
             $m = "12";
           } else if($m <= 9) {
