@@ -13,7 +13,7 @@
 
   <?php require('component/navbar.php') ?>
 
-    <img src="https://media.discordapp.net/attachments/922495064477925456/934487246780923954/background.jpg" style="width:100%" alt="">
+    <!-- <img src="https://media.discordapp.net/attachments/922495064477925456/934487246780923954/background.jpg" style="width:100%" alt=""> -->
 
     <div class="box-top">
         <div class="section-text">
