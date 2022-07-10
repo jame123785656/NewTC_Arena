@@ -107,6 +107,60 @@ class Bookingpage extends Controller {
             $model02->insert($data02);
       
         }
+        $T8 = $this->request->getVar('time8');
+        if($T8){
+            $data02 = [
+                'd_id' => $query,
+                't_id' => $T8
+            ];
+            $model02->insert($data02);
+      
+        }
+        $T9 = $this->request->getVar('time9');
+        if($T9){
+            $data02 = [
+                'd_id' => $query,
+                't_id' => $T9
+            ];
+            $model02->insert($data02);
+      
+        }
+        $T10 = $this->request->getVar('time10');
+        if($T10){
+            $data02 = [
+                'd_id' => $query,
+                't_id' => $T10
+            ];
+            $model02->insert($data02);
+      
+        }
+        $T11 = $this->request->getVar('time11');
+        if($T11){
+            $data02 = [
+                'd_id' => $query,
+                't_id' => $T11
+            ];
+            $model02->insert($data02);
+      
+        }
+        $T12 = $this->request->getVar('time12');
+        if($T12){
+            $data02 = [
+                'd_id' => $query,
+                't_id' => $T12
+            ];
+            $model02->insert($data02);
+      
+        }
+        $T13 = $this->request->getVar('time13');
+        if($T13){
+            $data02 = [
+                'd_id' => $query,
+                't_id' => $T13
+            ];
+            $model02->insert($data02);
+      
+        }
            $ID = $session->get('ID');
           return redirect()->to('/pay/'.$ID);
     }

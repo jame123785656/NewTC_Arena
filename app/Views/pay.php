@@ -75,6 +75,10 @@
                         </p>
                     </div>
                 </div>
+                <div class="Text-note">
+                    <h4>เขียนหมายเขียน</h4>
+                    <input type="text" placeholder="ช่องสำหรับเขียนหมายเหตุ">
+                </div>
             </div>
            
             <div class="fromRight">
