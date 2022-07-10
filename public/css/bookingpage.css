@@ -62,6 +62,7 @@ body{
     font-size: 16px;
     border: 1px solid rgb(76, 103, 104);
     border-radius: 10px;
+    cursor: pointer;
     transition: .4s;
     color: rgb(255, 255, 255);
     background-color: #688f91;
@@ -80,6 +81,7 @@ body{
     font-size: 16px;
     margin-top: 5%;
     margin-left: 60%;
+    cursor: pointer;
     transition: .4s;
 }
 
@@ -114,6 +116,7 @@ body{
 
 .text-header{
     width: 100%;
+    border-bottom: 1px solid silver;
     display: flex;
 }
 
@@ -138,43 +141,80 @@ body{
     margin-left: 90%;
 }
 
-.form-time{
-    width: 70%;
-    margin-left: 15%;
-    margin-top: -7%;
+.form-day{
+    width: 100%;
 }
 
-.form-time p{
+.form-day p{
+    margin-left: 10%;
+    font-size: 16px;
     cursor: default;
 }
 
-.form-time input{
-    width: 93%;
+.form-day input{
+    width: 75%;
     height: 40px;
+    margin-left: 12%;
     border-radius: 20px;
     padding-left: 15px;
     transition: .4s;
 }
 
-.form-time input:focus{
+.form-day input:focus{
     outline: none;
     border: 2px solid rgb(139, 139, 139);
 }
 
-.form-time button{
+.text-time{
+    width: 50%;
+}
+
+.text-time p{
+    margin-left: 20%;
+    font-size: 16px;
+    cursor: default;
+}
+
+.box-time{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form-time{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 0%;
+    
+}
+
+.box-time input{
+    width: 20%;
+}
+
+.form-timeB{
     width: 40%;
+}
+
+.form-timeB button{
+    width: 60%;
     height: 35px;
-    border-radius: 20px;
-    margin-left: 60%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    background-color: #597A7C;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: #688f91;
     color: #ffffff;
     font-size: 16px;
     cursor: pointer;
+    transition: .4s;
 }
 
-.w3-dropdown-hover{
+.form-timeB button:hover{
+    background-color: #4a6566;
+}
+
+
+/* .w3-dropdown-hover{
     width: 100%;
 }
 
@@ -200,7 +240,7 @@ body{
 .dropdow-item label{
     font-size: 16px;
     margin-left: -8%;
-}
+} */
 
 @media screen and (max-width: 360px){
     .big-section{
