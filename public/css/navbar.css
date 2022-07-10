@@ -1,7 +1,62 @@
+.bgmessi{
+  width: 100%;
+  height: 745px;
+  background-color: #E3EBED;
+}
+
+.section{
+  width: 100%;
+  display: flex;
+}
+
+.section-title{
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.section-title h5{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-title p{
+  font-size: 18px;
+}
+
+.section-title button{
+  margin-top: 5%;
+  width: 40%;
+  height: 35px;
+  margin-left: 25%;
+  font-size: 16px;
+  border: 1px solid silver;
+  transition: .4s;
+}
+
+.section-title button:hover{
+  color: white;
+  background-color: #84b5c1;
+}
+
+.section-im{
+  width: 40%;
+  height: 518px;
+  margin-left: 10%;
+  margin-top: 11.3%;
+}
+
+.section-im img{
+  width: 400px;
+  height: 650px;
+  margin-top: -8%;
+  margin-left: 25%;
+}
+
+
+
 .navbar{
     width: 100%;
-    height: 55px;
-    background-color: #E3EBED;
     display: flex;
   }
   
@@ -42,6 +97,7 @@
   .showuser .logout{
     color: rgb(8, 141, 90);
   }
+
 
   @media screen and (max-width: 360px){
 
