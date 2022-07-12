@@ -16,7 +16,8 @@ body{
 .detailsPay{
     width: 60%;
     margin-left: 20%;
-    border: 1px solid rgb(131, 129, 129) ;
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     border-radius: 25px;
     display: flex;
 }
@@ -40,6 +41,7 @@ body{
 
 .detailsRight p{
     font-size: 20px;
+    font: bold 40px;
 }
 
 .from-payB{
@@ -47,7 +49,8 @@ body{
     margin-left: 15%;
     margin-top: 2%;
     margin-bottom: 3%;
-    border: 1px solid rgb(131, 129, 129);
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     border-radius: 20px;
     display: flex;
 }
@@ -58,7 +61,8 @@ body{
 
 .box-icon{
     width: 23%;
-    border: 1.5px solid rgb(156, 154, 154);
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     border-radius: 25px;
     margin-left: 35%;
     margin-top: 5%;
@@ -78,7 +82,8 @@ body{
 
 .box-bank{
     width: 80%;
-    border: 1.5px solid rgb(156, 154, 154);
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     border-radius: 15px;
     margin-left: 10%;
     margin-top: 5%;
@@ -96,7 +101,7 @@ body{
     height: 35px;
     border-radius: 20px;
     margin-left: 10%;
-    margin-top: 8%;
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
 }
 
 .text-right{
@@ -111,6 +116,30 @@ body{
 .text-right p{
     margin-top: -5%;
     font-size: 18px;
+}
+
+.Text-note{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.Text-note h4{
+    margin-left: 2%;
+}
+
+.Text-note img{
+    width: 30px;
+    height: 30px;
+}
+
+.Text-note input{
+    width: 95%;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .qrCode{
@@ -128,7 +157,8 @@ body{
 
 .box-warn{
     width: 80%;
-    border: 1.5px solid rgb(156, 154, 154);
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     border-radius: 15px;
     margin-left: 10%;
     margin-bottom: 5%;
@@ -167,7 +197,8 @@ body{
 
 .icon-img{
     width: 23%;
-    border: 1.5px solid rgb(156, 154, 154);
+    border: 1px solid rgb(211, 210, 210);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
     border-radius: 25px;
     margin-left: 40%;
     margin-top: 5%;
@@ -220,7 +251,7 @@ body{
 }
 
 .btncf:hover{
-    background-color: #496364;
+    background-color: #506c6d;
 }
 
 .btncan{

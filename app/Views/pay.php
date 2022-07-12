@@ -75,6 +75,11 @@
                         </p>
                     </div>
                 </div>
+                <form action="<?= base_url('/Pay/p_update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
+                <div class="Text-note">
+                    <h4>เพิ่มเติม</h4>
+                    <input type="text" name="B_note" placeholder="เช่น ขอลูกบอลเพิ่ม 10ลูก" value="<?= set_value('B_note'); ?>">
+
                 <div class="Text-note">
                     <h4>เขียนหมายเขียน</h4>
                     <input type="text" placeholder="ช่องสำหรับเขียนหมายเหตุ">
@@ -86,7 +91,6 @@
                     <img src="/image/add-image.png" alt="">
                     <p>แนบสลิป</p>
                 </div>
-                <form action="<?= base_url('/Pay/p_update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
                 <input type="hidden" name="B_id" value="<?php echo  $booking['B_id']; ?>">
                 <div class="img-check">
                     <img src="/image/img.png"id="profileDisplay" onclick="triggerClick()" value="" alt=""  >

@@ -53,6 +53,7 @@ $routes->get('/cancel_pay/(:any)', 'Pay_admin::cancel_pay/$1');
 $routes->get('/report_admin', 'Report_admin::report_admin',['filter' => 'auth']);
 $routes->get('/promotion_admin', 'Index_admin::promotion_admin',['filter' => 'auth']);
 $routes->get('/historyadmin/(:num)', 'Historyadmin::historyadmin/$1',['filter' => 'auth']);
+$routes->get('/cancel_booking/(:any)', 'userhistory::cancel_booking/$1');
 
 
 
