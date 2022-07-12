@@ -8,7 +8,7 @@ class BookingModel extends Model
 {
     protected $table = 'booking';
     protected $primaryKey = 'B_id';
-    protected $allowedFields = ['B_id','B_idUser','B_idFeld','B_day','B_hour','B_img','B_status'];
+    protected $allowedFields = ['B_id','B_idUser','B_idFeld','B_day','B_hour','B_img','B_note','B_status'];
 
     public function totals() {
         $data = $this->db

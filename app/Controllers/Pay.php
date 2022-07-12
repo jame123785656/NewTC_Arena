@@ -47,7 +47,8 @@ class Pay extends Controller {
         $data = [
             'B_img' => $B_img,
             'B_status' => "2",
-            'B_hour' => $hour
+            'B_hour' => $hour,
+            'B_note' => $this->request->getVar('B_note')
         ];
         $model->update($B_id, $data);
         $ID = $session->get('ID');
