@@ -34,15 +34,21 @@ class Pay extends Controller {
     }
     public function p_update()
     {
+        $db      = \Config\Database::connect();
         $model = new BookingModel();
         $session = session();
         $B_id = $this->request->getVar('B_id');
         $file = $this->request->getFile('B_img');
         $B_img = $file->getRandomName();
+        $builder = $db->table('detail');
+        $builder->where('d_id',$B_id);
+        $hour = $builder->countAllResults();
         $file->move('../public/img_ slip', $B_img);
         $data = [
             'B_img' => $B_img,
-            'B_status' => "2"
+            'B_status' => "2",
+            'B_hour' => $hour,
+            'B_note' => $this->request->getVar('B_note')
         ];
         $model->update($B_id, $data);
         $ID = $session->get('ID');
