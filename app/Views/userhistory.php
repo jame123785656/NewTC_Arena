@@ -62,19 +62,21 @@
                                             } else if ($bookings['B_status'] === '7') {
                                                 echo 'red';
                                             } ?>><?php echo $bookings['S_name']; ?>
+                                    <?php if ($bookings['B_status'] == 2) : ?>
+                                        <a href="/cancel_booking/<?php echo $bookings['B_id'] ?>"><button class="btnCf-pay" type="button">ยกเลิกการจอง</button></a>
+                                    <?php else : ?>
+
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
                                 </td>
                             </div>
-                            <td><?php if ($bookings['B_status'] == 2) : ?>
-                                    <a href="/cancel_booking/<?php echo $bookings['B_id'] ?>"><button class="btnCf-pay" type="button">ยกเลิกการจอง</button></a>
-                            </td>
-                        <?php else : ?>
 
-                        <?php endif; ?>
-                    <?php endforeach; ?>
-                <?php endif; ?>
                         </tr>
+
+
         </div>
-            </table>
+        </table>
     </div>
 
 </body>
