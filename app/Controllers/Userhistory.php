@@ -14,4 +14,14 @@ class Userhistory extends Controller
         $data['detail'] = $DetailModel->join('Time','detail.t_id = time.T_id')->orderBy('d_id', 'Asc')->findAll();
         echo view('userhistory',$data);
     }
+    public function cancel_booking($B_id) {
+        $session = session();
+        $model = new BookingModel();
+        $data = [
+            'B_status' => "7"
+        ];
+        $model->where('B_id', $B_id)->set($data)->update();
+        $ID = $session->get('ID');
+        return redirect()->to('/userhistory/'.$ID);
+    }
 }
