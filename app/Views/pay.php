@@ -79,6 +79,10 @@
                 <div class="Text-note">
                     <h4>เพิ่มเติม</h4>
                     <input type="text" name="B_note" placeholder="เช่น ขอลูกบอลเพิ่ม 10ลูก" value="<?= set_value('B_note'); ?>">
+
+                <div class="Text-note">
+                    <h4>เขียนหมายเขียน</h4>
+                    <input type="text" placeholder="ช่องสำหรับเขียนหมายเหตุ">
                 </div>
             </div>
            
