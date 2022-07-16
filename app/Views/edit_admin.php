@@ -19,10 +19,11 @@
 
 
 <body>
+<?php require('component/navbar_admin.php') ?>
   <div class="text-header">
     <form action="<?= base_url('/Index_admin/update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
         <input type="hidden" name="F_ID" value="<?php echo  $field['F_ID']; ?>">
-                <h3>แก้ไขข้อมูลสนาม</h3>
+                <center><h2>แก้ไขข้อมูลสนาม</h2></center>
                 <br>
                 <img src="/adminimage_stadium/<?php echo $field['f_image'] ?>">
                <input type="file" name="f_image"  accept="adminimage_stadium/*">

@@ -9,9 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/historyadmin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/history.css'); ?>" >
+    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_admin.css'); ?>" >
     <title>ประวัติการจอง</title>
 </head>
 <body>
+<?php require('component/navbar_admin.php') ?>
 
 
     <div class="box-table">
@@ -19,13 +21,13 @@
         <div class="items-table">
             <table>
             <tr>
-                <th>วัน/เวลาที่จอง</th>
-                <th>สนามที่จอง</th>
-                <th>เวลา</th>
-                <th>จำนวนชั่วโมง</th>
-                <th>จำนวนเงิน</th>
-                <th>สลิป</th>
-                <th>สถานะ</th>
+                <th bgcolor="#DDD">วัน/เวลาที่จอง</th>
+                <th bgcolor="#DDD">สนามที่จอง</th>
+                <th bgcolor="#DDD">เวลา</th>
+                <th bgcolor="#DDD">จำนวนชั่วโมง</th>
+                <th bgcolor="#DDD">จำนวนเงิน</th>
+                <th bgcolor="#DDD">สลิป</th>
+                <th bgcolor="#DDD">สถานะ</th>
             </tr>
           
 <?php if ($booking) : ?>
@@ -66,7 +68,7 @@
         
         </table>
         <br>
-       <a href="/manageuser"> <button > ย้อนกลับ</button></a>
+       <a href="/manageuser"><h3>ย้อนกลับ</h3></a>
     </div>    
 
 </body>

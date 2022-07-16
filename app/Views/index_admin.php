@@ -21,9 +21,14 @@
   <?php require('component/navbar_admin.php') ?>
 
   <div class="text-section">
-    <p>จัดการสนาม</p>
-    <h4 onclick="openForm()"><i class="fas fa-plus"></i></h4>
+    <h1>จัดการสนาม</h1> 
+    <h4 onclick="openForm()"><i class="fas fa-plus" ></i></h4>
+
   </div>
+
+  <hr width="60%">
+  
+
 
   <div class="box-card">
     <div class="row">

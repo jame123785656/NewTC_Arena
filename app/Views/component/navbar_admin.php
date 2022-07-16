@@ -15,12 +15,12 @@
 
     <!-- navbar -->
     <div class="navbar">
-        <div class="logo">
+        <!-- <div class="logo">
             <img src="/image/image1.png" alt="">
-        </div>
+        </div> -->
         <div class="menu-section">
             <a href="/report_admin">
-                <p>สรุปยอด</p>
+                <p>Dashboard</p>
             </a>
             <a href="/index_admin">
                 <p>จัดการสนาม</p>
@@ -28,11 +28,11 @@
             <a href="/promotion_admin">
                 <p>จัดการโปรโมชั่น</p>
             </a>
-            <a href="/pay_admin">
-                <p>จัดการการชำระเงิน</p>
-            </a>
             <a href="/manageuser">
-                <p>จัดการข้อมูลลูกค้า</p>
+                <p>จัดการข้อมูลผู้ใช้</p>
+            </a>
+            <a href="/pay_admin">
+                <p>ตรวจสอบการชำระเงิน</p>
             </a>
         </div>
         <div class="showuser">
