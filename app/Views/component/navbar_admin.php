@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Athiti">
     
 </head>
 
@@ -35,7 +37,7 @@
         </div>
         <div class="showuser">
             <a href="#" class="imguser"><img src="/img/<?php echo $session->get('image') ?>" alt=""></a>
-            <p><?php echo  $session->get('username'); ?></p>
+            <p><?php echo  $session->get('username'); ?> / </p>
             <a href="/logout"  class="logout">
                 <p>ออกจากระบบ</p>
             </a>

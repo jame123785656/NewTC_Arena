@@ -1,7 +1,11 @@
+body {
+  font-family: 'Athiti', serif;
+}
+
 .navbar{
     width: 100%;
     height: 55px;
-    background-color: #E3EBED;
+    background-color: #111F2C;
     display: flex;
   }
   
@@ -27,13 +31,14 @@
   
   .menu-section a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   .showuser{
     width: 15%;
     display: flex;
     margin-left: 5%;
+    color: white;
   }
   
   .imguser img{
@@ -44,7 +49,7 @@
   
   .showuser a{
     text-decoration: none;
-    color:  #3c5355;
+    color:  #ffffff;
     margin-left: 0%;
   }
    .showuser .logout{
@@ -62,5 +67,5 @@
     text-align: center;
     margin-top: 10%;
     font-size: 15px;
-    color: rgb(158, 3, 3);
+    color: rgb(255, 0, 0);
   } 
