@@ -340,7 +340,9 @@ body{
 .Green{
   color: #17fa03;
 }
-
+.yellow{
+  color: #adb813;
+}
 .card-report{
   box-shadow: 0 4px 8px 0 rgba(68, 59, 59, 0.863);
   max-width: 200px;

@@ -24,6 +24,10 @@
                     <div class="detailsLeft">
                         <input type="hidden" name="B_id" value="<?php echo  $booking['B_id']; ?>"> 
                         <img src="/img_ slip/<?php echo $booking['B_img'] ?>">
+                        <h6 class=<?php if ($booking['B_status'] === '2') {
+                                                echo 'yellow';
+                                            } else if ($booking['B_status'] === '7') {
+                                                echo 'red';} ?>>สถานะ: <?php echo $booking['S_name']; ?></h6>
                     </div>
                     <div class="detailsRight">
                         <h3><?php echo $booking['Name']; ?></h3><hr>
