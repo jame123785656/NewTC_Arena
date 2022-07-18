@@ -10,7 +10,7 @@
   <!-- ส่วนประกอบเพิ่มเติม -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/login.css'); ?>" >
-    <title>เข้าสู่ระบบ</title>
+    <title>ลืมรหัสผ่าน</title>
 </head>
 <body>
 
@@ -19,30 +19,20 @@
                 <div class="boxLeft">
                     <div class="tableName">
                         
-                        <h2 class="loginText">เข้าสู่ระบบ</h2>
+                        <h2 class="loginText">ลืมรหัสผ่าน</h2>
                         <?php if (session()->getFlashdata('msg')) : ?>
                             <div class="alert alert-danger"><?= session()->getFlashdata('msg'); ?></div>
                         <?php endif; ?>
 
-                        <form action="/login/auth" method="post">
+                        <form action="/Forgotpassword/sendemail" method="post">
                             <p for="Email">อีเมล์*</p>
                             <input type="text" name="Email" placeholder="username@gmail.com" id="inputforEmail" required=""oninvalid="this.setCustomValidity('กรุณากรอกอีเมล์')" oninput="this.setCustomValidity('')" value="<?= set_value('Email'); ?>">
                             </asp:TextBox>
 
-                            <p for="inputpassword">รหัสผ่าน*</p>
-                            <input type="password" name="password" placeholder="password" required=""oninvalid="this.setCustomValidity('กรุณากรอกรหัสผ่าน')" 
-                            oninput="this.setCustomValidity('')" id="inputforpassword">
-                            </asp:TextBox>
                     </div>
                     <button type="submit" class="btnLogin">เข้าสู่ระบบ</button></a>
                     <a href="/index"><button type="button" class="btnback">ย้อนกลับ</button></a>
                     </form>
-                    <a href="/forgotpassword" class="">
-                        <p>ลืมรหัสผ่าน</p>
-                    </a>
-                    <a href="/register" class="regis">
-                        <p>สมัครสมาชิก?</p>
-                    </a>
                 </div>
                 <div class="boxRight">
                     <img src="/image/image1.png" alt="">
@@ -50,17 +40,6 @@
         </div>
     </div>
     
-  <script>
-    $(document).ready(function() {
-      <?php if (session()->getFlashdata('swel_title')) { ?>
-        swal({
-          title: "<?= session()->getFlashdata('swel_title') ?>",
-          text: "<?= session()->getFlashdata('swel_text') ?>",
-          icon: "<?= session()->getFlashdata('swel_icon') ?>",
-          button: "<?= session()->getFlashdata('swel_button') ?>",
-        });
-      <?php } ?>
-    });
-  </script>
+
 </body>
 </html>

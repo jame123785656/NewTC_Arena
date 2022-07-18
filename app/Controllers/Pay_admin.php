@@ -12,8 +12,9 @@ class pay_admin extends Controller {
         helper(['form']);
         $BookingModel = new BookingModel();
         $DetailModel = new DetailModel();
-        $data['booking'] = $BookingModel->join('field','booking.B_idFeld = field.F_ID')->
-        join('user','booking.B_idUser = user.ID')->where('B_status',2)->orderBy('B_id', 'Asc')->findAll();
+        $sql = "B_status IN (2,7)";
+        $data['booking'] = $BookingModel->join('field','booking.B_idFeld = field.F_ID')->join('statuss','booking.B_status = statuss.S_id')->
+        join('user','booking.B_idUser = user.ID')->where($sql)->orderBy('B_id', 'Asc')->findAll();
         
         $data['detail'] = $DetailModel->join('Time','detail.t_id = time.T_id')->orderBy('d_id', 'Asc')->findAll();
         echo view('pay_admin',$data);
