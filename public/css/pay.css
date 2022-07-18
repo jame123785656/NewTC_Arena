@@ -118,6 +118,16 @@ body{
     font-size: 18px;
 }
 
+.textcolor{
+    width: 100%;
+    margin-top: -5%;
+}
+
+.textcolor h3{
+    font-size: 16px;
+    color: #adb813;
+}
+
 .Text-note{
     width: 80%;
     margin-left: 10%;

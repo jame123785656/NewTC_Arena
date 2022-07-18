@@ -73,9 +73,15 @@
                         ลูกค้ากรุณาตรวจสอบ ข้อมูลการจองและ
                         จำนวนเงินให้ถูกต้อง
                         </p>
+                        <h4>ข้อควรระวัง</h4>
+                        <div class="textcolor">
+                            <h3>:สถานะรอดำเนินการ</h3>
+                            <p>สามารถกดยกเลิกการจองได้แล้วรอพนักงานโทรกลับเพื่อโอนเงินคืน</p>
+                        </div>
+                        
                     </div>
                 </div>
-                <form action="<?= base_url('/Pay/p_update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
+        <form action="<?= base_url('/Pay/p_update') ?>" method="post" enctype="multipart/form-data" class="form-container-edit">
                 <div class="Text-note">
                     <h4>เพิ่มเติม</h4>
                     <input type="text" name="B_note" placeholder="เช่น ขอลูกบอลเพิ่ม 10ลูก" value="<?= set_value('B_note'); ?>">
