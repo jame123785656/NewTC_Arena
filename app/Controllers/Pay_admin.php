@@ -35,4 +35,12 @@ class pay_admin extends Controller {
         $model->where('B_id', $B_id)->set($data)->update();
         return redirect()->to('/pay_admin');
     }
+    public function Cancel_reservation($B_id) {
+        $model = new BookingModel();
+        $data = [
+            'B_status' => "8"
+        ];
+        $model->where('B_id', $B_id)->set($data)->update();
+        return redirect()->to('/pay_admin');
+    }
 }

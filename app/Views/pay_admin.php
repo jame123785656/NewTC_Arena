@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_Admin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/employee.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/pay_admin.css'); ?>" >
     <title>ตรวจสอบการชำระเงิน</title>
@@ -46,20 +45,25 @@
                             }?>
                         <?php endforeach; ?>
                             <?php endif; ?></p>
-                      
                         <p> <?php echo $count ?> ชั่วโมง ราคา <?= $sumprice[] = $booking['Price'] * $count?> บาท</p>
-                        <a href="/update_pay/<?php echo $booking['B_id']?>"><button class="btnCf-pay" type="button" >ยืนยัน</button></a>
-                        <a href="/cancel_pay/<?php echo $booking['B_id']?>"><button class="btnCancel-pay" type="button">ยกเลิก</button></a>
+
+                        <?php if ($booking['B_status'] == 2) : ?>
+                            <a href="/update_pay/<?php echo $booking['B_id']?>"><button class="btnCf-pay" type="button" >ยืนยัน</button></a>
+                            <a href="/cancel_pay/<?php echo $booking['B_id']?>"><button class="btnCancel-pay" type="button">ยกเลิก</button></a>
+                        <?php else : ?>
+                            <a href="/Cancel_reservation/<?php echo $booking['B_id']?>"><button class="btnCf-pay" type="button" >ยืนยันยกเลิกการจอง</button></a>
+                        <?php endif; ?>
+                        
                     </div>
                 </div>
                 <?php endforeach; ?>
                             <?php endif; ?>
+                 
             </div>
 
 
     
        
-      
       
 
 
