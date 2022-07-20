@@ -33,7 +33,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $protocol = 'mail';
+    public $protocol = 'smtp';
 
     /**
      * The server path to Sendmail.
@@ -47,28 +47,28 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPHost;
+    public $SMTPHost = 'in-v3.mailjet.com';
 
     /**
      * SMTP Username
      *
      * @var string
      */
-    public $SMTPUser;
+    public $SMTPUser = 'f77564f1255f7e1f400616a61544f587';
 
     /**
      * SMTP Password
      *
      * @var string
      */
-    public $SMTPPass;
+    public $SMTPPass = '76a2bcb7740ae65f3de7a8a7cf6721d4';
 
     /**
      * SMTP Port
      *
      * @var int
      */
-    public $SMTPPort = 25;
+    public $SMTPPort = 587;
 
     /**
      * SMTP Timeout (in seconds)
@@ -110,7 +110,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $mailType = 'text';
+    public $mailType = 'html';
 
     /**
      * Character set (utf-8, iso-8859-1, etc.)

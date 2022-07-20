@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_admin.css'); ?>">
   <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/employee.css'); ?>" >
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/promotion.css'); ?>">
 
@@ -21,6 +20,8 @@
   <center>
     <h1>จัดการการโปรโมชั่น</h1>
   </center>
+  <hr width="30%">
+  <br>
 
 
 
@@ -30,8 +31,8 @@
       <table style="width:100%">
         <tr>
           
-          <td>รายละเอียดโปรโมชั่น</td>
-          <td><img src="https://cdn.discordapp.com/attachments/934731258976677898/957855022903857152/plus_1.png" width="30px" height="30px" onclick="AddPromotion()"></td>
+          <th bgcolor="#DDD">รายละเอียดโปรโมชั่น</th>
+          <th bgcolor="#DDD"><img src="https://cdn.discordapp.com/attachments/934731258976677898/957855022903857152/plus_1.png" width="30px" height="30px" onclick="AddPromotion()"></th>
 
         </tr>
         <?php if ($promotion) : ?>

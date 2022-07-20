@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- CSS only -->
-  <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_admin.css'); ?>" >
   <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/employee.css'); ?>" >
   <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/manager.css'); ?>" >
   <title>จัดการผู้ใช้</title>
@@ -18,14 +17,16 @@
     <center>
         <h1>จัดการผู้ใช้</h1>
     <center>
+    <hr width="50%">
+    <br>
     <div class="table-style">
     <table style="width:100%">
      <tr>
-        <td>ชื่อลูกค้า</td>
-        <td>ชื่อ-นามสกุล</td>
-        <td>อีเมล์</td>
-        <td>เบอร์โทรศัพท์</td>
-        <td>สถานะ</td>
+        <td bgcolor="#DDD">ชื่อลูกค้า</td>
+        <td bgcolor="#DDD">ชื่อ-นามสกุล</td>
+        <td bgcolor="#DDD">อีเมล์</td>
+        <td bgcolor="#DDD">เบอร์โทรศัพท์</td>
+        <td bgcolor="#DDD">สถานะ </td>
       </tr>
       
       <?php if ($user) : ?>
@@ -39,8 +40,7 @@
                     echo 'red';
                   } else if($user['status']==='member'){
                     echo 'Green';
-                   } ?>><?php echo $user['status']?></td>
-        <td><a href="/historyadmin/<?php echo $user['ID']?>"> <img src="/image/iconeyes.png" width="15px" height="15px" ></a></td>
+                   } ?>><?php echo $user['status']?><a href="/historyadmin/<?php echo $user['ID']?>"> <img src="/image/iconeyes.png" width="15px" height="15px" align="right"></a></td>
       </tr>
       <?php endforeach; ?>
 <?php endif; ?>

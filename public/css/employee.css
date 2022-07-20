@@ -6,9 +6,11 @@ body{
 .text-section{
   width: 100%;
   display: flex;
+  text-align: center;
 }
 
-.text-section p{
+
+.text-section h1{
   margin-left: 43%;
   font-size: 30px;
   cursor: default;
@@ -91,7 +93,7 @@ body{
 }
 
 .btnEdit{
-  width: 50%;
+  width: 40%;
   height: 30px;
   border: 1px solid rgb(172, 171, 171);
   border-radius: 20px;
@@ -201,13 +203,14 @@ body{
 }
 
 .btnEdit{
-  width: 50%;
+  width: 40%;
   height: 30px;
   border: 1px solid rgb(172, 171, 171);
   border-radius: 20px;
   background-color: #EFB110;
   color: #ffffff;
   transition: .4s;
+  margin-left: 6%;
 }
 
 .btnEdit:hover{
@@ -340,7 +343,9 @@ body{
 .Green{
   color: #17fa03;
 }
-
+.yellow{
+  color: #adb813;
+}
 .card-report{
   box-shadow: 0 4px 8px 0 rgba(68, 59, 59, 0.863);
   max-width: 200px;

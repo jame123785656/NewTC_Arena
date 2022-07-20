@@ -12,7 +12,6 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_admin.css'); ?>">
   <title>จัดการสนาม</title>
 </head>
 
@@ -21,9 +20,14 @@
   <?php require('component/navbar_admin.php') ?>
 
   <div class="text-section">
-    <p>จัดการสนาม</p>
-    <h4 onclick="openForm()"><i class="fas fa-plus"></i></h4>
+    <h1>จัดการสนาม</h1> 
+    <h4 onclick="openForm()"><i class="fas fa-plus" ></i></h4>
+
   </div>
+
+  <hr width="60%">
+  
+
 
   <div class="box-card">
     <div class="row">

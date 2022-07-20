@@ -36,7 +36,7 @@ class Login extends Controller {
                 return redirect()->to('/user');
                 }
                 else if($data['status']==='admin'){
-                    return redirect()->to('/index_admin');
+                    return redirect()->to('/report_admin');
                 }
             } else {
                 $session->setFlashdata('msg', '*รหัสผ่านไม่ถูกต้อง*');
