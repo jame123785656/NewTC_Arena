@@ -50,6 +50,12 @@ body{
     height: 5px;
     border-radius: 20px;
   }
+  .sliver{
+    color: silver;
+    width: 10%;
+    height: 5px;
+    border-radius: 20px;
+  }
   
   .img:hover{
      transform:scale(4.0,8.0);

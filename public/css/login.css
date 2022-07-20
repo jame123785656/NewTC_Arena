@@ -91,6 +91,10 @@ body {
     text-decoration: none;
     color: rgb(218, 7, 7);
 }
+.forgot{
+    text-decoration: none;
+    color: rgb(91, 28, 180);
+}
 
 .alert{
    color: red;

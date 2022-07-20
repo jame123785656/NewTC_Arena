@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_Admin.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/report.css'); ?>">
 

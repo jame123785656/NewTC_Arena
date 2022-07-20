@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/historyadmin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/history.css'); ?>" >
-    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_admin.css'); ?>" >
+  
     <title>ประวัติการจอง</title>
 </head>
 <body>
@@ -55,6 +55,10 @@
                     echo 'red';
                    } else if($bookings['B_status']=== '2'){
                     echo 'yellow';
+                } else if ($bookings['B_status'] === '7') {
+                    echo 'red';
+                } else if ($bookings['B_status'] === '8') {
+                    echo 'sliver';
                    }?>><?php echo $bookings['S_name']; ?>
             
                

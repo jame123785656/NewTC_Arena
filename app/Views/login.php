@@ -37,7 +37,7 @@
                     <button type="submit" class="btnLogin">เข้าสู่ระบบ</button></a>
                     <a href="/index"><button type="button" class="btnback">ย้อนกลับ</button></a>
                     </form>
-                    <a href="/forgotpassword" class="">
+                    <a href="/forgotpassword" class="forgot">
                         <p>ลืมรหัสผ่าน</p>
                     </a>
                     <a href="/register" class="regis">
