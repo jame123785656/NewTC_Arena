@@ -3,6 +3,66 @@ body{
   margin: 0;
 }
 
+.bgmessi{
+  width: 100%;
+  height: 690px;
+  background-color: #E3EBED;
+}
+
+.section{
+  width: 100%;
+  display: flex;
+}
+
+.section-title{
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.section-title h5{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-title p{
+  font-size: 18px;
+}
+
+.section-title button{
+  margin-top: 5%;
+  width:  60%;
+  height: 35px;
+  margin-left: 15%;
+  font-size: 16px;
+  border: 1px solid silver;
+  cursor: default;
+  transition: .4s;
+}
+
+.section-title button:hover{
+  color: white;
+  background-color: #84b5c1;
+}
+
+.section-im{
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 11.3%;
+  
+}
+
+.section-im img{
+  width: 650px;
+  height: 650px;
+  margin-top: -17.5%;
+  margin-left: 15%;
+}
+
+.box-background{
+  width: 100%;
+}
+
 .box-top{
    width: 100%;
    margin-top: 4%;
@@ -10,25 +70,35 @@ body{
 }
 
 .section-text{
-  width: 40%;
-  margin-left: 7%;
-  font-size: 18px;
+  width: 30%;
+  margin-left: 0%;
   padding: 20px;
-  border: 1px solid silver;
-  border-radius: 10px;
-  background-color: #E3EBED;
+}
+
+.section-text h5{
+  font-size: 20px;
+  margin-top: -3%;
+  border-bottom: 1px solid silver;
+  cursor: default;
+}
+
+.section-text p{
+  font-size: 16px;
+  margin-top: -1%;
+  color: rgb(85, 84, 84);
+  cursor: default;
 }
 
 .section-img{
   width: 40%;
-  margin-left: 6%;
+  margin-left: 10%;
 }
 
 .section-img img{
   width: 400px;
   height: 250px;
-  margin-left: 17%;
-  border-radius: 20px
+  margin-left: 34%;
+  border-radius: 15px;
 }
 
 .box-bottom{
@@ -39,17 +109,40 @@ body{
 
 .google-map{
   width: 40%;
-  margin-left: 7%;
+  margin-left: 0%;
+}
+
+.google-map iframe{
+  width: 350px;
+  height: 200px;
+  border: 1px solid silver;
+  border-radius: 20px;
 }
 
 .text-service{
-  width: 30%;
+  width: 33%;
   padding: 20px;
-  font-size: 18px;
-  margin-left: 11%;
-  border: 1px solid silver;
-  border-radius: 10px;
-  background-color: #E3EBED;
+  margin-left: 22%;
+}
+
+.text-service p{
+  font-size: 16px;
+  margin-top: -1%;
+  color: rgb(85, 84, 84);
+  cursor: default;
+}
+
+.text-service h5{
+  font-size: 20px;
+  margin-top: -3%;
+  border-bottom: 1px solid silver;
+  cursor: default;
+}
+
+.text-service h3{
+  color: rgb(98, 165, 143);
+  font-size: 16px;
+  margin-top: -3%;
 }
 
 @media screen and (max-width: 360px){
