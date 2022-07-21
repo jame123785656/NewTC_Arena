@@ -21,8 +21,8 @@
 
         <div class="items-table">
             <table>
-                <tr>
-                    <th>สลิป</th>
+                <tr style="background-color: silver;">
+                    <th >สลิป</th>
                     <th>วัน/เวลาที่จอง</th>
                     <th>สนามที่จอง</th>
                     <th>เวลา</th>

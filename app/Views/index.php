@@ -24,10 +24,10 @@
             คุณจะได้พบกับสุดยอดความมันส์ในการเล่นบอลภายใต้สถานที่ที่ถูกออกแบบเพื่อสนอง 
               ความต้องการของคนรักฟุตบอล คุณสามารถสนุกกับการเล่นบอลได้ทุกสภาพอากาศ 
             </p>
-            <button>เกี่ยวกับ</button>
+            <button>เวลาเปิด-ปิด 9:00 - 22:00 น.</button>
         </div>
         <div class="section-im">
-          <img src="image/backgroundMessi.png" alt="">
+          <img src="image/blackg.png" alt="">
         </div>
     </div>
   </div>  

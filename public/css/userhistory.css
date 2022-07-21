@@ -41,6 +41,7 @@ body{
   border: 1px solid rgb(218, 69, 69);
   border-radius: 5px;
   color: rgb(218, 69, 69);
+  cursor: pointer;
   transition: .4s;
 }
 

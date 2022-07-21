@@ -33,32 +33,34 @@
                             <input type="password" name="password" placeholder="password" required=""oninvalid="this.setCustomValidity('กรุณากรอกรหัสผ่าน')" 
                             oninput="this.setCustomValidity('')" id="inputforpassword">
                             </asp:TextBox>
-                            </div>
-                            <button type="submit" class="btnLogin">เข้าสู่ระบบ</button></a>
-                            <a href="/index"><button type="button" class="btnback">ย้อนกลับ</button></a>
-                        </form>
-                          <a href="/register" class="regis">
-                            <p>สมัครสมาชิก?</p>
-                          </a>
                     </div>
-                        <div class="boxRight">
-                            <img src="/image/image1.png" alt="">
-                        </div>
+                    <button type="submit" class="btnLogin">เข้าสู่ระบบ</button></a>
+                    <a href="/index"><button type="button" class="btnback">ย้อนกลับ</button></a>
+                    </form>
+                    <a href="/forgotpassword" class="forgot">
+                        <p>ลืมรหัสผ่าน</p>
+                    </a>
+                    <a href="/register" class="regis">
+                        <p>สมัครสมาชิก?</p>
+                    </a>
+                </div>
+                <div class="boxRight">
+                    <img src="/image/image1.png" alt="">
+                </div>
         </div>
     </div>
     
-      <script>
-        $(document).ready(function() {
-          <?php if (session()->getFlashdata('swel_title')) { ?>
-            swal({
-              title: "<?= session()->getFlashdata('swel_title') ?>",
-              text: "<?= session()->getFlashdata('swel_text') ?>",
-              icon: "<?= session()->getFlashdata('swel_icon') ?>",
-              button: "<?= session()->getFlashdata('swel_button') ?>",
-            });
-          <?php } ?>
+  <script>
+    $(document).ready(function() {
+      <?php if (session()->getFlashdata('swel_title')) { ?>
+        swal({
+          title: "<?= session()->getFlashdata('swel_title') ?>",
+          text: "<?= session()->getFlashdata('swel_text') ?>",
+          icon: "<?= session()->getFlashdata('swel_icon') ?>",
+          button: "<?= session()->getFlashdata('swel_button') ?>",
         });
-      </script>
-      
+      <?php } ?>
+    });
+  </script>
 </body>
 </html>

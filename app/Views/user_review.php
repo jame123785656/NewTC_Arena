@@ -17,11 +17,6 @@
     
     <h3>รีวิวสนาม</h3>
     <div class="box-review">
-        <div class="showStar">
-        </div>
-        <div class="showTable">
-
-        </div>
         <div class="showBtn">
             <button type="button" onclick="openForm()">เขียนรีวิว</button>
         </div>
