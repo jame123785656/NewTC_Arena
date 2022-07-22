@@ -15,7 +15,6 @@
     
     <title>จองสนาม</title>
 </head>
-
 <body>
 
     <?php require('component/navbar_user.php') ?>
@@ -68,7 +67,7 @@
                 <div class="box-time">
                     <p>เวลาที่ต้องการจอง</p>
                     <div class="form-timeA">
-                        <label id="edittime"></lable>
+                       <label id="edittime"></lable>
                     </div> 
                     <div class="form-timeB">
                         <button class="btnform" type="submit">จองสนาม</button>

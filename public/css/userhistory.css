@@ -124,4 +124,11 @@ body{
   .img:hover{
     transform:scale(2.0,1.5);
   }
+
+  .btnCf-pay{
+    width: 100%;
+    height: 30px;
+    margin-top: 10%;
+    font-size: 10px;
+  }
 }
