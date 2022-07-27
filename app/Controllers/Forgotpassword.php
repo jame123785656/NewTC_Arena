@@ -42,9 +42,14 @@ class Forgotpassword extends Controller
 
 
             if ($email->send()) {
-                echo 'ส่งอีเมลเรียบร้อยแล้ว โปรดตรวจสอบภายใน15นาที';
+                $session->setFlashdata('swel_title', 'ส่งอีเมลเรียบร้อยแล้ว โปรดตรวจสอบภายใน15นาที');
+                // $session->setFlashdata('swel_text', 'โปรดเข้าสู่ระบบก่อนทำรายการ');
+                $session->setFlashdata('swel_icon', 'success');
+                $session->setFlashdata('swel_button', 'ตกลง');
+                return redirect()->to('/forgotpassword');
             } else {
-                print_r($email);
+                $data = $email->printDebugger(['headers']);
+                print_r($data);
             }
         } else {
             $session->setFlashdata('msg', '*ไม่พบอีเมล์*');
