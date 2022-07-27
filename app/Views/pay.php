@@ -33,7 +33,7 @@
                     <p>- เวลา <?php echo $details['T_start']; ?>-<?php echo $details['T_end']; ?></p>
                     <?php endforeach; ?>
                             <?php endif; ?>
-                    <p>   <?php echo count((array)$detail) ?> ชั่วโมง</p>       
+                    <p>   <?php echo count((array)$detail) ?> ชั่วโมง * <?php echo($booking['Price']) ?> บาท</p>       
                     <p>ราคารวม <?= $sumprice[] = $booking['Price'] * count ((array)$detail) ?> บาท </p> 
                             
                  
