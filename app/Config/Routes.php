@@ -50,10 +50,16 @@ $routes->get('/userhistory/(:num)', 'Userhistory::userhistory/$1',['filter' => '
 $routes->get('/pay_admin', 'Pay_admin::pay_admin',['filter' => 'auth']);
 $routes->get('/update_pay/(:any)', 'Pay_admin::update_pay/$1');
 $routes->get('/cancel_pay/(:any)', 'Pay_admin::cancel_pay/$1');
+$routes->get('/Cancel_reservation/(:any)', 'Pay_admin::Cancel_reservation/$1');
 $routes->get('/report_admin', 'Report_admin::report_admin',['filter' => 'auth']);
 $routes->get('/promotion_admin', 'Index_admin::promotion_admin',['filter' => 'auth']);
 $routes->get('/historyadmin/(:num)', 'Historyadmin::historyadmin/$1',['filter' => 'auth']);
 $routes->get('/cancel_booking/(:any)', 'userhistory::cancel_booking/$1');
+$routes->get('/forgotpassword', 'Forgotpassword::forgotpassword');
+$routes->get('/reset_password/(:any)', 'Forgotpassword::reset_password/$1');
+$routes->get('/report_all', 'report_admin::Report_All',['filter' => 'auth']);
+$routes->get('/payadmin_all', 'Pay_admin::Payadmin_All',['filter' => 'auth']);
+
 
 
 

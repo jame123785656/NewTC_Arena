@@ -37,9 +37,14 @@
                     <button type="submit" class="btnLogin">เข้าสู่ระบบ</button></a>
                     <a href="/index"><button type="button" class="btnback">ย้อนกลับ</button></a>
                     </form>
-                    <a href="/register" class="regis">
-                        <p>สมัครสมาชิก?</p>
-                    </a>
+                      <div class="section-pass">
+                          <a href="/register" class="regis">
+                              <p>สมัครสมาชิก?</p>
+                          </a>
+                          <a href="/forgotpassword" class="forgot">
+                              <p>ลืมรหัสผ่าน</p>
+                          </a>              
+                      </div>
                 </div>
                 <div class="boxRight">
                     <img src="/image/image1.png" alt="">

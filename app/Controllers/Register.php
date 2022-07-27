@@ -56,6 +56,8 @@ class Register extends Controller
                 'phone' => $this->request->getVar('phone'),
                 'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
                 'status' => "member",
+                'forgot_token' => "NULL",
+                'forgot_datetime' => "NULL",
                 'image' => "sadsadsadsada.jpg"
             ];
             if ($data) {

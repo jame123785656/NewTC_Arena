@@ -45,6 +45,7 @@ body {
     font-size: 15px;
     margin-top: 5%;
     color: white;
+    cursor: pointer;
     background-color: #517072;
     transition: .4s;
 }
@@ -63,6 +64,7 @@ body {
     font-size: 15px;
     margin-top: 16%;
     color: white;
+    cursor: pointer;
     background-color: #8d8f8f;
     transition: .4s;
 }

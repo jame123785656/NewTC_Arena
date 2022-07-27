@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/userhistory.css'); ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_user.css'); ?>">
     <title>ประวัติการจอง</title>
 </head>
 
@@ -21,8 +20,8 @@
 
         <div class="items-table">
             <table>
-                <tr>
-                    <th>สลิป</th>
+                <tr style="background-color: silver;">
+                    <th >สลิป</th>
                     <th>วัน/เวลาที่จอง</th>
                     <th>สนามที่จอง</th>
                     <th>เวลา</th>
@@ -61,8 +60,11 @@
                                                 echo 'yellow';
                                             } else if ($bookings['B_status'] === '7') {
                                                 echo 'red';
+                                            } else if ($bookings['B_status'] === '8') {
+                                                echo 'sliver';
                                             } ?>><?php echo $bookings['S_name']; ?>
                                     <?php if ($bookings['B_status'] == 2) : ?>
+                                        
                                         <a href="/cancel_booking/<?php echo $bookings['B_id'] ?>"><button class="btnCf-pay" type="button">ยกเลิกการจอง</button></a>
                                     <?php else : ?>
 
