@@ -7,15 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/employee.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/pay_admin.css'); ?>" >
-    <title>ตรวจสอบการชำระเงินวันนี้</title>
+    <title>ตรวจสอบชำระเงินทั้งหมด</title>
 </head>
 <body>
-
 <?php require('component/navbar_admin.php') ?>
-
-    <h4>ตรวจสอบการชำระเงินวันนี้</h4>
-    <a href="/payadmin_all"><button>รายการทั้งหมด</button></a>
+<h4>ตรวจสอบการชำระเงินทั้งหมด</h4>
     <hr width="50%">
+    <?php
+          $count = 0;
+          if ($booking) : ?>
+            <?php foreach ($booking as $bookings) : ?>
+              <?php if ($bookings) {
+                $count += 1;
+              } ?>
+            <?php endforeach; ?>
+          <?php endif; ?>
+          การจองทั้งหมด <?php echo $count ?> รายการ
             <div class="row">
                <div class="from-pay">
                      <?php if ($booking) : ?>
@@ -60,12 +67,5 @@
                             <?php endif; ?>
                  
             </div>
-
-
-    
-       
-      
-
-
 </body>
 </html>
