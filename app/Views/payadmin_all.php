@@ -11,8 +11,10 @@
 </head>
 <body>
 <?php require('component/navbar_admin.php') ?>
+<div class="big-cardpay">
 <h4>ตรวจสอบการชำระเงินทั้งหมด</h4>
     <hr width="50%">
+    <p class="num-transaction">
     <?php
           $count = 0;
           if ($booking) : ?>
@@ -23,6 +25,7 @@
             <?php endforeach; ?>
           <?php endif; ?>
           การจองทั้งหมด <?php echo $count ?> รายการ
+            </p>
             <div class="row">
                <div class="from-pay">
                      <?php if ($booking) : ?>
@@ -67,5 +70,6 @@
                             <?php endif; ?>
                  
             </div>
-</body>
+            </div>
+                        </body>
 </html>

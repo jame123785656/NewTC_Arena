@@ -15,11 +15,12 @@
 <body>
   <?php require('component/navbar_admin.php') ?>
 
+  <div class="big-cardman">
   <center>
     <h1>จัดการผู้ใช้</h1>
     <center>
       <hr width="50%">
-      <br>
+      
         <p class="num-user">
           <?php
           $count = 0;
@@ -35,11 +36,11 @@
       <div class="table-style">
         <table style="width:100%">
           <tr>
-            <td bgcolor="#DDD">ชื่อลูกค้า</td>
-            <td bgcolor="#DDD">ชื่อ-นามสกุล</td>
-            <td bgcolor="#DDD">อีเมล์</td>
-            <td bgcolor="#DDD">เบอร์โทรศัพท์</td>
-            <td bgcolor="#DDD">สถานะ </td>
+            <td bgcolor="#111F2C"><font color="white">ชื่อลูกค้า</font></td>
+            <td bgcolor="#111F2C"><font color="white">ชื่อ-นามสกุล</font></td>
+            <td bgcolor="#111F2C"><font color="white">อีเมล์</font></td>
+            <td bgcolor="#111F2C"><font color="white">เบอร์โทรศัพท์</font></td>
+            <td bgcolor="#111F2C"><font color="white">สถานะ </font></td>
           </tr>
 
           <?php if ($user) : ?>
@@ -61,7 +62,6 @@
       </div>
 
     </center>
-
-</body>
-
+</div>
+                        </body>
 </html>

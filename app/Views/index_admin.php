@@ -18,6 +18,7 @@
 
 <body>
   <?php require('component/navbar_admin.php') ?>
+  <div class="big-card">
 
   <div class="text-section">
     <h1>จัดการสนาม</h1>
@@ -180,7 +181,7 @@
   </script>
 
 
-
+  </div>
 </body>
 
 </html>

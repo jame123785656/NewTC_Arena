@@ -18,12 +18,25 @@
 
 .table-style {
     border-collapse: collapse;
-    background-color: #ddd;
+    background-color: white;
+    color: black;
+    border: 3px solid #DADBDB;
+    width: 1350px;
+    border-radius: 10px;
+    margin-left: 72px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.table-style1 {
+    border-collapse: collapse;
+    background-color: #111F2C;
+    color: black;
     border: 1px solid #DADBDB;
     width: 60%;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-left: 20%;
     margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 .form-time-report {
@@ -39,24 +52,24 @@
 
 
 td {
-    border-bottom: 2px solid #cfcbcb;
+    border-bottom: 2px solid #111F2C;
     text-align: center;
     padding: 8px;
+
 }
 
 th {
-    background-color: #70635f;
-    border: 1px solid #f7f2f2;
+    border: 1px solid #111F2C;
     text-align: center;
     padding: 8px;
+    color: black;
 }
 
 .row-report{
     display: grid;
-   grid-template-columns: repeat(3,2fr);
+   grid-template-columns: repeat(4,4fr);
    width: 100%;
-   row-gap: 40px;
-   margin-top: 25px;
+   margin-top: 3%;
    margin-left: 5%;
    margin-bottom: 2%;
    }
@@ -79,54 +92,77 @@ th {
 .card-success{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: 4px solid #4DDD53;
-    width: 40%;
-    height: 80%;
-    margin-left: 10%;
+    border: 2px solid #111F2C;
+    width: 60%;
+    height: 90%;
+    /* margin-left: 10%; */
     text-align: center;
-}
+}   
 
 .card-processing{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: 4px solid #EFB110;
-    width: 40%;
-    height: 80%;
-    margin-left: 10%;
+    border: 2px solid #111F2C;
+    width: 60%;
+    height: 90%;
+    /* margin-left: 2%; */
     text-align: center;
 }
-.card-alluser{
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 4px solid #0277a5;
-    width: 40%;
-    height: 80%;
-    margin-left: 10%;
-    text-align: center;
-}
+
 .card-income{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;;
-    border:1px solid #ddd;
-    box-shadow: 5px 5px 5px 5px #ddd;
-    width: 40%;
+    border:2px solid #111F2C;
+    width: 60%;
     height: 90%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     text-align: center;
-    margin-left: 60%;
+
 
 }
 .card-allincome{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;;
-    border:1px solid #ddd;
-    box-shadow: 5px 5px 5px 5px #ddd;
-    width: 40%;
+    border:2px solid #111F2C;
+    width: 60%;
     height: 90%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
     text-align: center;
-    margin-left: 60%;
+
 
 }
-
-
+.btn-all-transaction{
+    width: 15%;;
+    background-color: #ffffff;
+    margin-left: 83%;
+    transition: .4s;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    border-radius: 10px;
+    color: #111F2C;
+}
+.btn-all-transaction:hover{
+    background-color: #111F2C;
+    color: white;
+  }
+.text-today{
+    margin-left: 3%;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    cursor: default;
+    text-decoration: underline;
+}
+.big-card{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #DDD;
+}
+.text-header{
+    margin-left: 21%;
+    margin-top: 2%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
