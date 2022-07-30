@@ -9,6 +9,11 @@ h4{
     margin-left: 25%;
     width: 50%;
 }
+.row-1{
+  display: flex;
+  width: 100%;
+
+}
 
 
 .from-pay{
@@ -21,6 +26,17 @@ h4{
   margin-bottom: 10%;
 }
 
+.from-payall{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 80%;
+  row-gap: 30px;
+  margin-top: 2%;
+  margin-left: 190px;
+  margin-right: 0%;
+  margin-bottom: 10%;
+}
+
 .detailsPay{
     width: 90%;
     border: 1px solid rgb(131, 129, 129) ;
@@ -29,10 +45,20 @@ h4{
     background-color: #ffffff;
 }
 
+.detailsPayall{
+  width: 90%;
+  border: 1px solid rgb(131, 129, 129) ;
+  border-radius: 10px;
+  display: flex;
+  background-color: #ffffff;
+}
+
 .detailsLeft{
     width: 45%;
     margin-left: 2%;
 }
+
+
 
 .detailsLeft img{
     width: 65%;
@@ -43,11 +69,16 @@ h4{
 
 .detailsLeft img:hover{
     transform:scale(2.0,2.0);
- }
+}
 
 .detailsRight{
     width: 55%;
     margin-left: 0%;
+}
+
+.detailsRightall{
+  width: 70%;
+  margin-left: 2%;
 }
 
 .detailsRight p{
@@ -70,6 +101,26 @@ h4{
     background-color: #105e09;
     color : white ;
     border-radius: 10px;
+  }
+
+  .btnCf-ccpay{
+    width: 50%;
+    height: 35px;
+    background-color: #ffffff;
+    margin-left: 0%;
+    transition: .4s;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #1d9e11 ;
+
+  }
+
+  .btnCf-ccpay:hover{
+    background-color: #105e09;
+    color : white ;
+    border-radius: 10px;
+
   }
   
   .btnCancel-pay{
@@ -105,7 +156,7 @@ h4{
     color: white;
   }
   .num-transaction{
-    margin-left: 25%;
+    margin-left: 190px;
     font-size: 16px;
     color: rgb(0, 0, 0);
     cursor: default;
