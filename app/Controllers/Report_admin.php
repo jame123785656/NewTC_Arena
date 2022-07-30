@@ -29,7 +29,7 @@ class report_admin extends Controller
             }
         }
         $data['books'] = $model_booking->bookinglist(3);
-        $data['books_wait'] = $model_booking->bookinglist_wait(2);
+        $data['books_wait'] = $model_booking->bookinglist_wait(2,7);
         $DetailModel = new DetailModel();
         $data['detail'] = $DetailModel->join('Time', 'detail.t_id = time.T_id')->orderBy('d_id', 'Asc')->findAll();
         echo view('report_admin', $data);

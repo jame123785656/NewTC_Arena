@@ -51,10 +51,11 @@ class BookingModel extends Model
         return $data;
     }
 
-    public function bookinglist_wait($booking_pending) {
+    public function bookinglist_wait($num1,$num2) {
+        $sql = "B_status IN ($num1,$num2)";
         $data = $this->db
             ->table('booking')
-            ->where('B_status', $booking_pending)
+            ->where($sql)
             ->countAllResults();
         return $data;
     }
