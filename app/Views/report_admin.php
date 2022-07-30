@@ -9,40 +9,40 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/report.css'); ?>">
 
-    <title>สรุปยอด</title>
+    <title>หน้าแรก</title>
 </head>
 
 <body>
 
     <?php require('component/navbar_admin.php') ?>
+    <div class="big-card">
 
     <div class="row-report">
-    <div class="card-success">
-            <h2>จำนวนการจองสำเร็จ</h2>
-            <h3><?php echo $book_total; ?> รายการ</h3>
-        </div>
-        <div class="card-processing">
-            <h2>กำลังรอดำเนินการ</h2>
+    <div class="card-processing">
+            <h2>กำลังรอดำเนินการ  <img src="/image/time-left.png" alt="" width="30px" height="30px"></h2>
             <h3><?php echo $books_wait; ?> รายการ</h3>
         </div>
-        <div class="card-alluser">
-            <h2>ผู้ใช้บริการทั้งหมด</h2>
-            <h3><?php echo $count_id; ?> คน</h3>
+        <div cla
+    <div class="card-success">
+            <h2>จำนวนการจองสำเร็จ <img src="/image/checked.png" alt="" width="30px" height="30px"></h2>
+            <h3><?php echo $book_total; ?> รายการ</h3>
         </div>
         <div class="card-income">
-            <h2>รายได้เดือนปัจจุบัน</h2>
+            <h2>รายได้เดือนปัจจุบัน <img src="/image/money.png" alt="" width="30px" height="30px"></h2>
             <h3><?php echo $book_month; ?> บาท</h3>
         </div>
         <div class="card-allincome">
-            <h2>รายได้ทั้งหมด</h2>
+            <h2>รายได้ทั้งหมด <img src="/image/money-bag.png" alt="" width="30px" height="30px"></h2>
             <h3><?php echo $book_price; ?> บาท</h3>
         </div>
        
 
     </div>
-    <a href="/report_all"><button>รายการทั้งหมด</button></a>
+
     <div class="table-style">
         <table id="student-list">
+        <div class ="text-today"><h3>รายการจองวันนี้ <a href="/report_all"><button class="btn-all-transaction" type="button" ><h3>รายการทั้งหมด</h3></button></a></h3>
+        
             <thead>
                 <tr>
                     <td>วันที่จอง</td>
@@ -51,7 +51,6 @@
                     <td>เวลา</td>
                     <td>จำนวนชั่วโมง</td>
                     <td>สถานะ</td>
-
                 </tr>
             </thead>
             <?php if ($books) : ?>
@@ -77,7 +76,7 @@
             <?php endif; ?>
             </center>
         </table>
-
+        </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -88,6 +87,6 @@
         $('#student-list').DataTable();
     });
 </script>
-
+</div>
 
 </html>

@@ -16,18 +16,19 @@
 <?php require('component/navbar_admin.php') ?>
 
 
+<div class="big-card">
     <div class="box-table">
     <h1>ประวัติการจอง</h1>
         <div class="items-table">
             <table>
             <tr>
-                <th bgcolor="#DDD">วัน/เวลาที่จอง</th>
-                <th bgcolor="#DDD">สนามที่จอง</th>
-                <th bgcolor="#DDD">เวลา</th>
-                <th bgcolor="#DDD">จำนวนชั่วโมง</th>
-                <th bgcolor="#DDD">จำนวนเงิน</th>
-                <th bgcolor="#DDD">สลิป</th>
-                <th bgcolor="#DDD">สถานะ</th>
+                <th bgcolor="#111F2C"><font color="white">วัน/เวลาที่จอง</font></th>
+                <th bgcolor="#111F2C"><font color="white">สนามที่จอง</font></th>
+                <th bgcolor="#111F2C"><font color="white">เวลา</font></th>
+                <th bgcolor="#111F2C"><font color="white">จำนวนชั่วโมง</font></th>
+                <th bgcolor="#111F2C"><font color="white">จำนวนเงิน</font></th>
+                <th bgcolor="#111F2C"><font color="white">สลิป</font></th>
+                <th bgcolor="#111F2C"><font color="white">สถานะ</font></th>
             </tr>
           
 <?php if ($booking) : ?>
@@ -74,7 +75,7 @@
         <br>
        <a href="/manageuser"><h3>ย้อนกลับ</h3></a>
     </div>    
-
+    </div>
 </body>
 
 </html>

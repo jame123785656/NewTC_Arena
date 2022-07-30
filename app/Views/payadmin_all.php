@@ -11,8 +11,10 @@
 </head>
 <body>
 <?php require('component/navbar_admin.php') ?>
+<div class="big-cardpay">
 <h4>ตรวจสอบการชำระเงินทั้งหมด</h4>
-    <hr width="50%">
+    <hr width="85%">
+    <p class="num-transaction">
     <?php
           $count = 0;
           if ($booking) : ?>
@@ -23,11 +25,12 @@
             <?php endforeach; ?>
           <?php endif; ?>
           การจองทั้งหมด <?php echo $count ?> รายการ
-            <div class="row">
-               <div class="from-pay">
+            </p>
+            <div class="row-1">
+               <div class="from-payall">
                      <?php if ($booking) : ?>
                         <?php foreach ($booking as $booking) : ?>
-                 <div class="detailsPay">
+                 <div class="detailsPayall">
                     <div class="detailsLeft">
                         <input type="hidden" name="B_id" value="<?php echo  $booking['B_id']; ?>"> 
                         <img src="/img_ slip/<?php echo $booking['B_img'] ?>">
@@ -36,7 +39,7 @@
                                             } else if ($booking['B_status'] === '7') {
                                                 echo 'red';} ?>>สถานะ: <?php echo $booking['S_name']; ?></h6>
                     </div>
-                    <div class="detailsRight">
+                    <div class="detailsRightall">
                         <h3><?php echo $booking['Name']; ?></h3><hr>
                         <p>ชื่อ <?php echo $booking['name']; ?></p>
                         <p>เบอร์ <?php echo $booking['phone']; ?></p>
@@ -58,7 +61,7 @@
                             <a href="/update_pay/<?php echo $booking['B_id']?>"><button class="btnCf-pay" type="button" >ยืนยัน</button></a>
                             <a href="/cancel_pay/<?php echo $booking['B_id']?>"><button class="btnCancel-pay" type="button">ยกเลิก</button></a>
                         <?php else : ?>
-                            <a href="/Cancel_reservation/<?php echo $booking['B_id']?>"><button class="btnCf-pay" type="button" >ยืนยันยกเลิกการจอง</button></a>
+                            <a href="/Cancel_reservation/<?php echo $booking['B_id']?>"><button class="btnCf-ccpay" type="button" >ยืนยันยกเลิกการจอง</button></a>
                         <?php endif; ?>
                         
                     </div>
@@ -67,5 +70,6 @@
                             <?php endif; ?>
                  
             </div>
-</body>
+            </div>
+                        </body>
 </html>

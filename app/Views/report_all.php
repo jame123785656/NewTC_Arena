@@ -11,17 +11,19 @@
 </head>
 <body>
 <?php require('component/navbar_admin.php') ?>
-<h3>รายการจองสำเร็จทั้งหมด</h3>
-<div class="table-style">
+<div class="big-card">
+<div class = "text-header"><h2>รายการจองสำเร็จทั้งหมด</h2></div>
+<div class="table-style1">
+<br>
         <table id="student-list">
             <thead>
                 <tr>
-                    <td>วันที่จอง</td>
-                    <td>ชื่อลูกค้า</td>
-                    <td>สนามที่จอง</td>
-                    <td>เวลา</td>
-                    <td>จำนวนชั่วโมง</td>
-                    <td>สถานะ</td>
+                    <td><font color="white"> วันที่จอง</font></td>
+                    <td><font color="white">ชื่อลูกค้า</font></td>
+                    <td><font color="white">สนามที่จอง</font></td>
+                    <td><font color="white">เวลา</font></td>
+                    <td><font color="white">จำนวนชั่วโมง</font></td>
+                    <td><font color="white">สถานะ</font></td>
 
                 </tr>
             </thead>
@@ -58,5 +60,6 @@
         $('#student-list').DataTable();
     });
 </script>
+</div>
 </body>
 </html>

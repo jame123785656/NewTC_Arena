@@ -12,10 +12,10 @@
 <body>
 
 <?php require('component/navbar_admin.php') ?>
-
+<div class="big-cardpay">
     <h4>ตรวจสอบการชำระเงินวันนี้</h4>
-    <a href="/payadmin_all"><button>รายการทั้งหมด</button></a>
     <hr width="50%">
+    <a href="/payadmin_all"><button class="btn-all-transaction" type="button" ><h3>รายการทั้งหมด</h3></button></a>
             <div class="row">
                <div class="from-pay">
                      <?php if ($booking) : ?>
@@ -66,6 +66,6 @@
        
       
 
-
+            </div>
 </body>
 </html>

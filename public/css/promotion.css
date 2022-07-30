@@ -1,9 +1,8 @@
 .table-style{
     border-collapse: collapse;
-    background-color:rgba(255, 255, 255, 0.867) ;
-    border: 1px solid #DADBDB;
+    background-color:white ;
     width: 40%;
-    border-radius: 2%;
+    border-radius: 10px;
     
  
 
@@ -18,7 +17,7 @@
     }
 
     th{
-        background-color: #eeeeee;
+        background-color: #111F2C;
         border: 1px solid #f7f2f2;
         text-align: center;
         padding: 10px;
@@ -130,4 +129,13 @@
     width: 40%;
     margin-left: 30%;
   }
-  
+  .big-cardpro{
+
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      border: 1px solid #DDD;
+      margin-bottom: 20px;
+      height: 600px;
+  }
