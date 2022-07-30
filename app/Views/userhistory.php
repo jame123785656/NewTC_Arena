@@ -20,8 +20,8 @@
 
         <div class="items-table">
             <table>
-                <tr>
-                    <th>สลิป</th>
+                <tr style="background-color: silver;">
+                    <th >สลิป</th>
                     <th>วัน/เวลาที่จอง</th>
                     <th>สนามที่จอง</th>
                     <th>เวลา</th>
@@ -64,6 +64,7 @@
                                                 echo 'sliver';
                                             } ?>><?php echo $bookings['S_name']; ?>
                                     <?php if ($bookings['B_status'] == 2) : ?>
+                                        
                                         <a href="/cancel_booking/<?php echo $bookings['B_id'] ?>"><button class="btnCf-pay" type="button">ยกเลิกการจอง</button></a>
                                     <?php else : ?>
 

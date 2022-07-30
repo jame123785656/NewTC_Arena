@@ -18,15 +18,16 @@
 
 <body>
   <?php require('component/navbar_admin.php') ?>
+  <div class="big-card">
 
   <div class="text-section">
-    <h1>จัดการสนาม</h1> 
-    <h4 onclick="openForm()"><i class="fas fa-plus" ></i></h4>
+    <h1>จัดการสนาม</h1>
+    <h4 onclick="openForm()"><i class="fas fa-plus"></i></h4>
 
   </div>
 
   <hr width="60%">
-  
+
 
 
   <div class="box-card">
@@ -35,26 +36,39 @@
       <?php if ($field) : ?>
         <?php foreach ($field as $field) : ?>
           <div class="card">
-            <input type="hidden" name="F_ID" value="<?php echo  $field['F_ID']; ?>">
-            <h3 class="title-section"><?php echo $field['Name']; ?></h3>
-            <div class="img-show">
-              <img src="/adminimage_stadium/<?php echo $field['f_image'] ?>">
-            </div>
-            <div class="text-show">
-              <h3><?php echo $field['T_name']; ?></h3>
-              <p class=<?php if ($field['f_status'] === '5') {
-                          echo 'Green';
-                        } else if ($field['f_status'] === '6') {
-                          echo 'red';
-                        } ?>>สถานะ:<?php echo $field['S_name'] ?></p>
-              <p>รองรับผู้เล่นได้มากสุด <?php echo $field['person']; ?> คน</p>
-              <p>อัตราค่าบริกการ ชั่วโมงละ <?php echo $field['Price']; ?> บาท</p>
-              <p><?php echo $field['p_name']; ?></p>
-            </div>
-            <div class="btn-show">
-              <a href="<?php echo base_url('/edit_admin/' . $field['F_ID']) ?>"><button type="button" class="btnEdit">แก้ไข</button></a>
-              <a href="<?php echo base_url('/Index_admin/delete/' . $field['F_ID']) ?>"> <button type="button" class="btndelete">ลบ</button></a>
-            </div>
+              <input type="hidden" name="F_ID" value="<?php echo  $field['F_ID']; ?>">
+              <div class="title-section">
+                  <h3><?php echo $field['Name']; ?></h3>
+                  <p>
+                  <?php
+                    $count = 0;
+                    if ($booking) : ?>
+                      <?php foreach ($booking as $bookings) : ?>
+                        <?php if ($field['F_ID'] == $bookings['B_idFeld']) {
+                          $count += 1;
+                        } ?>
+                      <?php endforeach; ?>
+                    <?php endif; ?>
+                    จำนวนการจอง <?php echo $count ?> ครั้ง</p>
+                </div>
+              <div class="img-show">
+                <img src="/adminimage_stadium/<?php echo $field['f_image'] ?>">
+              </div>
+              <div class="text-show">
+                <h3><?php echo $field['T_name']; ?></h3>
+                <p class=<?php if ($field['f_status'] === '5') {
+                            echo 'Green';
+                          } else if ($field['f_status'] === '6') {
+                            echo 'red';
+                          } ?>>สถานะ:<?php echo $field['S_name'] ?></p>
+                <p>รองรับผู้เล่นได้มากสุด <?php echo $field['person']; ?> คน</p>
+                <p>อัตราค่าบริกการ ชั่วโมงละ <?php echo $field['Price']; ?> บาท</p>
+                <p><?php echo $field['p_name']; ?></p>
+              </div>
+              <div class="btn-show">
+                <a href="<?php echo base_url('/edit_admin/' . $field['F_ID']) ?>"><button type="button" class="btnEdit">แก้ไข</button></a>
+                <a href="<?php echo base_url('/Index_admin/delete/' . $field['F_ID']) ?>"> <button type="button" class="btndelete">ลบ</button></a>
+              </div>
           </div>
         <?php endforeach; ?>
       <?php endif; ?>
@@ -167,7 +181,7 @@
   </script>
 
 
-
+  </div>
 </body>
 
 </html>
