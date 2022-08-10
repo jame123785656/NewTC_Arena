@@ -20,7 +20,9 @@ class index_admin extends Controller
         $PromotionModel = new PromotionModel();
         $TypeModel = new TypeModel();
         $BookingModel = new BookingModel();
-        $data['booking'] = $BookingModel->join('field','booking.B_idFeld = field.F_ID')->where('B_status',3)->orderBy('B_id', 'Asc')->findAll();
+        $X = date('m');
+        $m = '%-'.$X.'-%';
+        $data['booking'] = $BookingModel->join('field','booking.B_idFeld = field.F_ID')->where("B_status = 3 AND(B_day = YEAR(NOW()))")->like('B_day',$m)->orderBy('B_id', 'Asc')->findAll();
         $data['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
         $data['type'] = $TypeModel->orderBy('T_id', 'Asc')->findAll();
         $data['field'] = $FieldModel->join('type', 'field.type = type.T_id')->join('promotion', 'field.Promotion = promotion.p_id')->join('statuss', 'field.f_status = statuss.S_id')->orderBy('F_ID', 'Asc')->findAll();
