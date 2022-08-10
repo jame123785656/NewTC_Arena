@@ -115,6 +115,7 @@ body{
   border-radius: 20px;
   background-color: #EFB110;
   color: #ffffff;
+  cursor: pointer;
   transition: .4s;
 }
 
@@ -129,6 +130,7 @@ body{
   border-radius: 20px;
   background-color: rgb(243, 9, 9);
   color: rgb(255, 255, 255);
+  cursor: pointer;
   transition: .4s;
 }
 

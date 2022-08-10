@@ -10,7 +10,7 @@
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/historyadmin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/history.css'); ?>" >
   
-    <title>ประวัติการจอง</title>
+    <title>ประวัติการจองของลูกค้า</title>
 </head>
 <body>
 <?php require('component/navbar_admin.php') ?>

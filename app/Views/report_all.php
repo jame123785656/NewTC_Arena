@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/report.css'); ?>">
-    <title>รายการทั้งหมด</title>
+    <title>รายการจองทั้งหมด</title>
 </head>
 <body>
 <?php require('component/navbar_admin.php') ?>
 <div class="big-card">
 <div class = "text-header"><h2>รายการจองสำเร็จทั้งหมด</h2></div>
+<h5 class="totalall">จำนวน <?php echo $book_total; ?> รายการ</h5>
 <div class="table-style1">
 <br>
         <table id="student-list">
