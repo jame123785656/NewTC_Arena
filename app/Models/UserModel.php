@@ -13,14 +13,5 @@ class UserModel extends Model
     public function register($data){
         $this->insert($data);
         return TRUE;
-    }
-
-    public function total() {
-        $data = $this->db
-            ->table('user')
-            ->countAllResults();
-        return $data;
-    }
-    
-    
+    }    
 }

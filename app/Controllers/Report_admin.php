@@ -3,7 +3,6 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\UserModel;
 use App\Models\BookingModel;
 use App\Models\DetailModel;
 
@@ -11,8 +10,6 @@ class report_admin extends Controller
 {
     public function Report_admin()
     {
-        $model_user = new UserModel();
-        $data['count_id'] = $model_user->total();
         $model_booking = new BookingModel();
         $data['book_total'] = $model_booking->totals(3);
         $data_ptotal = $model_booking->ytotal(3);
@@ -34,10 +31,12 @@ class report_admin extends Controller
         $data['detail'] = $DetailModel->join('Time', 'detail.t_id = time.T_id')->orderBy('d_id', 'Asc')->findAll();
         echo view('report_admin', $data);
     }
+    //------ฟังก์ชั่นหน้าจองสำเร็จทั้งหมด------//
     public function Report_All()
     {
         $model_booking = new BookingModel();
         $data['booking'] = $model_booking->bookingall(3);
+        $data['book_total'] = $model_booking->totalall(3);
         $DetailModel = new DetailModel();
         $data['detail'] = $DetailModel->join('Time', 'detail.t_id = time.T_id')->orderBy('d_id', 'Asc')->findAll();
         echo view('report_all',$data);
