@@ -35,7 +35,7 @@
 
       <?php if ($field) : ?>
         <?php foreach ($field as $field) : ?>
-          <div class="card">
+          <div class="card" id="div-f-<?= $field['F_ID'] ?>">
               <input type="hidden" name="F_ID" value="<?php echo  $field['F_ID']; ?>">
               <div class="title-section">
                   <h3><?php echo $field['Name']; ?></h3>
@@ -67,7 +67,7 @@
               </div>
               <div class="btn-show">
                 <a href="<?php echo base_url('/edit_admin/' . $field['F_ID']) ?>"><button type="button" class="btnEdit">แก้ไข</button></a>
-                <a href="<?php echo base_url('/Index_admin/delete/' . $field['F_ID']) ?>"> <button type="button" class="btndelete">ลบ</button></a>
+                 <button type="button" class="btndelete" onclick="deletefield(<?= $field['F_ID'] ?>)">ลบ</button>
               </div>
           </div>
         <?php endforeach; ?>
@@ -179,6 +179,35 @@
       <?php } ?>
     });
   </script>
+  <script>
+  function deletefield(f_id) {
+    swal({
+        title: "คุณเเน่ใจที่จะลบสนามหรือไม่?",
+        buttons: true,
+        icon: 'info',
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          $.ajax({
+            type: "POST",
+            url: "./ajax/ajax_deletefield.php",
+            dataType: "html",
+            data: {
+              f_id: f_id,
+            },
+            error() {
+              alert("มีบางอย่างผิดพลาด โปรดติดต่อผู้ดูแลระบบโดยด่วน!");
+            }
+          });
+          document.getElementById("div-f-" + f_id).style.display = "none";
+          swal("ยืนยันการลบสนามเสร็จสิ้น", {
+            icon: "success",
+          });
+        }
+      });
+  }
+</script>
 
 
   </div>
