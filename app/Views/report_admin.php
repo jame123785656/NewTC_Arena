@@ -18,8 +18,9 @@
     <div class="big-card">
         <div class="row-report">
             <div class="card-processing">
-                    <h2>กำลังรอดำเนินการ</h2>
-                    <h3><?php echo $books_wait; ?> รายการ</h3>
+                    <a href="/payadmin_all"><h2>กำลังรอดำเนินการ <img src="/image/clock.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $books_wait; ?> รายการ</h3></a>
+
             </div>
             <div class="card-success">
                     <h2>จำนวนการจองสำเร็จ <img src="/image/checked.png" alt="" width="30px" height="30px"></h2>

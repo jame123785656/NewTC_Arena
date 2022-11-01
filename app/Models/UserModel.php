@@ -10,8 +10,8 @@ class UserModel extends Model
     protected $primaryKey = 'ID';
     protected $allowedFields = ['ID', 'name','username','Email','phone','image','password','forgot_token','forgot_datetime','status'];
 
-    public function register($data){
-        $this->insert($data);
-        return TRUE;
-    }    
+    // public function register($data){
+    //     $this->insert($data);
+    //     return TRUE;
+    // }    
 }

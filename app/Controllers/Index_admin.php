@@ -89,20 +89,6 @@ class index_admin extends Controller
 
         return redirect()->to('/index_admin');
     }
-
-    public function delete($F_ID = null)
-    {
-        $session = session();
-        $FieldModel = new FieldModel();
-        $data['group_project'] = $FieldModel->where('F_ID', $F_ID)->delete($F_ID);
-        $session->setFlashdata('swel_title', 'ลบข้อมูลสำเร็จ');
-        // $session->setFlashdata('swel_text', 'โปรดเข้าสู่ระบบก่อนทำรายการ');
-        $session->setFlashdata('swel_icon', 'success');
-        $session->setFlashdata('swel_button', 'ตกลง');
-        return $this->response->redirect(site_url('/index_admin'));
-    }
-
-
     // -------------------------------------จัดการโปรโมชั่น
     public function promotion_admin()
     {

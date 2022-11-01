@@ -1,0 +1,90 @@
+ERROR - 2022-07-24 21:37:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-24 21:37:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employee@hotmai...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employee@hotmai...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+ERROR - 2022-07-24 21:40:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-24 21:40:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employee@hotmai...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employee@hotmai...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+ERROR - 2022-07-24 21:41:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-24 21:41:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employee@hotmai...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employee@hotmai...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+ERROR - 2022-07-24 21:43:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-24 21:43:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employee@hotmai...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employee@hotmai...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+ERROR - 2022-07-24 21:45:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-24 21:45:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employeesss@hot...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employeesss@hot...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
