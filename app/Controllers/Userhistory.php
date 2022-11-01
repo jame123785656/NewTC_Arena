@@ -24,4 +24,13 @@ class Userhistory extends Controller
         $ID = $session->get('ID');
         return redirect()->to('/userhistory/'.$ID);
     }
+    public function userhistory_delete($B_id) {
+        $session = session();
+        $DetailModel = new DetailModel();
+        $BookingModel = new BookingModel();
+        $data['detail'] = $DetailModel->where('d_id', $B_id)->delete($B_id);
+        $data['booking'] = $BookingModel->where('B_id', $B_id)->delete($B_id);
+        $ID = $session->get('ID');
+        return redirect()->to('/userhistory/'.$ID);
+    }
 }
