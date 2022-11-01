@@ -18,15 +18,16 @@
 
 <div class="big-card">
     <div class="box-table">
-    <h1>ประวัติการจอง</h1>
+    <h1>ประวัติการจองรอดำเนินการ</h1>
     <div>
    
     <?php if ($user) : ?>
         <h3><?php echo $user['name']; ?></h3>
-        <h4>สถานะ  
-        <button type="button" class="btnEdit"><a href="/historysucceed/<?php echo $user['ID'] ?>">สำเร็จ</a></button> 
-        <button type="button" class="btnEdit"><a href="/historypending/<?php echo $user['ID'] ?>">รอดำเนินการ</a></button>
-        <button type="button" class="btnEdit" Disabled><a href="/historycancel/<?php echo $user['ID'] ?>">ยกเลิก</a></button>
+        <h4>สถานะ
+        <button type="button" class="btnEdit"><a href="/historyadmin/<?php echo $user['ID'] ?>">ทั้งหมด</a></button>
+        <button type="button" class="btnEdit"><a href="/historysucceed/<?php echo $user['ID'] ?>">สำเร็จ</a></button>
+        <button type="button" class="btnEdit" Disabled>รอดำเนินการ</button>   
+        <button type="button" class="btnEdit"><a href="/historycancel/<?php echo $user['ID'] ?>">ยกเลิก</a></button>
 
         </h4>
     </div>
@@ -63,16 +64,8 @@
                 <td><?= $sumprice[] = $bookings['Price'] * $count?> บาท</td>
                 <td><img class="img" src="/img_ slip/<?php echo $bookings['B_img'] ?>"></td>
             <div class="colorhis">
-                <td class= <?php if($bookings['B_status']=== '3'){
-                    echo 'Green';
-                  } else if($bookings['B_status']=== '4'){
-                    echo 'red';
-                   } else if($bookings['B_status']=== '2'){
+                <td class= <?php if($bookings['B_status']=== '2'){
                     echo 'yellow';
-                } else if ($bookings['B_status'] === '7') {
-                    echo 'red';
-                } else if ($bookings['B_status'] === '8') {
-                    echo 'sliver';
                    }?>><?php echo $bookings['S_name']; ?>
             
                
