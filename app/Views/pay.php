@@ -7,7 +7,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/pay.css'); ?>" >
-    <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/navbar_user.css'); ?>" >
     <title>Pay</title>
 </head>
 <body>
@@ -34,7 +33,7 @@
                     <p>- เวลา <?php echo $details['T_start']; ?>-<?php echo $details['T_end']; ?></p>
                     <?php endforeach; ?>
                             <?php endif; ?>
-                    <p>   <?php echo count((array)$detail) ?> ชั่วโมง</p>       
+                    <p>   <?php echo count((array)$detail) ?> ชั่วโมง * <?php echo($booking['Price']) ?> บาท</p>       
                     <p>ราคารวม <?= $sumprice[] = $booking['Price'] * count ((array)$detail) ?> บาท </p> 
                             
                  
@@ -101,7 +100,7 @@
                 </div>
                 <div class="btnO">
                     <button class="btncf" type="submit">ยืนยัน</button>
-                    <a href="<?php echo base_url('/Pay/pay_delete/'.$booking['B_id'])?>"> <button class="btncan" type="button">ยกเลิก</button></a>
+                    <a href="<?php echo base_url('/pay_delete/'.$booking['B_id'])?>"> <button class="btncan" type="button">ยกเลิก</button></a>
                 </div>
             </div>
         </div>

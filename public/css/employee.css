@@ -6,9 +6,11 @@ body{
 .text-section{
   width: 100%;
   display: flex;
+  text-align: center;
 }
 
-.text-section p{
+
+.text-section h1{
   margin-left: 43%;
   font-size: 30px;
   cursor: default;
@@ -41,8 +43,24 @@ body{
 }
 
 .title-section{
-  font-size: 18px;
-  margin-left: 5%;
+  width: 100%;
+  height: 40px;
+  display: flex;
+
+}
+
+.title-section h3{
+  margin-top: 0%;
+  
+  text-align: left;
+  cursor: default;
+}
+
+.title-section p{
+  font-size: 12px;
+  margin-top: 2%;
+  margin-left: 40%;
+  color: silver;
   cursor: default;
 }
 
@@ -91,12 +109,13 @@ body{
 }
 
 .btnEdit{
-  width: 50%;
+  width: 40%;
   height: 30px;
   border: 1px solid rgb(172, 171, 171);
   border-radius: 20px;
   background-color: #EFB110;
   color: #ffffff;
+  cursor: pointer;
   transition: .4s;
 }
 
@@ -111,6 +130,7 @@ body{
   border-radius: 20px;
   background-color: rgb(243, 9, 9);
   color: rgb(255, 255, 255);
+  cursor: pointer;
   transition: .4s;
 }
 
@@ -201,13 +221,14 @@ body{
 }
 
 .btnEdit{
-  width: 50%;
+  width: 40%;
   height: 30px;
   border: 1px solid rgb(172, 171, 171);
   border-radius: 20px;
   background-color: #EFB110;
   color: #ffffff;
   transition: .4s;
+  margin-left: 6%;
 }
 
 .btnEdit:hover{
@@ -340,7 +361,9 @@ body{
 .Green{
   color: #17fa03;
 }
-
+.yellow{
+  color: #adb813;
+}
 .card-report{
   box-shadow: 0 4px 8px 0 rgba(68, 59, 59, 0.863);
   max-width: 200px;
@@ -351,6 +374,13 @@ body{
   
 }
 
-
+.big-card{
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #DDD;
+}
 
 

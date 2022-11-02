@@ -1,0 +1,1368 @@
+ERROR - 2022-07-25 01:09:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:09:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employee@hotmai...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employee@hotmai...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+ERROR - 2022-07-25 01:10:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:10:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('employee@hotmai...', 'Email', Array, NULL)
+#4 C:\xampp1\htdocs\TC_Arena\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Email', 'Email', 'employee@hotmai...', Array, Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp1\htdocs\TC_Arena\app\Controllers\Register.php(52): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#12 {main}
+ERROR - 2022-07-25 01:19:59 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:19:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+ERROR - 2022-07-25 01:20:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:20:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(42): CodeIgniter\Model->insert(Array)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 01:20:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:20:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fi...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp1\htdocs\TC_Arena\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(42): CodeIgniter\Model->insert(Array)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->insert()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-07-25 01:27:07 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 01:27:37 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 01:28:11 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-07-25 01:29:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:29:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+ERROR - 2022-07-25 01:29:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 01:29:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 01:29:15 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 01:29:54 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 01:29:55 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 02:03:36 --> Too few arguments to function App\Models\BookingModel::totals(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 14 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(14): App\Models\BookingModel->totals()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-07-25 02:12:49 --> Unknown column 'MONTH' in 'field list'
+CRITICAL - 2022-07-25 02:12:49 --> Unknown column 'MONTH' in 'field list'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 02:13:11 --> Unknown column 'BYYEAR from booking group by' in 'field list'
+CRITICAL - 2022-07-25 02:13:11 --> Unknown column 'BYYEAR from booking group by' in 'field list'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-07-25 02:40:00 --> Undefined index: Type
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 81, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(25): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:40:54 --> Undefined index: Type
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 81, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(25): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:41:15 --> Undefined index: Type
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 81, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(25): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:41:53 --> Undefined index: type
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 81, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(25): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:42:22 --> Undefined variable: B_id
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 41, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(25): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:44:35 --> Undefined index: Type
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 81, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(25): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:51:25 --> Undefined variable: bookings
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 46, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(27): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:51:36 --> Illegal string offset 'F_ID'
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 46, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(27): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:52:42 --> Undefined index: F_ID
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 46, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(27): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:52:43 --> Undefined index: F_ID
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 46, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(27): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:52:44 --> Undefined index: F_ID
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 46, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(27): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 02:52:45 --> Undefined index: F_ID
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\index_admin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 46, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Index_admin.php(27): view('index_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\index_admin->Index_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\index_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:22:44 --> Illegal string offset 'username'
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 45, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:22:58 --> Illegal string offset 'username'
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 45, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:22:59 --> Illegal string offset 'username'
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp1\\htdoc...', 45, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:25:08 --> Undefined index: status==member
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 28, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:25:28 --> Undefined offset: 0
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp1\\htdoc...', 28, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:26:24 --> Undefined index: status
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 26, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 03:28:39 --> Undefined index: status
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\manageuser.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp1\\htdoc...', 26, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('manageuser', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\manageuser.php(15): view('manageuser', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Manageuser->manageuser()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manageuser))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 16:09:53 --> Undefined variable: user
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\editprofile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('editprofile', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\User.php(73): view('editprofile', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User->editprofile('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 16:10:21 --> Undefined variable: user
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\editprofile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('editprofile', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\User.php(73): view('editprofile', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User->editprofile('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 16:10:57 --> Undefined variable: user
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\editprofile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('editprofile', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\User.php(73): view('editprofile', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User->editprofile('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 16:11:57 --> Undefined variable: user
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\editprofile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 18, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('editprofile', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\User.php(75): view('editprofile', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\User->editprofile('2')
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+ERROR - 2022-07-25 17:52:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2022-01-01'' at line 4
+CRITICAL - 2022-07-25 17:52:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2022-01-01'' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(15): App\Models\BookingModel->ytotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 17:52:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2022-01-01'' at line 4
+CRITICAL - 2022-07-25 17:52:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2022-01-01'' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(15): App\Models\BookingModel->ytotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 17:55:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2022-07-01'' at line 4
+CRITICAL - 2022-07-25 17:55:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '2022-07-01'' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 17:55:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '== '2022-07-01'' at line 4
+CRITICAL - 2022-07-25 17:55:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '== '2022-07-01'' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-07-25 18:15:47 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 18:16:03 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 18:16:29 --> Too few arguments to function App\Models\BookingModel::bookinglist(), 0 passed in C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php on line 28 and exactly 1 expected
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-07-25 18:16:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 3 AND `B_day` = curdate()
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 18:16:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 3 AND `B_day` = curdate()
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:16:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 3 AND `B_day` = curdate()
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 18:16:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 3 AND `B_day` = curdate()
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:26:52 --> Unknown column 'date' in 'where clause'
+CRITICAL - 2022-07-25 18:26:52 --> Unknown column 'date' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:31:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-07-25 18:31:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:31:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-07-25 18:31:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:32:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-07-25 18:32:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:33:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-07-25 18:33:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:35:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-07-25 18:35:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:35:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-07-25 18:35:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:37:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS MONTH' at line 4
+CRITICAL - 2022-07-25 18:37:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS MONTH' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:40:54 --> Unknown column 'NOW' in 'where clause'
+CRITICAL - 2022-07-25 18:40:54 --> Unknown column 'NOW' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(67): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:51:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+CRITICAL - 2022-07-25 18:51:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:52:17 --> FUNCTION tc_arena.DATEADD does not exist
+CRITICAL - 2022-07-25 18:52:17 --> FUNCTION tc_arena.DATEADD does not exist
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:52:31 --> Operand should contain 1 column(s)
+CRITICAL - 2022-07-25 18:52:31 --> Operand should contain 1 column(s)
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:52:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'now()' at line 4
+CRITICAL - 2022-07-25 18:52:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'now()' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,now())' at line 4
+CRITICAL - 2022-07-25 18:53:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+CRITICAL - 2022-07-25 18:53:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+CRITICAL - 2022-07-25 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+CRITICAL - 2022-07-25 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+CRITICAL - 2022-07-25 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+CRITICAL - 2022-07-25 18:53:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+CRITICAL - 2022-07-25 18:53:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATEADD(month,-3,now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:48 --> Unknown column 'month' in 'where clause'
+CRITICAL - 2022-07-25 18:53:48 --> Unknown column 'month' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:49 --> Unknown column 'month' in 'where clause'
+CRITICAL - 2022-07-25 18:53:49 --> Unknown column 'month' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:53:58 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-07-25 18:53:58 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:54:05 --> Operand should contain 1 column(s)
+CRITICAL - 2022-07-25 18:54:05 --> Operand should contain 1 column(s)
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 18:54:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3,now()' at line 4
+CRITICAL - 2022-07-25 18:54:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3,now()' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:01:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3,now()' at line 4
+CRITICAL - 2022-07-25 19:01:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3,now()' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:07:35 --> Unknown column 'now' in 'where clause'
+CRITICAL - 2022-07-25 19:07:35 --> Unknown column 'now' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:07:46 --> Unknown column 'NOW' in 'where clause'
+CRITICAL - 2022-07-25 19:07:46 --> Unknown column 'NOW' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:07:57 --> Unknown column 'now' in 'where clause'
+CRITICAL - 2022-07-25 19:07:57 --> Unknown column 'now' in 'where clause'
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:08:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where substring( B_day, 4, 2) = month(now())' at line 4
+CRITICAL - 2022-07-25 19:08:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where substring( B_day, 4, 2) = month(now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:08:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where substring(B_day, 4, 2) = month(now())' at line 4
+CRITICAL - 2022-07-25 19:08:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where substring(B_day, 4, 2) = month(now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:08:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where substring(B_day) = month(now())' at line 4
+CRITICAL - 2022-07-25 19:08:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where substring(B_day) = month(now())' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:38:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as B_day, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 19:38:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as B_day, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:38:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 19:38:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:38:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 19:38:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:39:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 19:39:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:40:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 19:40:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:40:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+CRITICAL - 2022-07-25 19:40:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as now, DATE(NOW()) AS date
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 8
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:42:10 --> Operand should contain 1 column(s)
+CRITICAL - 2022-07-25 19:42:10 --> Operand should contain 1 column(s)
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:42:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 10
+CRITICAL - 2022-07-25 19:42:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 10
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:42:55 --> Operand should contain 1 column(s)
+CRITICAL - 2022-07-25 19:42:55 --> Operand should contain 1 column(s)
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 19:43:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(NOW()))
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 9
+CRITICAL - 2022-07-25 19:43:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MONTH(NOW()))
+GROUP BY `B_id`
+ORDER BY `B_id` ASC' at line 9
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(28): App\Models\BookingModel->bookinglist(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 20:15:30 --> FUNCTION tc_arena.to_char does not exist
+CRITICAL - 2022-07-25 20:15:30 --> FUNCTION tc_arena.to_char does not exist
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 20:19:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' TO_DATE(B_day))' at line 4
+CRITICAL - 2022-07-25 20:19:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' TO_DATE(B_day))' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 20:22:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' TO_DATE(B_day))' at line 4
+CRITICAL - 2022-07-25 20:22:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' TO_DATE(B_day))' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-07-25 20:22:34 --> Undefined variable: where
+#0 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 75, Array)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2022-07-25 20:22:41 --> Call to undefined method App\Models\BookingModel::mtotal
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): CodeIgniter\Model->__call('mtotal', Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+ERROR - 2022-07-25 20:22:57 --> FUNCTION tc_arena.to_char does not exist
+CRITICAL - 2022-07-25 20:22:57 --> FUNCTION tc_arena.to_char does not exist
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+CRITICAL - 2022-07-25 20:26:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp1\\htdoc...', 20, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2022-07-25 20:27:10 --> Undefined variable: book_month
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\report_admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 34, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(33): view('report_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 20:27:28 --> Undefined variable: book_month
+#0 C:\xampp1\htdocs\TC_Arena\app\Views\report_admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp1\\htdoc...', 34, Array)
+#1 C:\xampp1\htdocs\TC_Arena\system\View\View.php(210): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\TC_Arena\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp1\htdocs\TC_Arena\system\Common.php(1089): CodeIgniter\View\View->render('report_admin', Array, true)
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(33): view('report_admin', Array)
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+CRITICAL - 2022-07-25 20:30:54 --> A non-numeric value encountered
+#0 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp1\\htdoc...', 71, Array)
+#1 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#2 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#3 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#4 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+ERROR - 2022-07-25 20:31:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%-07-%' at line 4
+CRITICAL - 2022-07-25 20:31:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%-07-%' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 20:32:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%07%' at line 4
+CRITICAL - 2022-07-25 20:32:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%07%' at line 4
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(Pric...', 0)
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(Pric...')
+#2 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(Pric...')
+#3 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT sum(Pric...', Array, false)
+#4 C:\xampp1\htdocs\TC_Arena\app\Models\BookingModel.php(78): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp1\htdocs\TC_Arena\app\Controllers\Report_admin.php(19): App\Models\BookingModel->mtotal(3)
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\report_admin->Report_admin()
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\report_admin))
+#8 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#11 {main}
+ERROR - 2022-07-25 22:47:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-07-25 22:47:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\TC_Arena\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp1\htdocs\TC_Arena\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp1\htdocs\TC_Arena\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp1\htdocs\TC_Arena\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp1\htdocs\TC_Arena\app\Controllers\Login.php(18): CodeIgniter\BaseModel->first()
+#5 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#6 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp1\htdocs\TC_Arena\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\TC_Arena\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\TC_Arena\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp1\\htdoc...')
+#10 {main}

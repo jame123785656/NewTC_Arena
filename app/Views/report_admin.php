@@ -6,45 +6,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_Admin.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/report.css'); ?>">
 
-    <title>สรุปยอด</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
 
     <?php require('component/navbar_admin.php') ?>
+    <div class="big-card">
+        <div class="row-report">
+            <div class="card-processing">
+                    <a href="/payadmin_all"><h2>กำลังรอดำเนินการ <img src="/image/clock.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $books_wait; ?> รายการ</h3></a>
 
-    <div class="row-report">
-        <div class="card-report">
-
-
-            <h2>ผู้ใช้บริการทั้งหมด</h2>
-            <h3><?php echo $count_id; ?> คน</h3>
+            </div>
+            <div class="card-success">
+                    <h2>จำนวนการจองสำเร็จ <img src="/image/checked.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $book_total; ?> รายการ</h3>
+            </div>
+            <div class="card-income">
+                    <h2>รายได้เดือนปัจจุบัน <img src="/image/money.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $book_month; ?> บาท</h3>
+            </div>
+            <div class="card-allincome">
+                    <h2>รายได้ทั้งหมดต่อปี <img src="/image/money-bag.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $book_price; ?> บาท</h3>
+            </div>
         </div>
-        <div class="card-report">
-            <h2>กำลังรอดำเนินการ</h2>
-            <h3><?php echo $books_wait; ?> รายการ</h3>
-        </div>
-        <div class="card-report">
-            <h2>จำนวนการจองสำเร็จ</h2>
-            <h3><?php echo $book_total; ?> รายการ</h3>
-        </div>
-        <div class="card-report">
-            <h2>รายได้ทั้งหมด</h2>
-            <h3><?php echo $book_price; ?> บาท</h3>
-        </div>
-        <div class="card-report">
-            <h2>รายได้เดือนปัจจุบัน</h2>
-            <h3><?php echo $book_month; ?> บาท</h3>
-        </div>
-
-    </div>
 
     <div class="table-style">
         <table id="student-list">
+        <div class ="text-today">
+            <h3>รายการจองสำเร็จวันนี้</h3> 
+            <div class="text-right">
+                <a href="/report_all"><button class="btn-all-transaction" type="button" ><p>รายการทั้งหมด</p></button></a>
+            </div>
+        </div>
             <thead>
                 <tr>
                     <td>วันที่จอง</td>
@@ -53,7 +52,6 @@
                     <td>เวลา</td>
                     <td>จำนวนชั่วโมง</td>
                     <td>สถานะ</td>
-
                 </tr>
             </thead>
             <?php if ($books) : ?>
@@ -79,7 +77,7 @@
             <?php endif; ?>
             </center>
         </table>
-
+        </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -90,6 +88,6 @@
         $('#student-list').DataTable();
     });
 </script>
-
+</div>
 
 </html>

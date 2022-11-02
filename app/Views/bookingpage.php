@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/bookingpage.css'); ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/navbar_user.css'); ?>">
+    
     <title>จองสนาม</title>
 </head>
 <body>
@@ -60,7 +60,8 @@
                 <p>วันที่จอง</p>
                 <input type="hidden" name="F_ID" id="F_ID02" value="">
                 <input type="hidden" name="ID" disabled class="form-control" id="inputforID" value="<?php echo  $session->get('ID'); ?>">
-                <input type="date" name="B_day" id="inputdate" onchange="getTime()" required="" oninvalid="this.setCustomValidity('กรุณาเลือกวัน-เวลา')" oninput="this.setCustomValidity('')" value="<?= set_value('B_day'); ?>" min="<?php echo date('Y-m-d'); ?>">
+                <input type="date" name="B_day" id="inputdate" onchange="getTime()" required="" oninvalid="this.setCustomValidity('กรุณาเลือกวัน-เวลา')" 
+                oninput="this.setCustomValidity('')" value="<?= set_value('B_day'); ?>" min="<?php echo date('Y-m-d'); ?>">
                 </asp:TextBox>
             </div>
                 

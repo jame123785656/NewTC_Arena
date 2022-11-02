@@ -19,7 +19,7 @@
             foreach ($query_ as $value) {
                 echo '<div>';
                 echo '<input type="checkbox" id="time" name="time'.$value['T_id'].'" value="'.$value['T_id'].'"';
-                echo '<label for="time">'.$value['T_start'].' - '.$value['T_end'].'</label>';
+                echo '<label for="time">'.$value['T_start'].' - '.$value['T_end'].'น.</label>';
                 echo '</div>';
             }
         } else {
@@ -28,7 +28,7 @@
             foreach ($query_ as $value) {
                 echo '<div>';
                 echo '<input type="checkbox" id="time" name="time'.$value['T_id'].'" value="'.$value['T_id'].'"';
-                echo '<label for="time">'.$value['T_start'].' - '.$value['T_end'].'</label>';
+                echo '<label for="time">'.$value['T_start'].' - '.$value['T_end'].'น. </label>';
                 echo '</div>';
             }
         }
