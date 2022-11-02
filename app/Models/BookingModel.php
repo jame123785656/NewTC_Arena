@@ -17,6 +17,13 @@ class BookingModel extends Model
             ->countAllResults();
         return $data;
     }
+    public function totalall($booking_totalall) {
+        $data = $this->db
+            ->table('booking')
+            ->where("B_status = $booking_totalall")
+            ->countAllResults();
+        return $data;
+    }
 
     public function bookinglist($bookingstatus) {
         $data = $this->db
@@ -51,10 +58,11 @@ class BookingModel extends Model
         return $data;
     }
 
-    public function bookinglist_wait($booking_pending) {
+    public function bookinglist_wait($num1,$num2) {
+        $sql = "B_status IN ($num1,$num2)";
         $data = $this->db
             ->table('booking')
-            ->where('B_status', $booking_pending)
+            ->where($sql)
             ->countAllResults();
         return $data;
     }
@@ -73,14 +81,14 @@ class BookingModel extends Model
 
     public function mtotal($mstatus) {
         $X = date('m');
-        $Y = '%-'.$X.'-%';
+        $m = '%-'.$X.'-%';
         $where = ("B_status = $mstatus AND(B_day = YEAR(NOW()))");
         $data = $this->db
             ->table('booking')
             ->select('sum(Price * B_hour) as sumprice')
             ->join('field','booking.B_idFeld = field.F_ID')
             ->where($where)
-            ->like('B_day',$Y)
+            ->like('B_day',$m)
             ->get()
             ->getResultArray();
         return $data;

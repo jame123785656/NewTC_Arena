@@ -93,6 +93,7 @@ h4{
     transition: .4s;
     margin-bottom: 5%;
     border-radius: 10px;
+    cursor: pointer;
     color: rgb(0, 0, 0);
     border: 2px solid #1d9e11 ;
   }
@@ -111,6 +112,7 @@ h4{
     transition: .4s;
     margin-bottom: 5%;
     border-radius: 10px;
+    cursor: pointer;
     color: rgb(0, 0, 0);
     border: 2px solid #1d9e11 ;
 
@@ -130,6 +132,7 @@ h4{
     margin-left: 2%;
     transition: .4s;
     border-radius: 10px;
+    cursor: pointer;
     color: rgb(0, 0, 0);
     border: 2px solid #dc1111 ;
 
@@ -140,27 +143,40 @@ h4{
     color: white;
     border-radius: 10px;
   }
-  .btn-all-transaction{
-    width: 10%;
 
+  .text-all{
+    width: 10%;
+    margin-left: 60%;
+  }
+
+  .btn-all-transaction{
+    width: 100%;
     background-color: #ffffff;
-    margin-left: 59.5%;
     transition: .4s;
-    margin-top: 1%;
     border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5%;
+    cursor: pointer;
     color: #111F2C;
-    
   }
   .btn-all-transaction:hover{
     background-color: #203a53;
     color: white;
   }
+
   .num-transaction{
     margin-left: 190px;
     font-size: 16px;
     color: rgb(0, 0, 0);
     cursor: default;
     text-decoration: underline;
+  }
+  .num-transactions{
+    margin-left: 375px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    cursor: default;
+    text-decoration: none;
   }
   .big-cardpay{
     border-radius: 10px;

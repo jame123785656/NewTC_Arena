@@ -184,7 +184,7 @@
     swal({
         title: "คุณเเน่ใจที่จะลบสนามหรือไม่?",
         buttons: true,
-        icon: 'info',
+        icon: 'warning',
         dangerMode: true,
       })
       .then((willDelete) => {
@@ -208,6 +208,7 @@
       });
   }
 </script>
+
 
 
   </div>

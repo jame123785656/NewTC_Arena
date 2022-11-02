@@ -9,40 +9,41 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/employee.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('./css/report.css'); ?>">
 
-    <title>หน้าแรก</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
 
     <?php require('component/navbar_admin.php') ?>
     <div class="big-card">
+        <div class="row-report">
+            <div class="card-processing">
+                    <a href="/payadmin_all"><h2>กำลังรอดำเนินการ <img src="/image/clock.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $books_wait; ?> รายการ</h3></a>
 
-    <div class="row-report">
-    <div class="card-processing">
-            <h2>กำลังรอดำเนินการ  <img src="/image/time-left.png" alt="" width="30px" height="30px"></h2>
-            <h3><?php echo $books_wait; ?> รายการ</h3>
+            </div>
+            <div class="card-success">
+                    <h2>จำนวนการจองสำเร็จ <img src="/image/checked.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $book_total; ?> รายการ</h3>
+            </div>
+            <div class="card-income">
+                    <h2>รายได้เดือนปัจจุบัน <img src="/image/money.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $book_month; ?> บาท</h3>
+            </div>
+            <div class="card-allincome">
+                    <h2>รายได้ทั้งหมดต่อปี <img src="/image/money-bag.png" alt="" width="30px" height="30px"></h2>
+                    <h3><?php echo $book_price; ?> บาท</h3>
+            </div>
         </div>
-        <div cla
-    <div class="card-success">
-            <h2>จำนวนการจองสำเร็จ <img src="/image/checked.png" alt="" width="30px" height="30px"></h2>
-            <h3><?php echo $book_total; ?> รายการ</h3>
-        </div>
-        <div class="card-income">
-            <h2>รายได้เดือนปัจจุบัน <img src="/image/money.png" alt="" width="30px" height="30px"></h2>
-            <h3><?php echo $book_month; ?> บาท</h3>
-        </div>
-        <div class="card-allincome">
-            <h2>รายได้ทั้งหมด <img src="/image/money-bag.png" alt="" width="30px" height="30px"></h2>
-            <h3><?php echo $book_price; ?> บาท</h3>
-        </div>
-       
-
-    </div>
 
     <div class="table-style">
         <table id="student-list">
-        <div class ="text-today"><h3>รายการจองวันนี้ <a href="/report_all"><button class="btn-all-transaction" type="button" ><h3>รายการทั้งหมด</h3></button></a></h3>
-        
+        <div class ="text-today">
+            <h3>รายการจองสำเร็จวันนี้</h3> 
+            <div class="text-right">
+                <a href="/report_all"><button class="btn-all-transaction" type="button" ><p>รายการทั้งหมด</p></button></a>
+            </div>
+        </div>
             <thead>
                 <tr>
                     <td>วันที่จอง</td>

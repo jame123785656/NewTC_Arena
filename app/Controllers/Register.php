@@ -61,7 +61,8 @@ class Register extends Controller
                 'image' => "sadsadsadsada.jpg"
             ];
             if ($data) {
-                $insert = $model->register($data);
+                // $insert = $model->register($data);
+                $model->insert($data);
                 return redirect()->to('/login');
             }
         } else {

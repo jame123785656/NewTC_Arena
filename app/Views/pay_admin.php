@@ -14,8 +14,22 @@
 <?php require('component/navbar_admin.php') ?>
 <div class="big-cardpay">
     <h4>ตรวจสอบการชำระเงินวันนี้</h4>
+    <p class="num-transactions">
+    <?php
+          $count = 0;
+          if ($booking) : ?>
+            <?php foreach ($booking as $bookings) : ?>
+              <?php if ($bookings) {
+                $count += 1;
+              } ?>
+            <?php endforeach; ?>
+          <?php endif; ?>
+          การจองของวันนี้ <?php echo $count ?> รายการ
+            </p>
     <hr width="50%">
-    <a href="/payadmin_all"><button class="btn-all-transaction" type="button" ><h3>รายการทั้งหมด</h3></button></a>
+    <div class="text-all">
+        <a href="/payadmin_all"><button class="btn-all-transaction" type="button" ><h3>รายการทั้งหมด</h3></button></a>
+    </div>
             <div class="row">
                <div class="from-pay">
                      <?php if ($booking) : ?>

@@ -20,7 +20,9 @@ class index_admin extends Controller
         $PromotionModel = new PromotionModel();
         $TypeModel = new TypeModel();
         $BookingModel = new BookingModel();
-        $data['booking'] = $BookingModel->join('field','booking.B_idFeld = field.F_ID')->where('B_status',3)->orderBy('B_id', 'Asc')->findAll();
+        $X = date('m');
+        $m = '%-'.$X.'-%';
+        $data['booking'] = $BookingModel->join('field','booking.B_idFeld = field.F_ID')->where("B_status = 3 AND(B_day = YEAR(NOW()))")->like('B_day',$m)->orderBy('B_id', 'Asc')->findAll();
         $data['promotion'] = $PromotionModel->orderBy('p_id', 'Asc')->findAll();
         $data['type'] = $TypeModel->orderBy('T_id', 'Asc')->findAll();
         $data['field'] = $FieldModel->join('type', 'field.type = type.T_id')->join('promotion', 'field.Promotion = promotion.p_id')->join('statuss', 'field.f_status = statuss.S_id')->orderBy('F_ID', 'Asc')->findAll();
@@ -87,20 +89,6 @@ class index_admin extends Controller
 
         return redirect()->to('/index_admin');
     }
-
-    public function delete($F_ID = null)
-    {
-        $session = session();
-        $FieldModel = new FieldModel();
-        $data['group_project'] = $FieldModel->where('F_ID', $F_ID)->delete($F_ID);
-        $session->setFlashdata('swel_title', 'ลบข้อมูลสำเร็จ');
-        // $session->setFlashdata('swel_text', 'โปรดเข้าสู่ระบบก่อนทำรายการ');
-        $session->setFlashdata('swel_icon', 'success');
-        $session->setFlashdata('swel_button', 'ตกลง');
-        return $this->response->redirect(site_url('/index_admin'));
-    }
-
-
     // -------------------------------------จัดการโปรโมชั่น
     public function promotion_admin()
     {

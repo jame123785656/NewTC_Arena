@@ -10,7 +10,7 @@
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/historyadmin.css'); ?>" >
     <link rel= "stylesheet" type= "text/css" href= "<?php echo base_url('./css/history.css'); ?>" >
   
-    <title>ประวัติการจอง</title>
+    <title>ประวัติการจองของลูกค้า</title>
 </head>
 <body>
 <?php require('component/navbar_admin.php') ?>
@@ -19,6 +19,19 @@
 <div class="big-card">
     <div class="box-table">
     <h1>ประวัติการจอง</h1>
+    <div>
+   
+    <?php if ($user) : ?>
+        <h3><?php echo $user['name']; ?></h3>
+        <h4>สถานะ  
+        <button type="button" class="btnEdit"><a href="/historysucceed/<?php echo $user['ID'] ?>">สำเร็จ</a></button> 
+        <button type="button" class="btnEdit"><a href="/historypending/<?php echo $user['ID'] ?>">รอดำเนินการ</a></button>
+        <button type="button" class="btnEdit" Disabled><a href="/historycancel/<?php echo $user['ID'] ?>">ยกเลิก</a></button>
+
+        </h4>
+    </div>
+<?php endif; ?>
+        
         <div class="items-table">
             <table>
             <tr>

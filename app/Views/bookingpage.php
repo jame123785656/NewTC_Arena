@@ -60,7 +60,8 @@
                 <p>วันที่จอง</p>
                 <input type="hidden" name="F_ID" id="F_ID02" value="">
                 <input type="hidden" name="ID" disabled class="form-control" id="inputforID" value="<?php echo  $session->get('ID'); ?>">
-                <input type="date" name="B_day" id="inputdate" onchange="getTime()" required="" oninvalid="this.setCustomValidity('กรุณาเลือกวัน-เวลา')" oninput="this.setCustomValidity('')" value="<?= set_value('B_day'); ?>" min="<?php echo date('Y-m-d'); ?>">
+                <input type="date" name="B_day" id="inputdate" onchange="getTime()" required="" oninvalid="this.setCustomValidity('กรุณาเลือกวัน-เวลา')" 
+                oninput="this.setCustomValidity('')" value="<?= set_value('B_day'); ?>" min="<?php echo date('Y-m-d'); ?>">
                 </asp:TextBox>
             </div>
                 

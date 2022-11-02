@@ -14,7 +14,9 @@ class Bookingpage extends Controller {
         $data['field'] = $FieldModel->join('type','field.type = type.T_id')->join('promotion','field.Promotion = promotion.p_id' )->orderBy('F_ID', 'Asc')->findAll();
         echo view('bookingpage', $data);
     }
+
     public function booking(){
+        
         $model = new BookingModel();
         $model02 = new DetailModel();
         $session = session();

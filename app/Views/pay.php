@@ -100,7 +100,7 @@
                 </div>
                 <div class="btnO">
                     <button class="btncf" type="submit">ยืนยัน</button>
-                    <a href="<?php echo base_url('/Pay/pay_delete/'.$booking['B_id'])?>"> <button class="btncan" type="button">ยกเลิก</button></a>
+                    <a href="<?php echo base_url('/pay_delete/'.$booking['B_id'])?>"> <button class="btncan" type="button">ยกเลิก</button></a>
                 </div>
             </div>
         </div>
